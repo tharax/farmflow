@@ -4,155 +4,128 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
-	"log"
+	"os"
+	"sort"
 )
-
-type Data struct {
-	Recipes Recipes `json:"recipes"`
-	Items   Items   `json:"items"`
-}
-
-type Recipes []Recipe
-
-type Recipe struct {
-	Name    string         `json:"name"`
-	Source  string         `json:"source"`
-	Inputs  map[string]int `json:"inputs"`
-	Outputs map[string]int `json:"outputs"`
-}
 
 type Items []Item
 
 type Item struct {
-	Name       string `json:"name"`
-	Source     string `json:"source"`
-	IsTransmog bool   `json:"is_transmog"`
+	ID         int            `json:"id"`
+	Name       string         `json:"name"`
+	IsTransmog bool           `json:"is_transmog"`
+	Inputs     map[string]int `json:"inputs"`
 }
 
-const (
-	SourceRecipe = "recipe"
-)
+type Inventory []*struct {
+	Name     string `json:"name"`
+	Quantity int    `json:"quantity"`
+}
+
+func (i Inventory) Use(name string, amount int) (leftover int) {
+	leftover = amount
+	for k, v := range i {
+
+		if v.Name == name {
+			if amount >= v.Quantity {
+				leftover = amount - v.Quantity
+				i[k].Quantity = 0
+			} else {
+				i[k].Quantity = v.Quantity - amount
+				leftover = 0
+			}
+		}
+	}
+	return
+}
 
 func main() {
-	fmt.Println("farmflow")
+	b, err := ioutil.ReadFile("data/items.json")
+	check(err)
+	var items Items
+	err = json.Unmarshal(b, &items)
+	check(err)
 
-	b, err := ioutil.ReadFile("data.json")
-	if err != nil {
-		panic(err)
-	}
-	var data Data
-	err = json.Unmarshal(b, &data)
-	if err != nil {
-		panic(err)
-	}
+	b, err = ioutil.ReadFile("data/inventory.json")
+	check(err)
+	var inventory Inventory
+	err = json.Unmarshal(b, &inventory)
+	check(err)
 
-	for _, recipe := range data.Recipes {
-		for k, _ := range recipe.Inputs {
-			if data.Items.Exists(k) == false {
-				log.Printf("Missing Item: %s", k)
-			}
-		}
+	rm := CalculateRawMaterials(&items, &inventory)
+	keys := make([]string, 0, len(rm))
+	for k := range rm {
+		keys = append(keys, k)
 	}
-	for _, item := range data.Items {
-		if item.Source == SourceRecipe {
-			if data.Recipes.Exists(item.Name) == false {
-				log.Printf("Missing Recipe: %s", item.Name)
-			}
-		}
-	}
+	sort.Strings(keys)
 
-	fullRawMaterialsList := map[string]int{}
-	for _, item := range data.Items {
+	fmt.Println("\nRecipes to Create\n=================")
+	r := []string{}
+	for _, item := range items {
 		if item.IsTransmog {
-			log.Println(item.Name)
-			for k, v := range item.RawMaterials(data.Recipes, data.Items) {
-				fullRawMaterialsList[k] = fullRawMaterialsList[k] + v
-				// log.Printf("%30s %4v\n", k, v)
-			}
-
+			r = append(r, item.Name)
 		}
 	}
-	for k, v := range fullRawMaterialsList {
-		log.Printf("%30s %4v\n", k, v)
+	sort.Strings(r)
+	for _, item := range r {
+		fmt.Println(item)
+	}
+
+	fmt.Println("\nRemaining to Farm\n=================")
+	for _, k := range keys {
+		if rm[k] > 0 {
+			fmt.Printf("%-30v %5v\n", k, rm[k])
+		}
+	}
+
+	fmt.Println("\nLeftover Inventory\n==================")
+	for _, k := range inventory {
+		if k.Quantity > 0 {
+			fmt.Printf("%-30v %5v\n", k.Name, k.Quantity)
+		}
 	}
 }
 
-func (i Item) RawMaterials(recipes Recipes, items Items) map[string]int {
-	res := make(map[string]int, 0)
-	if i.Source != SourceRecipe {
-		res[i.Name] = 1
+func check(e error) {
+	if e != nil {
+		panic(e)
 	}
-	if i.Source == SourceRecipe {
-		for _, recipe := range recipes {
-			if i.Name == recipe.Name {
-				for inputKey, inputValue := range recipe.Inputs {
-					componentItem := items.Get(inputKey)
-					rm := componentItem.RawMaterials(recipes, items)
-					for k, v := range rm {
-						res[k] = res[k] + (v * inputValue)
+}
+
+func CalculateRawMaterials(items *Items, inventory *Inventory) map[string]int {
+	res := map[string]int{}
+	var itemsToMake []string
+	for _, item := range *items {
+		if item.IsTransmog {
+			itemsToMake = append(itemsToMake, item.Name)
+		}
+	}
+
+	loop := func(name string, count int) {}
+	loop = func(name string, count int) {
+		missing := true
+		for _, v := range *items {
+			if v.Name == name {
+				if len(v.Inputs) != 0 {
+					for kk, vv := range v.Inputs {
+						loop(kk, inventory.Use(kk, (count*vv)))
 					}
+				} else {
+					res[name] = res[name] + count
 				}
+				missing = false
 			}
 		}
+		if missing {
+			fmt.Printf("missing %s\n", name)
+			os.Exit(1)
+		}
+
 	}
+
+	for _, item := range itemsToMake {
+		loop(item, 1)
+	}
+
 	return res
-}
-
-// 		for ingredient, count := range recipe.Inputs {
-// 			fmt.Println(ingredient, count)
-// 			for _, ingred := range i {
-// 				if ingred.Name == ingredient {
-// 					// var parts map[string]int
-// 					if ingred.Source == SourceRecipe {
-// 						for kk, _ := range recipe.Inputs {
-// 							next := i.Get(kk)
-// 							fmt.Println(next.Name)
-// 							parts := next.RawMaterials(r, i)
-// 							fmt.Println(parts)
-
-// 						}
-// 						fmt.Println(recipe)
-// 					} else {
-// 						fmt.Println(ingred.Source)
-// 					}
-
-// 					// 	next := i.Get(ingredient)
-// 					// 	parts = next.RawMaterials(r, i)
-// 					// }
-// 					// for k, v := range parts {
-// 					// 	rawParts[k] = rawParts[k] + (v * count)
-// 					// }
-// 				}
-// 			}
-// 		}
-// 	}
-// }
-// fmt.Println(rawParts)
-// return rawParts
-
-func (i Items) Get(name string) Item {
-	for _, ii := range i {
-		if ii.Name == name {
-			return ii
-		}
-	}
-	return Item{}
-}
-
-func (i Items) Exists(name string) bool {
-	for _, ii := range i {
-		if ii.Name == name {
-			return true
-		}
-	}
-	return false
-}
-
-func (r Recipes) Exists(name string) bool {
-	for _, rr := range r {
-		if rr.Name == name {
-			return true
-		}
-	}
-	return false
 }
