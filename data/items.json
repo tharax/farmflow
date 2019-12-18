@@ -1,0 +1,408 @@
+[
+    {
+        "name": "Boots of the Long Road",
+        "is_transmog": true,
+        "source": "tailoring",
+        "inputs": {
+            "Primal Nether": 2,
+            "Primal Mooncloth": 4,
+            "Spellcloth": 4,
+            "Rune Thread": 2
+        },
+        "outputs": {
+            "Boots of the Long Road": 1
+        }
+    },
+    {
+        "name": "Bracers of Nimble Thought",
+        "is_transmog": true,
+        "source": "tailoring",
+        "inputs": {
+            "Bolt of Imbued Netherweave": 3,
+            "Spellcloth": 4,
+            "Primal Mana": 8,
+            "Heart of Darkness": 4
+        },
+        "outputs": {
+            "Bracers of Nimble Thought": 1
+        }
+    },
+    {
+        "name": "Gnomish Power Goggles",
+        "is_transmog": true,
+        "source": "engineering",
+        "inputs": {
+            "Spellcloth": 4,
+            "Primal Fire": 8,
+            "Primal Earth": 8,
+            "Primal Air": 8,
+            "Primal Water": 8,
+            "Talasite": 2
+        },
+        "outputs": {
+            "Gnomish Power Goggles": 1
+        }
+    },
+    {
+        "name": "Boots of Blasting",
+        "source": "recipe",
+        "is_transmog": true,
+        "inputs": {
+            "Primal Nether": 2,
+            "Shadowcloth": 4,
+            "Spellcloth": 4,
+            "Rune Thread": 2
+        },
+        "outputs": {
+            "Boots of Blasting": 1
+        }
+    },
+    {
+        "name": "Primal Nether",
+        "source": "farm-boe",
+        "is_transmog": false
+    },
+    {
+        "name": "Shadowcloth",
+        "source": "tailoring",
+        "is_transmog": false,
+        "inputs": {
+            "Bolt of Imbued Netherweave": 1,
+            "Primal Shadow": 1,
+            "Primal Fire": 1
+        },
+        "outputs": {
+            "Shadowcloth": 1
+        }
+    },
+    {
+        "name": "Spellcloth",
+        "source": "recipe",
+        "is_transmog": false,
+        "inputs": {
+            "Bolt of Imbued Netherweave": 1,
+            "Primal Mana": 1,
+            "Primal Fire": 1
+        },
+        "outputs": {
+            "Spellcloth": 1
+        }
+    },
+    {
+        "name": "Rune Thread",
+        "source": "vendor",
+        "is_transmog": false
+    },
+    {
+        "name": "Bolt of Imbued Netherweave",
+        "source": "recipe",
+        "is_transmog": false,
+        "inputs": {
+            "Bolt of Netherweave": 3,
+            "Arcane Dust": 2
+        },
+        "outputs": {
+            "Bolt of Imbued Netherweave": 1
+        }
+    },
+    {
+        "name": "Primal Shadow",
+        "source": "recipe",
+        "is_transmog": false,
+        "inputs": {
+            "Mote of Shadow": 10
+        },
+        "outputs": {
+            "Primal Shadow": 1
+        }
+    },
+    {
+        "name": "Primal Fire",
+        "source": "recipe",
+        "is_transmog": false,
+        "inputs": {
+            "Mote of Fire": 10
+        },
+        "outputs": {
+            "Primal Fire": 1
+        }
+    },
+    {
+        "name": "Primal Mana",
+        "source": "recipe",
+        "is_transmog": false,
+        "inputs": {
+            "Mote of Mana": 10
+        },
+        "outputs": {
+            "Primal Mana": 1
+        }
+    },
+    {
+        "name": "Primal Life",
+        "source": "recipe",
+        "is_transmog": false,
+        "inputs": {
+            "Mote of Life": 10
+        },
+        "outputs": {
+            "Primal Life": 1
+        }
+    },
+    {
+        "name": "Primal Earth",
+        "source": "recipe",
+        "is_transmog": false,
+        "inputs": {
+            "Mote of Earth": 10
+        },
+        "outputs": {
+            "Primal Earth": 1
+        }
+    },
+    {
+        "name": "Primal Air",
+        "source": "recipe",
+        "is_transmog": false,
+        "inputs": {
+            "Mote of Air": 10
+        },
+        "outputs": {
+            "Primal Air": 1
+        }
+    },
+    {
+        "name": "Primal Water",
+        "source": "recipe",
+        "is_transmog": false,
+        "inputs": {
+            "Mote of Water": 10
+        },
+        "outputs": {
+            "Primal Water": 1
+        }
+    },
+    {
+        "name": "Primal Mooncloth",
+        "source": "tailoring",
+        "is_transmog": false,
+        "inputs": {
+            "Bolt of Imbued Netherweave": 1,
+            "Primal Life": 1,
+            "Primal Water": 1
+        },
+        "outputs": {
+            "Primal Mooncloth": 1
+        }
+    },
+    {
+        "name": "Sunfire Robe",
+        "source": "tailoring",
+        "is_transmog": true,
+        "inputs": {
+            "Spellcloth": 12,
+            "Shadowcloth": 12,
+            "Primal Nether": 2
+        },
+        "outputs": {
+            "Sunfire Robe": 1
+        }
+    },
+    {
+        "name": "Sunfire Handwraps",
+        "source": "tailoring",
+        "is_transmog": true,
+        "inputs": {
+            "Spellcloth": 10,
+            "Shadowcloth": 10,
+            "Sunmote": 6
+        },
+        "outputs": {
+            "Sunfire Handwraps": 1
+        }
+    },
+    {
+        "name": "Spellstrike Hood",
+        "source": "tailoring",
+        "is_transmog": true,
+        "inputs": {
+            "Spellcloth": 10,
+            "Primal Might": 5,
+            "Primal Nether": 1
+        },
+        "outputs": {
+            "Spellstrike Hood": 1
+        }
+    },
+    {
+        "name": "Spellfire Robe",
+        "source": "tailoring",
+        "is_transmog": true,
+        "inputs": {
+            "Spellcloth": 14,
+            "Primal Fire": 16,
+            "Netherweb Spider Silk": 4
+        },
+        "outputs": {
+            "Spellfire Robe": 1
+        }
+    },
+    {
+        "name": "Spellfire Gloves",
+        "source": "tailoring",
+        "is_transmog": true,
+        "inputs": {
+            "Spellcloth": 8,
+            "Primal Fire": 12,
+            "Netherweb Spider Silk": 4
+        },
+        "outputs": {
+            "Spellfire Gloves": 1
+        }
+    },
+    {
+        "name": "Spellfire Belt",
+        "source": "tailoring",
+        "is_transmog": true,
+        "inputs": {
+            "Spellcloth": 4,
+            "Primal Fire": 10,
+            "Netherweb Spider Silk": 2
+        },
+        "outputs": {
+            "Spellfire Belt": 1
+        }
+    },
+    {
+        "name": "Spellstrike Pants",
+        "source": "tailoring",
+        "is_transmog": true,
+        "inputs": {
+            "Spellcloth": 10,
+            "Primal Might": 5,
+            "Primal Nether": 1
+        },
+        "outputs": {
+            "Spellstrike Pants": 1
+        }
+    },
+    {
+        "name": "Primal Might",
+        "source": "alchemy",
+        "is_transmog": false,
+        "inputs": {
+            "Primal Earth": 1,
+            "Primal Air": 1,
+            "Primal Fire": 1,
+            "Primal Water": 1,
+            "Primal Mana": 1
+        },
+        "outputs": {
+            "Primal Might": 1
+        }
+    },
+    {
+        "name": "Bolt of Netherweave",
+        "source": "recipe",
+        "is_transmog": false,
+        "inputs": {
+            "Netherweave Cloth": 5
+        },
+        "outputs": {
+            "Bolt of Netherweave": 1
+        }
+    },
+    {
+        "name": "Arcane Dust",
+        "source": "disenchanting-boe",
+        "is_transmog": false
+    },
+    {
+        "name": "Netherweb Spider Silk",
+        "source": "farm-boe",
+        "is_transmog": false
+    },
+    {
+        "name": "Netherweave Cloth",
+        "source": "farm-boe",
+        "is_transmog": false
+    },
+    {
+        "name": "Talasite",
+        "source": "prospecting",
+        "is_transmog": false
+    },
+    {
+        "name": "Mote of Shadow",
+        "source": "farm-boe",
+        "is_transmog": false
+    },
+    {
+        "name": "Mote of Fire",
+        "source": "farm-boe",
+        "is_transmog": false
+    },
+    {
+        "name": "Mote of Mana",
+        "source": "farm-boe",
+        "is_transmog": false
+    },
+    {
+        "name": "Mote of Air",
+        "source": "farm-boe",
+        "is_transmog": false
+    },
+
+    {
+        "name": "Sunmote",
+        "source": "farm-boe",
+        "is_transmog": false
+    },
+    {
+        "name": "Mote of Earth",
+        "source": "farm-boe",
+        "is_transmog": false
+    },
+    {
+        "name": "Mote of Life",
+        "source": "farm-boe",
+        "is_transmog": false
+    },
+    {
+        "name": "Heart of Darkness",
+        "source": "farm-boe",
+        "is_transmog": false
+    },
+    {
+        "name": "Mote of Water",
+        "source": "farm-boe",
+        "is_transmog": false
+    },
+    {
+        "name": "Manaweave Cloak",
+        "source": "tailoring",
+        "is_transmog": true,
+        "inputs": {
+            "Spellcloth": 10,
+            "Primal Mana": 12,
+            "Primal Nether": 1
+        },
+        "outputs": {
+            "Manaweave Cloak": 1
+        }
+    },
+    {
+        "name": "Mantle of Nimble Thought",
+        "source": "tailoring",
+        "is_transmog": true,
+        "inputs": {
+            "Bolt of Imbued Netherweave": 4,
+            "Spellcloth": 2,
+            "Primal Mana": 6,
+            "Heart of Darkness": 2
+        },
+        "outputs": {
+            "Mantle of Nimble Thought": 1
+        }
+    }
+]
