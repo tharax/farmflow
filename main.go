@@ -84,6 +84,8 @@ func main() {
 			fmt.Printf("%-30v %5v\n", k.Name, k.Quantity)
 		}
 	}
+	
+	DoLUAThing()
 }
 
 func check(e error) {
