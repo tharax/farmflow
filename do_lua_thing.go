@@ -37,7 +37,6 @@ type BagItem struct {
 }
 
 func DoLUAThing() {
-	items := Inventory{}
 
 	fmt.Println("\nLUA THING\n==================")
 	L := lua.NewState()
@@ -48,44 +47,12 @@ func DoLUAThing() {
 	if err := L.DoFile("data/DataStore_Containers.lua"); err != nil {
 		panic(err)
 	}
-	// type Role struct {
-	// 	Name string
-	// }
-
-	// type Person struct {
-	// 	Name      string
-	// 	Age       int
-	// 	WorkPlace string
-	// 	Role      []*Role
-	// }
-
-	// L := lua.NewState()
-	// if err := L.DoString(`
-	// person = {
-	//   name = "Michel",
-	//   age  = "31", -- weakly input
-	//   work_place = "San Jose",
-	//   role = {
-	// 	{
-	// 	  name = "Administrator"
-	// 	},
-	// 	{
-	// 	  name = "Operator"
-	// 	}
-	//   }
-	// }
-	// `); err != nil {
-	// 	panic(err)
-	// }
 
 	_, err := L.LoadFile("data/DataStore_Containers.lua")
 	if err != nil {
 		panic(err)
 	}
-	// L.DoString("a")
-	// fmt.Printf("%+v", file)
 
-	// fmt.Printf("%+v", file.Proto)
 	var db Characters
 	if err := gluamapper.Map(L.GetGlobal(`DataStore_ContainersDB`).(*lua.LTable), &db); err != nil {
 		panic(err)
@@ -95,21 +62,26 @@ func DoLUAThing() {
 	// 	panic(err)
 	// }
 	// fmt.Printf("DB:%+v<---", db)
-	var bag4 *innerValue
+	// var bag4 *innerValue
 	for k, v := range db {
 		fmt.Println(k)
 		if k == "Global" {
 			x := innerValue(v.(map[interface{}]interface{}))
 			// fmt.Println(k, x["Characters"])
 
-			bag4 = x.Val("Characters").Val("Default.Frostmourne.Humphrëy").Val("Containers").Val("Bag0")
+			// bag4 = x.Val("Characters").Val("Default.Frostmourne.Humphrëy").Val("Containers").Val("Bag0")
 
-			bags := x.Val("Characters").Val("Default.Frostmourne.Humphrëy").Val("Containers")
+			bags := x.Val("Characters").Val("Default.Frostmourne.Petër").Val("Containers")
 			fmt.Println(len(*bags))
-			for key, value := range *bags {
-				fmt.Println(key, value)
+			for _, value := range *bags {
+				x := innerValue(value.(map[interface{}]interface{}))
+				for _, v := range x.GetItemsFromBags() {
+					if v.Quantity > 0 {
+						fmt.Println(v.ID, v.Name, v.Quantity)
+					}
+				}
 			}
-			fmt.Printf("%+v\n", bag4)
+			// fmt.Printf("%+v\n", bag4)
 
 			// fmt.Println(x["Characters"]["Default.Frostmourne.Humphrëy"])
 		}
@@ -127,62 +99,37 @@ func DoLUAThing() {
 	// fmt.Printf("%s %d", person.Name, person.Age)
 	// v, ok :=
 
+	// array := bag4.GetItemsFromBags()
+
+	// for _, v := range array {
+	// 	fmt.Println(v.ID, v.Name, v.Quantity)
+	// }
+}
+
+func (i *innerValue) GetItemsFromBags() []InvItem {
+	lengthOfBag := i.ValAsInt("Size")
+	res := make([]InvItem, lengthOfBag)
 	var re = regexp.MustCompile(`(?:\|h\[)(.*)(?:\]\|)`)
-	lengthOfBag := bag4.ValAsInt("Size")
-	fmt.Println(lengthOfBag)
-	// var array [lengthOfBag]InvItem
+	for k, v := range i.ValAsArray("Links") {
+		strArray := re.FindAllString(v.(string), -1)
+		str := strings.TrimLeft(strArray[0], "|h[")
+		str = strings.TrimRight(str, "]|")
 
-	array := make([]InvItem, lengthOfBag)
-	// fmt.Println("array: %+v", array)
-	for k, v := range bag4.ValAsArray("Links") {
-
-		// fmt.Println(v.(string))
-		str := v.(string)
-		x := re.FindAllString(str, -1)
-		// match := re.MatchString(str)
-		// fmt.Println(match, len(x), fmt.Sprintf("--->%+v<---", x[0]))
-
-		a := strings.TrimLeft(x[0], "|h[")
-		aa := strings.TrimRight(a, "]|")
-		// fmt.Println(aa)
-		items = append(items, &struct {
-			Name     string `json:"name"`
-			Quantity int    `json:"quantity"`
-		}{
-			Name: aa,
-		})
-
-		// fmt.Println("k&aa", k, aa)
-		array[k].Name = aa
-		// for k, vv := range x {
-		// 	if k == 2 {
-		// 		fmt.Println(k, vv)
-		// 	}
-		// }
-		// fmt.Println(match, len(x), fmt.Sprintf("--->%+v<---", x), fmt.Sprintf("--->%+v<---", str))
-		// x := re.FindAllString(v.(string), -1)
-		// fmt.Println(x, len(x), x[0], x[1], x[len(x)-1])
-		// "|cff1eff00|Hitem:10153::::::::120:267:::1:1680:::|h[Mighty Spaulders of the Quickblade]|h|r"
-		// 		regexp.Match("|.*)
+		res[k].Name = str
 	}
-	for k, v := range bag4.ValAsArray("Counts") {
-		// fmt.Println(k, v)
+	for k, v := range i.ValAsArray("Counts") {
 		if v != nil {
-			array[k].Quantity = int(v.(float64))
+			res[k].Quantity = int(v.(float64))
 		} else {
-			array[k].Quantity = 1
+			res[k].Quantity = 1
 		}
 	}
-	for k, v := range bag4.ValAsArray("Ids") {
-		// fmt.Println(k, v)
+	for k, v := range i.ValAsArray("Ids") {
 		if v != nil {
-			array[k].ID = int(v.(float64))
+			res[k].ID = int(v.(float64))
 		}
 	}
-
-	for _, v := range array {
-		fmt.Println(v.ID, v.Name, v.Quantity)
-	}
+	return res
 }
 
 type innerValue map[interface{}]interface{}
