@@ -15,9 +15,26 @@ type DataStore_ContainersDB struct {
 type ProfileKeys struct {
 	profiles []string
 }
-type Global struct{}
 
 type Characters map[string]interface{}
+
+type InvItem struct {
+	ID       int
+	Name     string
+	Quantity int
+}
+
+type Bag struct {
+	Size  int
+	Items []BagItem
+}
+
+type BagItem struct {
+	Slot     int
+	ID       int
+	Name     string
+	Quantity int
+}
 
 func DoLUAThing() {
 	items := Inventory{}
@@ -85,8 +102,13 @@ func DoLUAThing() {
 			x := innerValue(v.(map[interface{}]interface{}))
 			// fmt.Println(k, x["Characters"])
 
-			bag4 = x.Val("Characters").Val("Default.Frostmourne.Humphrëy").Val("Containers").Val("Bag4")
+			bag4 = x.Val("Characters").Val("Default.Frostmourne.Humphrëy").Val("Containers").Val("Bag0")
 
+			bags := x.Val("Characters").Val("Default.Frostmourne.Humphrëy").Val("Containers")
+			fmt.Println(len(*bags))
+			for key, value := range *bags {
+				fmt.Println(key, value)
+			}
 			fmt.Printf("%+v\n", bag4)
 
 			// fmt.Println(x["Characters"]["Default.Frostmourne.Humphrëy"])
@@ -106,8 +128,14 @@ func DoLUAThing() {
 	// v, ok :=
 
 	var re = regexp.MustCompile(`(?:\|h\[)(.*)(?:\]\|)`)
+	lengthOfBag := bag4.ValAsInt("Size")
+	fmt.Println(lengthOfBag)
+	// var array [lengthOfBag]InvItem
 
-	for _, v := range bag4.ValAsArray("Links") {
+	array := make([]InvItem, lengthOfBag)
+	// fmt.Println("array: %+v", array)
+	for k, v := range bag4.ValAsArray("Links") {
+
 		// fmt.Println(v.(string))
 		str := v.(string)
 		x := re.FindAllString(str, -1)
@@ -123,6 +151,9 @@ func DoLUAThing() {
 		}{
 			Name: aa,
 		})
+
+		// fmt.Println("k&aa", k, aa)
+		array[k].Name = aa
 		// for k, vv := range x {
 		// 	if k == 2 {
 		// 		fmt.Println(k, vv)
@@ -134,8 +165,23 @@ func DoLUAThing() {
 		// "|cff1eff00|Hitem:10153::::::::120:267:::1:1680:::|h[Mighty Spaulders of the Quickblade]|h|r"
 		// 		regexp.Match("|.*)
 	}
-	for _, v := range items {
-		fmt.Println(v.Name, v.Quantity)
+	for k, v := range bag4.ValAsArray("Counts") {
+		// fmt.Println(k, v)
+		if v != nil {
+			array[k].Quantity = int(v.(float64))
+		} else {
+			array[k].Quantity = 1
+		}
+	}
+	for k, v := range bag4.ValAsArray("Ids") {
+		// fmt.Println(k, v)
+		if v != nil {
+			array[k].ID = int(v.(float64))
+		}
+	}
+
+	for _, v := range array {
+		fmt.Println(v.ID, v.Name, v.Quantity)
 	}
 }
 
@@ -175,6 +221,16 @@ func (i *innerValue) ValAsArray(value string) []interface{} {
 	for k, v := range *i {
 		if k == value {
 			x = []interface{}(v.([]interface{}))
+		}
+	}
+	return x
+}
+
+func (i *innerValue) ValAsInt(value string) int {
+	var x int
+	for k, v := range *i {
+		if k == value {
+			x = int(v.(float64))
 		}
 	}
 	return x
