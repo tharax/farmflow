@@ -17,10 +17,12 @@ type Item struct {
 	Inputs     map[string]int `json:"inputs"`
 }
 
-type Inventory []*struct {
-	Name     string `json:"name"`
-	Quantity int    `json:"quantity"`
+type InvItem struct {
+	Item
+	Quantity int
 }
+
+type Inventory []InvItem
 
 func (i Inventory) Use(name string, amount int) (leftover int) {
 	leftover = amount
@@ -84,7 +86,7 @@ func main() {
 			fmt.Printf("%-30v %5v\n", k.Name, k.Quantity)
 		}
 	}
-	
+
 	DoLUAThing()
 }
 
