@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/tharax/stockpile"
+	"github.com/tharax/farmflow/inventory"
 	"github.com/yuin/gluamapper"
 	lua "github.com/yuin/gopher-lua"
 )
@@ -32,18 +32,6 @@ type Container struct {
 	Counts []int
 }
 
-// type Bag struct {
-// 	Size  int
-// 	Items []BagItem
-// }
-
-// type BagItem struct {
-// 	Slot     int
-// 	ID       int
-// 	Name     string
-// 	Quantity int
-// }
-
 func DoLUAThing() {
 
 	fmt.Println("\nLUA THING\n==================")
@@ -59,10 +47,9 @@ func DoLUAThing() {
 		panic(err)
 	}
 
-	var inv stockpile.Stockpile
+	var inv inventory.Inventory
 
-	for k, character := range db.Global.Characters {
-		fmt.Println(k)
+	for _, character := range db.Global.Characters {
 		for _, container := range character.Containers {
 			counts := make([]int, container.Size)
 			for position, count := range container.Counts {
@@ -72,45 +59,76 @@ func DoLUAThing() {
 				counts[position] = count
 			}
 			for position, item := range container.Links {
-				inv.Add(stockpile.Stock{
-					Name:     item,
+				inv.Add(inventory.Item{
+					ID:       container.Ids[position],
+					Name:     TrimItemDescription(item),
 					Quantity: counts[position],
 				})
 			}
-
 		}
-		// if k == "Global" {
-		// x := innerValue(v.(map[interface{}]interface{}))
-		// bags := x.Val("Characters").Val("Default.Frostmourne.Petër").Val("Containers")
-		// fmt.Println(len(*bags))
-		// for _, value := range *bags {
-		// 	x := innerValue(value.(map[interface{}]interface{}))
-		// 	for _, v := range x.GetItemsFromBags() {
-		// 		inv.Add(stockpile.Stock{Name: v.Name, Quantity: v.Quantity})
-		// 	}
-		// }
-		// }
 	}
 
-	// fmt.Printf("links interface-->%+v\n", bag4.ValAsInterface("Links"))
-	// fmt.Printf("links array    -->%+v\n", bag4.ValAsArray("Links"))
-	// fmt.Printf("links interface-->%+v\n", bag4.Val("Links"))
-	// fmt.Printf("links maps     -->%+v\n", len(bag4.ValAsInterface("Links")))
-	// fmt.Printf("links-->%+v\n", bag4["Counts"])
-	// fmt.Printf("links-->%+v\n", len(bag4))
-	// b4 := innerValue2(bag4)
-	// fmt.Printf("b4----->%+v\n", b4)
-	// fmt.Printf("%s %d", person.Name, person.Age)
-	// v, ok :=
-
-	// array := bag4.GetItemsFromBags()
-
-	// for _, v := range array {
-	// 	fmt.Println(v.ID, v.Name, v.Quantity)
-	// }
-
-	// i := SumStacks(inv)
 	fmt.Println(inv)
+}
+
+func GetInvFromLUAFile() Inventory {
+	L := lua.NewState()
+	defer L.Close()
+
+	if err := L.DoFile("data/DataStore_Containers.lua"); err != nil {
+		panic(err)
+	}
+
+	var db DataStore_ContainersDB
+	if err := gluamapper.Map(L.GetGlobal(`DataStore_ContainersDB`).(*lua.LTable), &db); err != nil {
+		panic(err)
+	}
+
+	var inv inventory.Inventory
+
+	for _, character := range db.Global.Characters {
+		for _, container := range character.Containers {
+			counts := make([]int, container.Size)
+			for position, count := range container.Counts {
+				if count == 0 {
+					counts[position] = 1
+				}
+				counts[position] = count
+			}
+			for position, item := range container.Links {
+				inv.Add(inventory.Item{
+					ID:       container.Ids[position],
+					Name:     TrimItemDescription(item),
+					Quantity: counts[position],
+				})
+			}
+		}
+	}
+	var res Inventory
+	for _, v := range inv {
+		res = append(res, InvItem{
+			Item: Item{
+				ID:   v.ID,
+				Name: v.Name,
+			},
+			Quantity: v.Quantity,
+		})
+	}
+	return res
+}
+
+func TrimItemDescription(item string) string {
+	var re = regexp.MustCompile(`(?:\|h\[)(.*)(?:\]\|)`)
+	strArray := re.FindAllString(item, -1)
+	var str string
+	if len(strArray) > 0 {
+		str = strings.TrimLeft(strArray[0], "|h[")
+		str = strings.TrimRight(str, "]|")
+	}
+	if str != "" {
+		return str
+	}
+	return item
 }
 
 func (i *innerValue) GetItemsFromBags() []InvItem {
