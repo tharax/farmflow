@@ -48,11 +48,7 @@ func main() {
 	err = json.Unmarshal(b, &items)
 	check(err)
 
-	b, err = ioutil.ReadFile("data/inventory.json")
-	check(err)
-	var inventory Inventory
-	err = json.Unmarshal(b, &inventory)
-	check(err)
+	inventory := GetInvFromLUAFile()
 
 	rm := CalculateRawMaterials(&items, &inventory)
 	keys := make([]string, 0, len(rm))
@@ -61,6 +57,14 @@ func main() {
 	}
 	sort.Strings(keys)
 
+	PrintRecipesToCreate(items)
+	// PrintFarmListForInventory(Inventory{})         //blank inv
+	PrintFarmListForInventory(GetInvFromLUAFile()) //loaded from test LUA file
+	// PrintLeftOverInventory(inventory)
+
+}
+
+func PrintRecipesToCreate(items Items) {
 	fmt.Println("\nRecipes to Create\n=================")
 	r := []string{}
 	for _, item := range items {
@@ -72,22 +76,41 @@ func main() {
 	for _, item := range r {
 		fmt.Println(item)
 	}
+}
 
-	fmt.Println("\nRemaining to Farm\n=================")
-	for _, k := range keys {
-		if rm[k] > 0 {
-			fmt.Printf("%-30v %5v\n", k, rm[k])
-		}
-	}
-
+func PrintLeftOverInventory(inv Inventory) {
 	fmt.Println("\nLeftover Inventory\n==================")
-	for _, k := range inventory {
+	for _, k := range inv {
 		if k.Quantity > 0 {
 			fmt.Printf("%-30v %5v\n", k.Name, k.Quantity)
 		}
 	}
+}
 
-	DoLUAThing()
+func PrintFarmListForInventory(inv2 Inventory) {
+	b2, err := ioutil.ReadFile("data/items.json")
+	check(err)
+	var items2 Items
+	err = json.Unmarshal(b2, &items2)
+	rm2 := CalculateRawMaterials(&items2, &inv2)
+	keys2 := make([]string, 0, len(rm2))
+	for k := range rm2 {
+		keys2 = append(keys2, k)
+	}
+	sort.Strings(keys2)
+	r2 := []string{}
+	for _, item2 := range items2 {
+		if item2.IsTransmog {
+			r2 = append(r2, item2.Name)
+		}
+	}
+	sort.Strings(r2)
+	fmt.Println("\nRemaining to Farm\n=================")
+	for _, k := range keys2 {
+		if rm2[k] > 0 {
+			fmt.Printf("%-30v %5v\n", k, rm2[k])
+		}
+	}
 }
 
 func check(e error) {
