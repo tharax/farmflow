@@ -62,7 +62,7 @@ func (db *DB) GetItem(id int) (*Item, error) {
 	return nil, fmt.Errorf("item with id %d not found", id)
 }
 
-func (db *DB) GetBind() map[int]int {
+func (db *DB) GetBindSums() map[int]int {
 	res := map[int]int{}
 	for _, item := range db.Items {
 		res[item.Bind] += 1
@@ -70,7 +70,7 @@ func (db *DB) GetBind() map[int]int {
 	return res
 }
 
-func (db *DB) GetInventoryType() map[int]int {
+func (db *DB) GetInventoryTypeSums() map[int]int {
 	res := map[int]int{}
 	for _, item := range db.Items {
 		res[item.InventoryType] += 1
@@ -117,4 +117,57 @@ func (db *DB) GetItemByName(name string) (*Item, error) {
 		}
 	}
 	return nil, fmt.Errorf("item with name %s not found", name)
+}
+
+func (db *DB) GetQualitySums() map[int]int {
+	res := map[int]int{}
+	for _, item := range db.Items {
+		if res[item.Quality] == 0 {
+			fmt.Println(item.Name)
+		}
+		res[item.Quality] += 1
+	}
+	return res
+}
+
+type Quality int
+
+const (
+	White       Quality = 0
+	Green       Quality = 1
+	Gray        Quality = 2
+	Purple      Quality = 3
+	Blue        Quality = 4
+	ClassWeapon Quality = 5
+	Legendary   Quality = 6
+	Heirloom    Quality = 7
+)
+
+func (db *DB) GetThingsThatMightBeTransmog() []Item {
+	var res []Item
+	for _, item := range db.Items {
+		validTransmog := true
+		switch item.Bind {
+		case 1, 2, 3:
+			//Valid
+		default:
+			validTransmog = false
+		}
+		switch item.InventoryType {
+		case 1, 3, 4, 5, 6, 7, 8, 9, 10, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 26:
+			//Valid
+		default:
+			validTransmog = false
+		}
+		switch item.Quality {
+		case 1, 3, 4, 5, 6, 7:
+			//Valid
+		default:
+			validTransmog = false
+		}
+		if validTransmog {
+			res = append(res, item)
+		}
+	}
+	return res
 }

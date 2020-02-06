@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/tharax/farmflow/items"
+	"github.com/tharax/farmflow/lua"
 	"io/ioutil"
 	"os"
 	"sort"
@@ -46,7 +47,29 @@ func main() {
 	itemdb, err := items.LoadItems()
 	check(err)
 
-	m := itemdb.GetInventoryType()
+	// m := itemdb.GetInventoryType()
+	// for count := 0; count < len(m); count++ {
+	// 	fmt.Println(m[count], " = ", count)
+	// }
+
+	item, err := itemdb.GetItemByName("Robe of Winter Night")
+	check(err)
+	fmt.Printf("%+v\n", item)
+	fmt.Println(itemdb.GetQualitySums())
+
+	validTransmog := itemdb.GetThingsThatMightBeTransmog()
+
+	fmt.Println(len(itemdb.Items), len(validTransmog))
+
+	crafts, err := lua.LoadDataStoreItems()
+	check(err)
+	RECIPES, err := crafts.GetDirectedRecipeGraph()
+
+	check(err)
+	fmt.Println(len(RECIPES))
+	fmt.Println(RECIPES.GetDeepest())
+	err = RECIPES.PrintRecipeFor(item.ItemID)
+	check(err)
 
 	b, err := ioutil.ReadFile("data/items.json")
 	check(err)
