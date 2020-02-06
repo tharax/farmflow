@@ -1,0 +1,30 @@
+
+DailyGlobalCheck_PluginData = {
+	["Hallow's End"] = {
+		["active"] = true,
+	},
+	["WoD Rare Mobs"] = {
+		["active"] = true,
+	},
+	["World Bosses"] = {
+		["active"] = true,
+	},
+	["Timeless Isle"] = {
+		["active"] = true,
+	},
+	["Midsummer"] = {
+		["active"] = true,
+	},
+	["Professions"] = {
+		["active"] = true,
+	},
+	["Follower Missions"] = {
+		["active"] = true,
+	},
+	["WoD Treasure Chests"] = {
+		["active"] = true,
+	},
+	["Legion Treasure Chests"] = {
+		["active"] = true,
+	},
+}

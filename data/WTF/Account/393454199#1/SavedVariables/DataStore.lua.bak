@@ -1,0 +1,17 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Tfcbank - Frostmourne"] = "Tfcbank - Frostmourne",
+	},
+	["global"] = {
+		["Version"] = 1,
+		["Characters"] = {
+			["Default.Frostmourne.Tfcbank"] = {
+				["faction"] = "Alliance",
+			},
+		},
+		["ShortToLongRealmNames"] = {
+			["Frostmourne"] = "Frostmourne",
+		},
+	},
+}

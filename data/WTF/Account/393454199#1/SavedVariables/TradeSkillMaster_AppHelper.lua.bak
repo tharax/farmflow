@@ -1,0 +1,23 @@
+
+TradeSkillMaster_AppHelperDB = {
+	["blackMarket"] = {
+	},
+	["region"] = "US",
+	["errorReports"] = {
+		["data"] = {
+		},
+		["updateTime"] = 0,
+	},
+	["shoppingMaxPrices"] = {
+	},
+	["analytics"] = {
+		["data"] = {
+			"[\"AC\",\"v4.8.24\",1577918318190,1577918318,1,\"ADDON_INITIALIZE\",942]", -- [1]
+			"[\"AC\",\"v4.8.24\",1577918378816,1577918318,2,\"ADDON_ENABLE\",5026]", -- [2]
+			"[\"AC\",\"v4.8.24\",1577918393238,1577918318,3,\"UI_NAVIGATION\",\"\",\"destroying\"]", -- [3]
+			"[\"AC\",\"v4.8.24\",1577918393238,1577918318,4,\"UI_NAVIGATION\",\"destroying\",\"\"]", -- [4]
+			"[\"AC\",\"v4.8.24\",1577918462729,1577918318,5,\"ADDON_DISABLE\",6]", -- [5]
+		},
+		["updateTime"] = 1577918426,
+	},
+}

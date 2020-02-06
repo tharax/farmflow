@@ -1,0 +1,63 @@
+
+EncounterDetailsDB = {
+	["encounter_spells"] = {
+		[97380] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+		},
+		[96516] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "High Priestess Kilnara",
+		},
+		[96800] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Bloodlord Mandokir",
+		},
+		[97091] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Hakkar's Chains",
+		},
+		[97417] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Hakkar's Chains",
+		},
+		[97321] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Jin'do the Godbreaker",
+		},
+	},
+	["emotes"] = {
+		{
+			["boss"] = "High Priestess Kilnara",
+		}, -- [1]
+		{
+			["boss"] = "Bloodlord Mandokir",
+		}, -- [2]
+		{
+			["boss"] = "High Priestess Kilnara",
+		}, -- [3]
+	},
+}

@@ -1,0 +1,90 @@
+
+dbGACperChar = {
+	["profileKeys"] = {
+		["Rändolph - Frostmourne"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["history"] = {
+				[2131] = {
+					[1577918778] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[2079] = {
+					[1579380971] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+					[1579732903] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[2080] = {
+					[1578166036] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[2096] = {
+					[1578694804] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[1911] = {
+					[1579816032] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[1912] = {
+					[1578989120] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[1877] = {
+					[1571251364] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[2138] = {
+					[1579549451] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[1882] = {
+					[1578007884] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[1883] = {
+					[1579769963] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+					[1579085821] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+					[1580803544] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[1907] = {
+					[1580495660] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,115 @@
+
+ARLDB2 = {
+	["namespaces"] = {
+		["Engineering"] = {
+		},
+		["Mining"] = {
+		},
+		["Cooking"] = {
+		},
+		["Enchanting"] = {
+		},
+	},
+	["global"] = {
+		["tradeskill"] = {
+			["Frostmourne"] = {
+				["Gutterspeak"] = {
+				},
+				["Gavinral"] = {
+				},
+				["Ignaciò"] = {
+				},
+				["Antoínette"] = {
+				},
+				["Staceyjones"] = {
+				},
+				["Rändolph"] = {
+				},
+				["Ardern"] = {
+				},
+				["Jellastie"] = {
+				},
+				["Benjarclay"] = {
+				},
+				["Gudrudrune"] = {
+				},
+				["Parrob"] = {
+				},
+				["Brewswaying"] = {
+				},
+				["Petër"] = {
+				},
+				["Humphrëy"] = {
+				},
+				["Lohmisu"] = {
+				},
+				["Davidgray"] = {
+				},
+				["Lefane"] = {
+				},
+			},
+			["Spinebreaker"] = {
+				["Randolph"] = {
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Davidgray - Frostmourne"] = "Davidgray - Frostmourne",
+		["Gudrudrune - Frostmourne"] = "Gudrudrune - Frostmourne",
+		["Ardern - Frostmourne"] = "Ardern - Frostmourne",
+		["Benjarclay - Frostmourne"] = "Benjarclay - Frostmourne",
+		["Staceyjones - Frostmourne"] = "Staceyjones - Frostmourne",
+		["Rändolph - Frostmourne"] = "Rändolph - Frostmourne",
+		["Parrob - Frostmourne"] = "Parrob - Frostmourne",
+		["Jellastie - Frostmourne"] = "Jellastie - Frostmourne",
+		["Antoínette - Frostmourne"] = "Antoínette - Frostmourne",
+		["Brewswaying - Frostmourne"] = "Brewswaying - Frostmourne",
+		["Lefane - Frostmourne"] = "Lefane - Frostmourne",
+		["Gavinral - Frostmourne"] = "Gavinral - Frostmourne",
+		["Petër - Frostmourne"] = "Petër - Frostmourne",
+		["Lohmisu - Frostmourne"] = "Lohmisu - Frostmourne",
+		["Gutterspeak - Frostmourne"] = "Gutterspeak - Frostmourne",
+		["Randolph - Spinebreaker"] = "Randolph - Spinebreaker",
+		["Ignaciò - Frostmourne"] = "Ignaciò - Frostmourne",
+		["Humphrëy - Frostmourne"] = "Humphrëy - Frostmourne",
+	},
+	["profiles"] = {
+		["Davidgray - Frostmourne"] = {
+		},
+		["Gudrudrune - Frostmourne"] = {
+		},
+		["Ardern - Frostmourne"] = {
+		},
+		["Benjarclay - Frostmourne"] = {
+		},
+		["Staceyjones - Frostmourne"] = {
+		},
+		["Rändolph - Frostmourne"] = {
+		},
+		["Parrob - Frostmourne"] = {
+		},
+		["Jellastie - Frostmourne"] = {
+		},
+		["Antoínette - Frostmourne"] = {
+		},
+		["Brewswaying - Frostmourne"] = {
+		},
+		["Lefane - Frostmourne"] = {
+		},
+		["Gavinral - Frostmourne"] = {
+		},
+		["Petër - Frostmourne"] = {
+		},
+		["Lohmisu - Frostmourne"] = {
+		},
+		["Gutterspeak - Frostmourne"] = {
+		},
+		["Randolph - Spinebreaker"] = {
+		},
+		["Ignaciò - Frostmourne"] = {
+		},
+		["Humphrëy - Frostmourne"] = {
+		},
+	},
+}

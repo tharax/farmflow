@@ -1,0 +1,31 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Tfcbank - Frostmourne"] = "Tfcbank - Frostmourne",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Frostmourne.Tfcbank"] = {
+				["XPMax"] = 400,
+				["played"] = 18,
+				["playedThisLevel"] = 18,
+				["isResting"] = false,
+				["lastUpdate"] = 1577918426,
+				["class"] = "Druid",
+				["race"] = "Night Elf",
+				["level"] = 1,
+				["XP"] = 0,
+				["RestXP"] = 0,
+				["money"] = 0,
+				["gender"] = 2,
+				["subZone"] = "Shadowglen",
+				["name"] = "Tfcbank",
+				["faction"] = "Alliance",
+				["englishRace"] = "NightElf",
+				["zone"] = "Shadowglen",
+				["lastLogoutTimestamp"] = 1577918426,
+				["englishClass"] = "DRUID",
+			},
+		},
+	},
+}

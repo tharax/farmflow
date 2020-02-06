@@ -1,0 +1,33 @@
+
+DailyGlobalCheck_PluginData = {
+	["Instance Lockouts"] = {
+		["active"] = true,
+	},
+	["Hallow's End"] = {
+		["active"] = true,
+	},
+	["Legion Rare Mobs"] = {
+		["active"] = true,
+	},
+	["WoD Rare Mobs"] = {
+		["active"] = true,
+	},
+	["Isle of Thunder"] = {
+		["active"] = true,
+	},
+	["Timeless Isle"] = {
+		["active"] = true,
+	},
+	["Professions"] = {
+		["active"] = true,
+	},
+	["Pet Tamers"] = {
+		["active"] = true,
+	},
+	["WoD Treasure Chests"] = {
+		["active"] = true,
+	},
+	["Follower Missions"] = {
+		["active"] = true,
+	},
+}

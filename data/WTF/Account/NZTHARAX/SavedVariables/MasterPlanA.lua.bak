@@ -1,0 +1,101 @@
+
+MasterPlanAG = {
+	["Frostmourne"] = {
+		["Gutterspeak"] = {
+			["class"] = "PRIEST",
+			["faction"] = "Alliance",
+		},
+		["Gavinral"] = {
+			["faction"] = "Alliance",
+			["class"] = "PALADIN",
+		},
+		["Ignaciò"] = {
+			["class"] = "DEMONHUNTER",
+			["faction"] = "Alliance",
+		},
+		["Antoínette"] = {
+			["faction"] = "Alliance",
+			["class"] = "ROGUE",
+		},
+		["Staceyjones"] = {
+			["faction"] = "Alliance",
+			["class"] = "WARRIOR",
+		},
+		["Rändolph"] = {
+			["class"] = "MAGE",
+			["faction"] = "Alliance",
+		},
+		["Ardern"] = {
+			["faction"] = "Alliance",
+			["class"] = "SHAMAN",
+		},
+		["Jellastie"] = {
+			["faction"] = "Alliance",
+			["class"] = "PRIEST",
+		},
+		["Benjarclay"] = {
+			["class"] = "WARLOCK",
+			["faction"] = "Horde",
+		},
+		["Gudrudrune"] = {
+			["class"] = "SHAMAN",
+			["faction"] = "Alliance",
+		},
+		["Parrob"] = {
+			["class"] = "WARLOCK",
+			["faction"] = "Alliance",
+		},
+		["Brewswaying"] = {
+			["faction"] = "Alliance",
+			["class"] = "MONK",
+		},
+		["Petër"] = {
+			["class"] = "DRUID",
+			["recruitTime"] = 1578776887,
+			["summary"] = {
+				["ti2"] = 122484,
+				["inProgress"] = {
+					[255] = 1576339129,
+					[381] = 1576346336,
+					[316] = 1576339097,
+				},
+				["ti3"] = 128391,
+				["tt1"] = true,
+				["ti1"] = 118529,
+				["tt3"] = true,
+				["tt2"] = true,
+			},
+			["curOil"] = 4795,
+			["cacheSize"] = 1000,
+			["lastCacheTime"] = 1579779149,
+			["curRes"] = 3920,
+			["faction"] = "Alliance",
+		},
+		["Humphrëy"] = {
+			["faction"] = "Alliance",
+			["class"] = "WARLOCK",
+		},
+		["Lohmisu"] = {
+			["faction"] = "Horde",
+			["class"] = "WARRIOR",
+		},
+		["Davidgray"] = {
+			["class"] = "HUNTER",
+			["lastCacheTime"] = 1580681646,
+			["curRes"] = 1250,
+			["faction"] = "Alliance",
+		},
+		["Lefane"] = {
+			["faction"] = "Horde",
+			["class"] = "WARRIOR",
+		},
+	},
+	["Spinebreaker"] = {
+		["Randolph"] = {
+			["class"] = "MAGE",
+			["faction"] = "Horde",
+		},
+	},
+	["IgnoreRewards"] = {
+	},
+}

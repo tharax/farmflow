@@ -1,0 +1,42 @@
+
+SilverDragon3DB = {
+	["locale"] = {
+		["enus"] = {
+			["mob_name"] = {
+				[32435] = "Vern",
+			},
+		},
+	},
+	["namespaces"] = {
+		["VignetteStretch"] = {
+		},
+		["Macro"] = {
+		},
+		["Scan_Targets"] = {
+		},
+		["HandyNotes"] = {
+		},
+		["ClickTarget"] = {
+		},
+		["LDB"] = {
+		},
+		["Scan_Vignettes"] = {
+		},
+		["Marker"] = {
+		},
+		["Sync"] = {
+		},
+		["Announce"] = {
+		},
+		["Tooltip"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Tfcbank - Frostmourne"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+SilverDragon2DB = nil

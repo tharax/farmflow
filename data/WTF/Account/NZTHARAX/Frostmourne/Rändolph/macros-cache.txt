@@ -1,0 +1,16 @@
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+/run UIErrorsFrame:Hide()
+#showtooltip
+/use Oralius' Whispering Crystal
+/cast Arcane Brilliance
+/use Blazing Wings
+/use Burning Defender's Medallion
+/use Vindicator's Armor Polish Kit
+/run UIErrorsFrame:Clear()
+/run UIErrorsFrame:Show()
+END
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Milling
+/run MillButtonSetup2()
+/click MillButton
+END

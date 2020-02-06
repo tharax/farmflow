@@ -1,0 +1,186 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Antoínette|Frostmourne|Alliance|120|ROGUE", -- [1]
+				"Ardern|Frostmourne|Alliance|72|SHAMAN", -- [2]
+				"Benjarclay|Frostmourne|Horde|19|WARLOCK", -- [3]
+				"Brewswaying|Frostmourne|Alliance|1|MONK", -- [4]
+				"Davidgray|Frostmourne|Alliance|120|HUNTER", -- [5]
+				"Gutterspeak|Frostmourne|Alliance|120|PRIEST", -- [6]
+				"Humphrëy|Frostmourne|Alliance|120|WARLOCK", -- [7]
+				"Ignaciò|Frostmourne|Alliance|101|DEMONHUNTER", -- [8]
+				"Jellastie|Frostmourne|Alliance|11|PRIEST", -- [9]
+				"Lefane|Frostmourne|Horde|5|WARRIOR", -- [10]
+				"Lohmisu|Frostmourne|Horde|11|WARRIOR", -- [11]
+				"Petër|Frostmourne|Alliance|120|DRUID", -- [12]
+				"Randolph|Spinebreaker|Horde|1|MAGE", -- [13]
+				"Rändolph|Frostmourne|Alliance|120|MAGE", -- [14]
+				"Staceyjones|Frostmourne|Alliance|120|WARRIOR", -- [15]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Davidgray - Frostmourne"] = "Davidgray - Frostmourne",
+		["Gudrudrune - Frostmourne"] = "Gudrudrune - Frostmourne",
+		["Ardern - Frostmourne"] = "Ardern - Frostmourne",
+		["Brewswaying - Frostmourne"] = "Brewswaying - Frostmourne",
+		["Staceyjones - Frostmourne"] = "Staceyjones - Frostmourne",
+		["Rändolph - Frostmourne"] = "Rändolph - Frostmourne",
+		["Parrob - Frostmourne"] = "Parrob - Frostmourne",
+		["Jellastie - Frostmourne"] = "Jellastie - Frostmourne",
+		["Randolph - Spinebreaker"] = "Randolph - Spinebreaker",
+		["Benjarclay - Frostmourne"] = "Benjarclay - Frostmourne",
+		["Lefane - Frostmourne"] = "Lefane - Frostmourne",
+		["Gavinral - Frostmourne"] = "Gavinral - Frostmourne",
+		["Petër - Frostmourne"] = "Petër - Frostmourne",
+		["Lohmisu - Frostmourne"] = "Lohmisu - Frostmourne",
+		["Gutterspeak - Frostmourne"] = "Gutterspeak - Frostmourne",
+		["Antoínette - Frostmourne"] = "Antoínette - Frostmourne",
+		["Ignaciò - Frostmourne"] = "Ignaciò - Frostmourne",
+		["Humphrëy - Frostmourne"] = "Humphrëy - Frostmourne",
+	},
+	["profiles"] = {
+		["Davidgray - Frostmourne"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Wwwwww|Frostmourne|Alliance", -- [1]
+					"Petër|Frostmourne|Alliance", -- [2]
+					"Antoínette|Frostmourne|Alliance", -- [3]
+					"Gutterspeak|Frostmourne|Alliance", -- [4]
+					"Rändolph|Frostmourne|Alliance", -- [5]
+					"Staceyjones|Frostmourne|Alliance", -- [6]
+				},
+			},
+		},
+		["Gudrudrune - Frostmourne"] = {
+		},
+		["Ardern - Frostmourne"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Petër|Frostmourne|Alliance", -- [1]
+					"Staceyjones|Frostmourne|Alliance", -- [2]
+					"Rändolph|Frostmourne|Alliance", -- [3]
+					"Antoínette|Frostmourne|Alliance", -- [4]
+					"Gutterspeak|Frostmourne|Alliance", -- [5]
+				},
+			},
+		},
+		["Brewswaying - Frostmourne"] = {
+		},
+		["Staceyjones - Frostmourne"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Petër|Frostmourne|Alliance", -- [1]
+					"Davidgray|Frostmourne|Alliance", -- [2]
+					"Antoínette|Frostmourne|Alliance", -- [3]
+					"Gutterspeak|Frostmourne|Alliance", -- [4]
+					"Rändolph|Frostmourne|Alliance", -- [5]
+				},
+			},
+		},
+		["Rändolph - Frostmourne"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Petër|Frostmourne|Alliance", -- [1]
+					"Staceyjones|Frostmourne|Alliance", -- [2]
+					"Davidgray|Frostmourne|Alliance", -- [3]
+					"Humphrëy|Frostmourne|Alliance", -- [4]
+					"Gutterspeak|Frostmourne|Alliance", -- [5]
+					"Antoínette|Frostmourne|Alliance", -- [6]
+					"Parrob|Frostmourne|Alliance", -- [7]
+				},
+			},
+		},
+		["Parrob - Frostmourne"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Staceyjones|Frostmourne|Alliance", -- [1]
+					"Petër|Frostmourne|Alliance", -- [2]
+					"Rändolph|Frostmourne|Alliance", -- [3]
+				},
+			},
+		},
+		["Jellastie - Frostmourne"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Petër|Frostmourne|Alliance", -- [1]
+				},
+			},
+		},
+		["Randolph - Spinebreaker"] = {
+		},
+		["Benjarclay - Frostmourne"] = {
+		},
+		["Lefane - Frostmourne"] = {
+		},
+		["Gavinral - Frostmourne"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Antoínette|Frostmourne|Alliance", -- [1]
+					"Gutterspeak|Frostmourne|Alliance", -- [2]
+				},
+			},
+		},
+		["Petër - Frostmourne"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Ardern|Frostmourne|Alliance", -- [1]
+					"Davidgray|Frostmourne|Alliance", -- [2]
+					"Staceyjones|Frostmourne|Alliance", -- [3]
+					"Rändolph|Frostmourne|Alliance", -- [4]
+					"Humphrëy|Frostmourne|Alliance", -- [5]
+					"Antoínette|Frostmourne|Alliance", -- [6]
+					"Gutterspeak|Frostmourne|Alliance", -- [7]
+					"okka|Frostmourne|Alliance", -- [8]
+					"Gavinral|Frostmourne|Alliance", -- [9]
+				},
+			},
+		},
+		["Lohmisu - Frostmourne"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Benjarclay|Frostmourne|Horde", -- [1]
+				},
+			},
+		},
+		["Gutterspeak - Frostmourne"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Rändolph|Frostmourne|Alliance", -- [1]
+					"Antoínette|Frostmourne|Alliance", -- [2]
+					"Petër|Frostmourne|Alliance", -- [3]
+					"Humphrëy|Frostmourne|Alliance", -- [4]
+					"Staceyjones|Frostmourne|Alliance", -- [5]
+					"Davidgray|Frostmourne|Alliance", -- [6]
+				},
+			},
+		},
+		["Antoínette - Frostmourne"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Petër|Frostmourne|Alliance", -- [1]
+					"Davidgray|Frostmourne|Alliance", -- [2]
+					"Staceyjones|Frostmourne|Alliance", -- [3]
+					"Rändolph|Frostmourne|Alliance", -- [4]
+					"Ardern|Frostmourne|Alliance", -- [5]
+					"Humphrëy|Frostmourne|Alliance", -- [6]
+					"Gutterspeak|Frostmourne|Alliance", -- [7]
+					"Parrob|Frostmourne|Alliance", -- [8]
+				},
+			},
+		},
+		["Ignaciò - Frostmourne"] = {
+		},
+		["Humphrëy - Frostmourne"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Petër|Frostmourne|Alliance", -- [1]
+					"Staceyjones|Frostmourne|Alliance", -- [2]
+					"Antoínette|Frostmourne|Alliance", -- [3]
+				},
+			},
+		},
+	},
+}

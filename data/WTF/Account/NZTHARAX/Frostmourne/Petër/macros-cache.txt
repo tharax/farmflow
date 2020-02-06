@@ -1,0 +1,6 @@
+VER 3 0100000000000003 "Safe" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/console autounshift 0
+/cast Regrowth
+/console autounshift 1
+END

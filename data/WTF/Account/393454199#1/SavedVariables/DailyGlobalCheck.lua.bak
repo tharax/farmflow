@@ -1,0 +1,94 @@
+
+DailyGlobalCheck_Options = {
+	["show_minimapicons"] = true,
+	["frame_position"] = {
+		"CENTER", -- [1]
+	},
+	["show_questtype"] = false,
+	["minimap_icon"] = {
+		["minimapPos"] = 220,
+		["hide"] = false,
+	},
+	["DGC_Version"] = 1004,
+	["chars_blacklist"] = {
+	},
+	["show_coordinates"] = true,
+	["show_worldmapicons"] = true,
+	["Colors"] = {
+		"|cffAAAAAA", -- [1]
+		"|cffffffcc", -- [2]
+		"|cffffffff", -- [3]
+		"|cffffffff", -- [4]
+		"|cffdddddd", -- [5]
+		"|cffffcc00", -- [6]
+		"|cff20FF20", -- [7]
+		"|cffFF2020", -- [8]
+		"|cff11DDFF", -- [9]
+	},
+	["UI"] = {
+		["minimap_icon_interact"] = true,
+		["minimap_icon_size"] = 14,
+		["worldmap_icon_size"] = 17,
+		["worldmap_icon_interact"] = true,
+	},
+	["hide_completed"] = false,
+	["NyxGUI_Data"] = {
+		["default_theme"] = "main",
+		["main"] = {
+			["l3_texture"] = "Interface\\Buttons\\WHITE8X8",
+			["l2_texture"] = "Interface\\Buttons\\WHITE8X8",
+			["l0_color"] = "121212E6",
+			["l1_color"] = "0000007F",
+			["f_button_color"] = "FFFFFFFF",
+			["l2_color"] = "020702FF",
+			["f_label_name"] = "Fonts\\FRIZQT__.ttf",
+			["f_label_h"] = 11,
+			["l0_border"] = "191919E6",
+			["l1_border"] = "191919E6",
+			["l2_border"] = "001900FF",
+			["f_button_h"] = 12,
+			["l3_border"] = "00140033",
+			["highlight"] = "00FF0033",
+			["l0_texture"] = "Interface\\Buttons\\GreyscaleRamp64",
+			["l1_texture"] = "Interface\\Buttons\\WHITE8X8",
+			["f_label_flags"] = "",
+			["thumb"] = "19B219FF",
+			["f_label_color"] = "FFFFFFFF",
+			["f_button_name"] = "Fonts\\FRIZQT__.ttf",
+			["f_button_flags"] = "",
+			["l3_color"] = "05660D26",
+		},
+	},
+	["show_suffix"] = false,
+	["show_questlogbtn"] = true,
+	["show_zone"] = false,
+	["show_prefix"] = false,
+}
+DailyGlobalCheck_CharData = {
+}
+DGC_CustomLists = {
+	["Lists"] = {
+	},
+	["QuestsData"] = {
+	},
+}
+DailyGlobalCheck_Localization = {
+	["Quests"] = {
+		[36815] = "Assault on the Everbloom Wilds",
+		[38585] = "Assault on the Throne of Kil'jaeden",
+		[36819] = "Assault on Mok'gol Watchpost",
+		[37626] = "Assault on Magnarok",
+		[36823] = "Assault on the Iron Siegeworks",
+		[36700] = "Challenge at the Ring of Blood",
+		[36701] = "Assault on the Pit",
+		[38252] = "Assault on the Ruins of Kra'nak",
+		[37633] = "Assault on Darktide Roost",
+		[38441] = "Assault on The Fel Forge",
+		[36490] = "Assault on Pillars of Fate",
+		[38044] = "Bleeding the Bleeding Hollow",
+		[37891] = "Assault on Ironhold Harbor",
+		[36683] = "Assault on Skettis",
+		[36347] = "Assault on Socrethar's Rise",
+		[36669] = "Assault on Stonefury Cliffs",
+	},
+}

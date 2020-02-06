@@ -1,0 +1,52 @@
+
+dbGACperChar = {
+	["profileKeys"] = {
+		["Gutterspeak - Frostmourne"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["history"] = {
+				[1163] = {
+					[1570948352] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[1052] = {
+					[1570907414] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[1886] = {
+					[1579214242] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+					[1579445438] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[1884] = {
+					[1579734889] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[1866] = {
+					[1579371579] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[1877] = {
+					[1578856506] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+			},
+		},
+	},
+}

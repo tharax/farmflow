@@ -1,0 +1,38 @@
+
+DGC_ProfSaves = {
+	["Benjarclay-Frostmourne"] = {
+	},
+	["Parrob-Frostmourne"] = {
+	},
+	["Ardern-Frostmourne"] = {
+	},
+	["Brewswaying-Frostmourne"] = {
+	},
+	["Humphrëy-Frostmourne"] = {
+	},
+	["Gavinral-Frostmourne"] = {
+	},
+	["Petër-Frostmourne"] = {
+	},
+	["Lohmisu-Frostmourne"] = {
+	},
+	["Gutterspeak-Frostmourne"] = {
+	},
+	["Ignaciò-Frostmourne"] = {
+	},
+	["Randolph-Spinebreaker"] = {
+	},
+	["Jellastie-Frostmourne"] = {
+	},
+	["Staceyjones-Frostmourne"] = {
+		["garrison_cache_cap"] = 500,
+	},
+	["Rändolph-Frostmourne"] = {
+	},
+	["Davidgray-Frostmourne"] = {
+	},
+	["Gudrudrune-Frostmourne"] = {
+	},
+	["Antoínette-Frostmourne"] = {
+	},
+}

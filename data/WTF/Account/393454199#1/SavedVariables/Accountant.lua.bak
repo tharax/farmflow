@@ -1,0 +1,293 @@
+
+Accountant_SaveData = {
+	["Frostmourne-Tfcbank"] = {
+		["current_tab"] = 1,
+		["show_toons"] = "All Chars",
+		["options"] = {
+			["showAlliance"] = true,
+			["dateformat"] = 2,
+			["weekstart"] = 1,
+			["date"] = "Wed Jan ",
+			["date_format"] = 2,
+			["dateweek"] = "Sun Dec ",
+			["current_tab"] = 1,
+			["showHorde"] = true,
+			["weekdate"] = "",
+			["hidelogin"] = false,
+			["cachebox"] = 0,
+			["weekreset"] = 0,
+			["buttonpos"] = 0,
+			["show_toons"] = "All Chars",
+			["version"] = "8.0.1.17",
+			["faction"] = "Alliance",
+			["totalcash"] = 0,
+			["showbutton"] = true,
+			["showbuttontotalselect"] = 1,
+			["showbuttontotal"] = false,
+		},
+		["data"] = {
+			["TRAIN"] = {
+				["Total"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Week"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Day"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Session"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+			},
+			["TAXI"] = {
+				["Total"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Week"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Day"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Session"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+			},
+			["GARR"] = {
+				["Total"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Week"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Day"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Session"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+			},
+			["OTHER"] = {
+				["Total"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Week"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Day"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Session"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+			},
+			["LOOT"] = {
+				["Total"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Week"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Day"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Session"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+			},
+			["RFRG"] = {
+				["Total"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Week"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Day"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Session"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+			},
+			["TRADE"] = {
+				["Total"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Week"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Day"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Session"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+			},
+			["AH"] = {
+				["Total"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Week"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Day"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Session"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+			},
+			["TMG"] = {
+				["Total"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Week"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Day"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Session"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+			},
+			["MERCH"] = {
+				["Total"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Week"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Day"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Session"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+			},
+			["MAIL"] = {
+				["Total"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Week"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Day"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Session"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+			},
+			["REPAIRS"] = {
+				["Total"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Week"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Day"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Session"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+			},
+			["BMAH"] = {
+				["Total"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Week"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Day"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Session"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+			},
+			["QUEST"] = {
+				["Total"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Week"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Day"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+				["Session"] = {
+					["In"] = 0,
+					["Out"] = 0,
+				},
+			},
+		},
+	},
+}
+Accountant_Options = nil
+Accountant_MinimapDB = {
+	["profileKeys"] = {
+		["Tfcbank - Frostmourne"] = "Tfcbank - Frostmourne",
+	},
+	["profiles"] = {
+		["Tfcbank - Frostmourne"] = {
+		},
+	},
+}

@@ -1,0 +1,18 @@
+
+ARLDB2 = {
+	["global"] = {
+		["tradeskill"] = {
+			["Frostmourne"] = {
+				["Tfcbank"] = {
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Tfcbank - Frostmourne"] = "Tfcbank - Frostmourne",
+	},
+	["profiles"] = {
+		["Tfcbank - Frostmourne"] = {
+		},
+	},
+}

@@ -1,0 +1,27 @@
+
+HandyNotes_LunarFestivalDB = {
+	["profileKeys"] = {
+		["Davidgray - Frostmourne"] = "Default",
+		["Gudrudrune - Frostmourne"] = "Default",
+		["Ardern - Frostmourne"] = "Default",
+		["Benjarclay - Frostmourne"] = "Default",
+		["Staceyjones - Frostmourne"] = "Default",
+		["Rändolph - Frostmourne"] = "Default",
+		["Parrob - Frostmourne"] = "Default",
+		["Jellastie - Frostmourne"] = "Default",
+		["Randolph - Spinebreaker"] = "Default",
+		["Humphrëy - Frostmourne"] = "Default",
+		["Lefane - Frostmourne"] = "Default",
+		["Gavinral - Frostmourne"] = "Default",
+		["Petër - Frostmourne"] = "Default",
+		["Lohmisu - Frostmourne"] = "Default",
+		["Gutterspeak - Frostmourne"] = "Default",
+		["Antoínette - Frostmourne"] = "Default",
+		["Ignaciò - Frostmourne"] = "Default",
+		["Brewswaying - Frostmourne"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

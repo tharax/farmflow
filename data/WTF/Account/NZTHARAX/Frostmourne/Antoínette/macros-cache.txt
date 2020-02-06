@@ -1,0 +1,12 @@
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Pick Pocket
+/cleartarget
+/targetenemy
+/cast Pick Pocket
+END
+VER 3 0100000000000001 " " "INV_Misc_QuestionMark"
+#showtooltip Stealth
+/use Oralius' Whispering Crystal
+/use Kafa Press
+/cast Stealth
+END

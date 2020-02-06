@@ -1,0 +1,163 @@
+
+TD_DB_BATTLEPETSCRIPT_GLOBAL = {
+	["global"] = {
+		["version"] = 80100.01,
+		["scripts"] = {
+			["AllInOne"] = {
+			},
+			["FirstEnemy"] = {
+			},
+			["Base"] = {
+			},
+			["Rematch"] = {
+				[79179] = {
+					["name"] = "Deebs, Tyri and Puzzle",
+					["code"] = "ability(Sweep:457) [ round=1 ]\nchange(next) [ !self(#3).active & !self(#3).played ]\nability(Wind-Up:459) [ enemy(#3).active ]\nability(#1)\nability(#2)\nability(#3)\nchange(#1)",
+				},
+				[154917] = {
+					["name"] = "Mindshackle",
+					["code"] = "use(Blistering Cold:786) [ round~1,4 ]\nuse(BONESTORM:1762) [ round=3 ]\nuse(Chop:943)\nuse(Black Claw:919) [ self.round=1 ]\nuse(Hunting Party:921)\nuse(Flock:581)\nuse(Swarm:706)\nchange(next)\nstandby",
+				},
+				[154921] = {
+					["name"] = "Giant Opaline Conch",
+					["code"] = "ability(Explode:282) [round>2] \nability(Wind-Up:459) \nability(Howl:362) \nability(Surge of Power:593) \nchange(next)",
+				},
+				[154925] = {
+					["name"] = "Creakclank",
+					["code"] = "ability(Blistering Cold:786) [!enemy.aura(Blistering Cold:785).exists]\nability(Chop:943) [!enemy.aura(Bleeding:491).exists]\nability(BONESTORM:1762)\nability(Black Claw:919) [!enemy.aura(Black Claw:918).exists]\nability(Flock:581) [enemy.aura(Black Claw:918).exists]\nability(#1)\nchange(next)",
+				},
+				[154929] = {
+					["name"] = "Unit 17",
+					["code"] = "ability(Black Claw:919) [!enemy.aura(Black Claw:918).exists]\nability(Hunting Party:921)\nability(Leap:364)\nchange(next)",
+				},
+				[139987] = {
+					["name"] = "This Little Piggy Has Sharp Tusks",
+					["code"] = "ability(Curse of Doom:218) \nability(Haunt:652) \nchange(next) [ self(#1).dead & ! self(#2).active ] \nability(Black Claw:919) [ !enemy.aura(Black Claw:918).exists ] \nability(Flock:581)",
+				},
+				[72009] = {
+					["name"] = "Xu-Fu, Cub of Xuen",
+					["code"] = "use(#2) [self(#3).active]\nuse(#3)\nuse(#1) [self(#2).active]\nchange(next)",
+				},
+				[154910] = {
+					["name"] = "Prince Wiggletail",
+					["code"] = "ability(Shadow Shock:422) [round=1]\nability(Curse of Doom:218)\nability(Haunt:652)\nability(#1) [enemy.aura(Shattered Defenses:542).exists]\nability(Flock:581)\nchange(next)",
+				},
+				[154919] = {
+					["name"] = "Voltgorger",
+					["code"] = "ability(Inflation:1002)",
+				},
+				[154918] = {
+					["name"] = "Kelpstone",
+					["code"] = "ability(Whirlpool:513)\nability(Hunting Party:921)\nability(#3)\nstandby\nchange(next)",
+				},
+				[154922] = {
+					["name"] = "Gnomefeaster",
+					["code"] = "ability(Howl:362) \nability(Surge of Power:593) \nability(Black Claw:919) [!enemy.aura(Black Claw:918).exists] \nability(Flock:581) \nability(#1) \nchange(next)",
+				},
+				[154926] = {
+					["name"] = "CK-9 Micro-Oppression Unit",
+					["code"] = "use(#2) [self(#2).active & self(#3).dead] \nuse(#1) [self(#2).active & self(#3).dead] \nchange(#2) [self(#1).active & self.round=3] \nuse(#2) [self(#1).active] \nuse(#1) [self(#1).active] \nchange(#3) [self(#2).active & self.round=2] \nuse(#3) [self(#2).active] \nchange(#2) [self(#3).dead] \nuse(#2) [self(#3).active & !enemy.aura(Black Claw:918).exists] \nuse(#3) [self(#3).active]",
+				},
+				[72290] = {
+					["name"] = "Zao, Calfling of Niuzao",
+					["code"] = "ability(Supercharge:208)\nability(Call Lightning:204)\nchange(#2)\nability(Exposed Wounds:305) [!enemy.aura(Exposed Wounds:306).exists]\nability(#1)",
+				},
+				[141046] = {
+					["name"] = "Captured Evil",
+					["code"] = "change(#2) [self(#1).dead & !self(#2).played]\nchange(#3) [self(#2).played]\n\nability(Nature's Ward:574) [!enemy(Lesser Twisted Current:2225).active & !self.aura(Nature's Ward:820).exists]\nability(Ravage:802) [enemy(Lesser Charged Gale:2223).active & enemy.hp<=618]\nability(Ravage:802) [enemy(Lesser Twisted Current:2225).active & enemy.hp<=309]\nability(Alpha Strike:504) [enemy(Mind Warper:2226).hp>=385]\n\nability(Acidic Goo:369) [self.round=1]\nability(Headbutt:376)\nability(Ooze Touch:445)\n\nstandby",
+				},
+				[154927] = {
+					["name"] = "Unit 35",
+					["code"] = "ability(Curse of Doom:218)\nability(Haunt:652)\nability(Creeping Fungus:743) [self.round=1]\nability(Corpse Explosion:663) [enemy.aura(Shattered Defenses:542).exists]\nability(#1)\nchange(#1) [self(#2).dead]\nchange(next)",
+				},
+				[154911] = {
+					["name"] = "Chomp",
+					["code"] = "ability(Curse of Doom:218)\nability(Haunt:652)\nability(Inflation:1002)\nchange(next)",
+				},
+				[71926] = {
+					["name"] = "Lorewalker Cho",
+					["code"] = "ability(Life Exchange:277) [enemy(#2).active]\nability(Moonfire:595)\nif [enemy(#3).active]\n  ability(Plagued Blood:657) [!enemy.aura(Plagued Blood:658).exists]\n  ability(Death and Decay:214) [!enemy.aura(Death and Decay:213).exists]\n  ability(Kick:307)\nendif\nability(#1)\nchange(#2)",
+				},
+				[142054] = {
+					["name"] = "Desert Survivors",
+					["code"] = "standby [ enemy.speed.fast & enemy.ability(Burrow:159).usable & enemy(#2).active ] \nability(Deflection:490) [ enemy.ability(Mudslide:572).usable ] \nability(Deflection:490) [enemy.aura(Underground:340).exists] \nability(#3) \nability(#1) \nchange(next)",
+				},
+				[154923] = {
+					["name"] = "Sputtertube",
+					["code"] = "ability(Black Claw:919) [round=1]\nability(Flock:581)\nability(Flamethrower:503)\nability(#1)\nchange(next)",
+				},
+				[71932] = {
+					["name"] = "Wise Mari",
+					["code"] = "if [enemy(Карпе Дием:1296).active]\nuse(Песчаная буря:453) [self.ability(Песчаная буря:453).usable]\nuse(Отклонение:490) [self.ability(Отклонение:490).usable]\nuse(Сокрушение:406)\nendif\nif [enemy(Спирус:1298).active]\nchange(Механический пандаренскиPй дракончик:844)\nuse(Приманка:334) [self.ability(Приманка:334).usable]\nuse(Удар грома:779) [self.ability(Удар грома:779).usable]\nuse(Дыхание:115)\nendif\nif [enemy(Поток:1297).active]\nchange(Фигурка анубисата:1155)\nuse(Песчаная буря:453) [self.ability(Песчаная буря:453).usable]\nuse(Отклонение:490) [self.ability(Отклонение:490).usable]\nuse(Сокрушение:406)\nendif",
+				},
+				[71934] = {
+					["name"] = "Dr. Ion Goldbloom",
+					["code"] = "use(Surge of Power:593) [enemy.aura(Howl:1725).exists]\nuse(Howl:362) [enemy.aura(Flying:341).exists]\nchange(#2) [enemy(Screamer:1269).dead & !self(#2).played]\nuse(Scorched Earth:172)\nchange(#3) [enemy.aura(Flame Breath:500).exists]\nuse(Flame Breath:501)\nuse(Supercharge:208) [self.aura(Wind-Up:458).exists & enemy(Chaos:1271).hp<169]\nuse(Wind-Up:459) [!self.aura(Wind-Up:458).exists]\nuse(Wind-Up:459) [enemy(Trike:1268).active]\nstandby",
+				},
+				[154920] = {
+					["name"] = "Frenzied Knifefang",
+					["code"] = "ability(Black Claw:919) [self.round=1]\nability(Flock:581)\nchange(next)\nability(Flock:581)",
+				},
+				[154916] = {
+					["name"] = "Ravenous Scalespawn",
+					["code"] = "change(#3) [self(#2).active]\nability(Blistering Cold:786)\nability(Chop:943)\nability(Black Claw:919) [self.round=1]\nability(Flock:581)\nstandby\nchange(next)",
+				},
+				[154912] = {
+					["name"] = "Silence",
+					["code"] = "quit [ round<4 & self(#1).dead & !enemy.aura(Shattered Defenses:542).exists ]\ntest(\"Please finish the fight with standard attacks.\") [ self(#3).active ]\nuse(Black Claw:919) [ round=1 ]\nuse(Swarm:706)\nuse(Flock:581)\nuse(Arcane Storm:589)\nuse(Mana Surge:489)\nchange(#2)",
+				},
+				[140315] = {
+					["name"] = "Automated Chaos",
+					["code"] = "change(next) [ self(#1).dead & !self(#3).played ]\nability(Immolate:178) [ enemy.hpp>25 & !enemy.aura(Immolate:177).exists ]\nability(Conflagrate:179) [ enemy.aura(Immolate:177).exists ]\nability(#1)",
+				},
+				[72285] = {
+					["name"] = "Chi-Chi, Hatchling of Chi-Ji",
+					["code"] = "ability(Immolation:409) [!self.aura(Immolation:408).exists]\nability(Wild Magic:592) [!enemy.aura(Wild Magic:591).exists]\nability(Acidic Goo:369) [self.round=1]\nability(Dive:564) [self.round=4]\nchange(#2)\nability(#1)",
+				},
+				[154924] = {
+					["name"] = "Goldenbot XD",
+					["code"] = "use(Curse of Doom:218) \nuse(Haunt:652) \nuse(Black Claw:919) [ !enemy.aura(Black Claw:918).exists ] \nuse(Flock:581) \nuse(Breath:115) [self.round=1] \nuse(Explode:282) \nchange(next)",
+				},
+				[154928] = {
+					["name"] = "Unit 6",
+					["code"] = "ability(Curse of Doom:218)\nability(Haunt:652)\nability(Black Claw:919) [self.round=1]\nability(Flock:581)\nability(#1)\nchange(next)",
+				},
+				[72291] = {
+					["name"] = "Yu'la, Broodling of Yu'lon",
+					["code"] = "standby [self.aura(Ice Barrier:480).exists]\nability(Claw:429) [round=1]\nability(Ice Tomb:624)\nability(Ice Barrier:479)\nability(#1)",
+				},
+				[71929] = {
+					["name"] = "Sully \"The Pickle\" McLeary",
+					["code"] = "standby [enemy.aura(Undead:242).exists]\nability(Swarm:706) [enemy.round=1]\nability(Hawk Eye:521) [enemy.round=1]\nability(#1)\nchange(#2)",
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Parrob - Frostmourne"] = "Default",
+		["Jellastie - Frostmourne"] = "Default",
+		["Antoínette - Frostmourne"] = "Default",
+		["Davidgray - Frostmourne"] = "Default",
+		["Randolph - Spinebreaker"] = "Default",
+		["Ardern - Frostmourne"] = "Default",
+		["Petër - Frostmourne"] = "Default",
+		["Gutterspeak - Frostmourne"] = "Default",
+		["Rändolph - Frostmourne"] = "Default",
+		["Staceyjones - Frostmourne"] = "Default",
+		["Ignaciò - Frostmourne"] = "Default",
+		["Humphrëy - Frostmourne"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["settings"] = {
+				["autoButtonHotKey"] = "SPACE",
+			},
+			["pluginOrders"] = {
+				"Rematch", -- [1]
+				"Base", -- [2]
+				"FirstEnemy", -- [3]
+				"AllInOne", -- [4]
+			},
+		},
+	},
+}

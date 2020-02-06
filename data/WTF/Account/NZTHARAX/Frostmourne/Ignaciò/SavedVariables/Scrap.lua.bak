@@ -1,0 +1,15 @@
+
+Scrap_Junk = {
+	[69611] = true,
+	[69608] = true,
+	[69612] = true,
+	[69606] = true,
+	[69610] = true,
+	[69605] = true,
+}
+Scrap_AI = {
+}
+Scrap_LowEquip = nil
+Scrap_LowConsume = nil
+Scrap_Unusable = nil
+Scrap_ShareList = nil

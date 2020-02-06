@@ -1,0 +1,434 @@
+
+SpyDB = {
+	["kosData"] = {
+		["Frostmourne"] = {
+			["Horde"] = {
+				["Lohmisu"] = {
+				},
+				["Benjarclay"] = {
+				},
+				["Lefane"] = {
+				},
+			},
+			["Alliance"] = {
+				["Gutterspeak"] = {
+				},
+				["Gudrudrune"] = {
+				},
+				["Ardern"] = {
+				},
+				["Humphrëy"] = {
+				},
+				["Ignaciò"] = {
+				},
+				["Antoínette"] = {
+				},
+				["Jellastie"] = {
+				},
+				["Parrob"] = {
+				},
+				["Petër"] = {
+				},
+				["Staceyjones"] = {
+				},
+				["Rändolph"] = {
+				},
+				["Davidgray"] = {
+				},
+				["Brewswaying"] = {
+				},
+			},
+		},
+		["Spinebreaker"] = {
+			["Horde"] = {
+				["Randolph"] = {
+				},
+			},
+		},
+	},
+	["removeKOSData"] = {
+		["Frostmourne"] = {
+			["Horde"] = {
+			},
+			["Alliance"] = {
+			},
+		},
+		["Spinebreaker"] = {
+			["Horde"] = {
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Davidgray - Frostmourne"] = "Davidgray - Frostmourne",
+		["Gudrudrune - Frostmourne"] = "Gudrudrune - Frostmourne",
+		["Ardern - Frostmourne"] = "Ardern - Frostmourne",
+		["Benjarclay - Frostmourne"] = "Benjarclay - Frostmourne",
+		["Staceyjones - Frostmourne"] = "Staceyjones - Frostmourne",
+		["Rändolph - Frostmourne"] = "Rändolph - Frostmourne",
+		["Parrob - Frostmourne"] = "Parrob - Frostmourne",
+		["Jellastie - Frostmourne"] = "Jellastie - Frostmourne",
+		["Antoínette - Frostmourne"] = "Antoínette - Frostmourne",
+		["Lefane - Frostmourne"] = "Lefane - Frostmourne",
+		["Randolph - Spinebreaker"] = "Randolph - Spinebreaker",
+		["Petër - Frostmourne"] = "Petër - Frostmourne",
+		["Gutterspeak - Frostmourne"] = "Gutterspeak - Frostmourne",
+		["Brewswaying - Frostmourne"] = "Brewswaying - Frostmourne",
+		["Humphrëy - Frostmourne"] = "Humphrëy - Frostmourne",
+		["Ignaciò - Frostmourne"] = "Ignaciò - Frostmourne",
+		["Lohmisu - Frostmourne"] = "Lohmisu - Frostmourne",
+	},
+	["profiles"] = {
+		["Davidgray - Frostmourne"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 182.9999847412109,
+					["h"] = 35,
+					["w"] = 157.9999847412109,
+					["x"] = 0,
+				},
+			},
+			["Colors"] = {
+				["Alert"] = {
+					["Stealth Text"] = {
+						["a"] = 1,
+					},
+					["Name Text"] = {
+						["a"] = 1,
+					},
+				},
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Gudrudrune - Frostmourne"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindow"] = {
+				["Position"] = {
+					["h"] = 35,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Ardern - Frostmourne"] = {
+			["MainWindowVis"] = false,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 880.5001220703125,
+					["h"] = 35,
+					["x"] = 383.0000915527344,
+				},
+			},
+			["Colors"] = {
+				["Alert"] = {
+					["Stealth Text"] = {
+						["a"] = 1,
+					},
+					["Name Text"] = {
+						["a"] = 1,
+					},
+				},
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+			["AppendUnitNameCheck"] = true,
+		},
+		["Benjarclay - Frostmourne"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindow"] = {
+				["Position"] = {
+					["h"] = 35,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Staceyjones - Frostmourne"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -932.4997863769531,
+					["h"] = 35,
+					["x"] = -2636.000732421875,
+				},
+			},
+			["Colors"] = {
+				["Alert"] = {
+					["Stealth Text"] = {
+						["a"] = 1,
+					},
+					["Name Text"] = {
+						["a"] = 1,
+					},
+				},
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Rändolph - Frostmourne"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -2047.499694824219,
+					["h"] = 35,
+					["w"] = 160.0001373291016,
+					["x"] = -4396.0009765625,
+				},
+			},
+			["Colors"] = {
+				["Alert"] = {
+					["Stealth Text"] = {
+						["a"] = 1,
+					},
+					["Name Text"] = {
+						["a"] = 1,
+					},
+				},
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Parrob - Frostmourne"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -1499.999816894531,
+					["h"] = 55.00001525878906,
+					["w"] = 160.0001373291016,
+					["x"] = -3516.00048828125,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+			["MainWindowVis"] = false,
+		},
+		["Jellastie - Frostmourne"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 182.5000610351563,
+					["x"] = -875.9999923706055,
+					["h"] = 35,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Antoínette - Frostmourne"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 485.4998168945313,
+					["x"] = -344,
+					["h"] = 35,
+				},
+			},
+			["Colors"] = {
+				["Alert"] = {
+					["Stealth Text"] = {
+						["a"] = 1,
+					},
+					["Name Text"] = {
+						["a"] = 1,
+					},
+				},
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Lefane - Frostmourne"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindow"] = {
+				["Position"] = {
+					["h"] = 35,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Randolph - Spinebreaker"] = {
+			["AppendUnitNameCheck"] = true,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Petër - Frostmourne"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 904.9999389648438,
+					["h"] = 35,
+					["w"] = 165.0000152587891,
+					["x"] = 318,
+				},
+			},
+			["Colors"] = {
+				["Alert"] = {
+					["Stealth Text"] = {
+						["a"] = 1,
+					},
+					["Name Text"] = {
+						["a"] = 1,
+					},
+				},
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitNameCheck"] = true,
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Gutterspeak - Frostmourne"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -374.9998626708984,
+					["h"] = 35,
+					["x"] = -1756.000061035156,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Brewswaying - Frostmourne"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindow"] = {
+				["Position"] = {
+					["h"] = 35,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Humphrëy - Frostmourne"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 955.0001220703125,
+					["x"] = 369.0000610351563,
+					["h"] = 275.0000305175781,
+				},
+			},
+			["Colors"] = {
+				["Alert"] = {
+					["Stealth Text"] = {
+						["a"] = 1,
+					},
+					["Name Text"] = {
+						["a"] = 1,
+					},
+				},
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+			["MainWindowVis"] = false,
+		},
+		["Ignaciò - Frostmourne"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 182.5000610351563,
+					["x"] = -875.9999923706055,
+					["h"] = 35,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Lohmisu - Frostmourne"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindow"] = {
+				["Position"] = {
+					["h"] = 35,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+	},
+}

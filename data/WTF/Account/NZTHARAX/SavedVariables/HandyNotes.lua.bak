@@ -1,0 +1,121 @@
+
+HandyNotesDB = {
+	["profileKeys"] = {
+		["Davidgray - Frostmourne"] = "Davidgray - Frostmourne",
+		["Gudrudrune - Frostmourne"] = "Gudrudrune - Frostmourne",
+		["Ardern - Frostmourne"] = "Ardern - Frostmourne",
+		["Benjarclay - Frostmourne"] = "Benjarclay - Frostmourne",
+		["Staceyjones - Frostmourne"] = "Staceyjones - Frostmourne",
+		["Rändolph - Frostmourne"] = "Rändolph - Frostmourne",
+		["Parrob - Frostmourne"] = "Parrob - Frostmourne",
+		["Jellastie - Frostmourne"] = "Jellastie - Frostmourne",
+		["Randolph - Spinebreaker"] = "Randolph - Spinebreaker",
+		["Humphrëy - Frostmourne"] = "Humphrëy - Frostmourne",
+		["Lefane - Frostmourne"] = "Lefane - Frostmourne",
+		["Gavinral - Frostmourne"] = "Gavinral - Frostmourne",
+		["Petër - Frostmourne"] = "Petër - Frostmourne",
+		["Lohmisu - Frostmourne"] = "Lohmisu - Frostmourne",
+		["Gutterspeak - Frostmourne"] = "Gutterspeak - Frostmourne",
+		["Antoínette - Frostmourne"] = "Antoínette - Frostmourne",
+		["Ignaciò - Frostmourne"] = "Ignaciò - Frostmourne",
+		["Brewswaying - Frostmourne"] = "Brewswaying - Frostmourne",
+	},
+	["profiles"] = {
+		["Davidgray - Frostmourne"] = {
+		},
+		["Gudrudrune - Frostmourne"] = {
+		},
+		["Ardern - Frostmourne"] = {
+		},
+		["Benjarclay - Frostmourne"] = {
+		},
+		["Staceyjones - Frostmourne"] = {
+		},
+		["Rändolph - Frostmourne"] = {
+		},
+		["Parrob - Frostmourne"] = {
+		},
+		["Jellastie - Frostmourne"] = {
+		},
+		["Randolph - Spinebreaker"] = {
+		},
+		["Humphrëy - Frostmourne"] = {
+		},
+		["Lefane - Frostmourne"] = {
+		},
+		["Gavinral - Frostmourne"] = {
+		},
+		["Petër - Frostmourne"] = {
+		},
+		["Lohmisu - Frostmourne"] = {
+		},
+		["Gutterspeak - Frostmourne"] = {
+		},
+		["Antoínette - Frostmourne"] = {
+		},
+		["Ignaciò - Frostmourne"] = {
+		},
+		["Brewswaying - Frostmourne"] = {
+		},
+	},
+}
+HandyNotes_HandyNotesDB = {
+	["profileKeys"] = {
+		["Davidgray - Frostmourne"] = "Davidgray - Frostmourne",
+		["Gudrudrune - Frostmourne"] = "Gudrudrune - Frostmourne",
+		["Ardern - Frostmourne"] = "Ardern - Frostmourne",
+		["Benjarclay - Frostmourne"] = "Benjarclay - Frostmourne",
+		["Staceyjones - Frostmourne"] = "Staceyjones - Frostmourne",
+		["Rändolph - Frostmourne"] = "Rändolph - Frostmourne",
+		["Parrob - Frostmourne"] = "Parrob - Frostmourne",
+		["Jellastie - Frostmourne"] = "Jellastie - Frostmourne",
+		["Randolph - Spinebreaker"] = "Randolph - Spinebreaker",
+		["Humphrëy - Frostmourne"] = "Humphrëy - Frostmourne",
+		["Lefane - Frostmourne"] = "Lefane - Frostmourne",
+		["Gavinral - Frostmourne"] = "Gavinral - Frostmourne",
+		["Petër - Frostmourne"] = "Petër - Frostmourne",
+		["Lohmisu - Frostmourne"] = "Lohmisu - Frostmourne",
+		["Gutterspeak - Frostmourne"] = "Gutterspeak - Frostmourne",
+		["Antoínette - Frostmourne"] = "Antoínette - Frostmourne",
+		["Ignaciò - Frostmourne"] = "Ignaciò - Frostmourne",
+		["Brewswaying - Frostmourne"] = "Brewswaying - Frostmourne",
+	},
+	["profiles"] = {
+		["Davidgray - Frostmourne"] = {
+		},
+		["Gudrudrune - Frostmourne"] = {
+		},
+		["Ardern - Frostmourne"] = {
+		},
+		["Benjarclay - Frostmourne"] = {
+		},
+		["Staceyjones - Frostmourne"] = {
+		},
+		["Rändolph - Frostmourne"] = {
+		},
+		["Parrob - Frostmourne"] = {
+		},
+		["Jellastie - Frostmourne"] = {
+		},
+		["Randolph - Spinebreaker"] = {
+		},
+		["Humphrëy - Frostmourne"] = {
+		},
+		["Lefane - Frostmourne"] = {
+		},
+		["Gavinral - Frostmourne"] = {
+		},
+		["Petër - Frostmourne"] = {
+		},
+		["Lohmisu - Frostmourne"] = {
+		},
+		["Gutterspeak - Frostmourne"] = {
+		},
+		["Antoínette - Frostmourne"] = {
+		},
+		["Ignaciò - Frostmourne"] = {
+		},
+		["Brewswaying - Frostmourne"] = {
+		},
+	},
+}

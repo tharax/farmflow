@@ -1,0 +1,12 @@
+
+DailyGlobalCheck_PluginData = {
+	["Isle of Thunder"] = {
+		["active"] = true,
+	},
+	["World Bosses"] = {
+		["active"] = true,
+	},
+	["Professions"] = {
+		["active"] = true,
+	},
+}

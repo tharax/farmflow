@@ -1,0 +1,4 @@
+
+ClassicQuestLogCollapsedHeaders = {
+	["Stonetalon Mountains"] = true,
+}

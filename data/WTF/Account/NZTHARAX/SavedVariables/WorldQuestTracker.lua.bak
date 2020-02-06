@@ -1,0 +1,8208 @@
+
+WQTrackerDB = {
+	["profileKeys"] = {
+		["Davidgray - Frostmourne"] = "Default",
+		["Gudrudrune - Frostmourne"] = "Default",
+		["Ardern - Frostmourne"] = "Default",
+		["Benjarclay - Frostmourne"] = "Default",
+		["Staceyjones - Frostmourne"] = "Default",
+		["Rändolph - Frostmourne"] = "Default",
+		["Parrob - Frostmourne"] = "Default",
+		["Jellastie - Frostmourne"] = "Default",
+		["Randolph - Spinebreaker"] = "Default",
+		["Brewswaying - Frostmourne"] = "Default",
+		["Lefane - Frostmourne"] = "Default",
+		["Gavinral - Frostmourne"] = "Default",
+		["Petër - Frostmourne"] = "Default",
+		["Lohmisu - Frostmourne"] = "Default",
+		["Antoínette - Frostmourne"] = "Default",
+		["Gutterspeak - Frostmourne"] = "Default",
+		["Ignaciò - Frostmourne"] = "Default",
+		["Humphrëy - Frostmourne"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["raredetected"] = {
+				[151933] = true,
+				[152464] = true,
+				[152414] = true,
+				[153658] = true,
+				[154968] = true,
+				[151934] = true,
+				[151202] = true,
+				[152729] = true,
+				[152671] = true,
+				[152555] = true,
+				[135044] = true,
+				[152548] = true,
+				[155838] = true,
+				[155811] = true,
+				[150394] = true,
+				[152681] = true,
+				[152736] = true,
+			},
+			["tomtom"] = {
+				["enabled"] = true,
+				["uids"] = {
+					[51629] = {
+						864, -- [1]
+						0.2741406559944153, -- [2]
+						0.5023486614227295, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Shell Game",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51637] = {
+						896, -- [1]
+						0.2161509394645691, -- [2]
+						0.2657734155654907, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Beachhead",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[55215] = {
+						896, -- [1]
+						0.2161509394645691, -- [2]
+						0.2657734155654907, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "The Cycle of Life",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51653] = {
+						895, -- [1]
+						0.7485811114311218, -- [2]
+						0.7894940972328186, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Auditor Dolp",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51661] = {
+						895, -- [1]
+						0.6470245122909546, -- [2]
+						0.585312008857727, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Raging Swell",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51669] = {
+						895, -- [1]
+						0.5609778165817261, -- [2]
+						0.6990388035774231, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Black-Eyed Bart",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51422] = {
+						864, -- [1]
+						0.5947278738021851, -- [2]
+						0.6115597486495972, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Madness",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51175] = {
+						862, -- [1]
+						0.5647550821304321, -- [2]
+						0.2230133414268494, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Wounds",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[56036] = {
+						1355, -- [1]
+						0.4494969248771668, -- [2]
+						0.5076043605804443, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "A Steamy Situation",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52474] = {
+						942, -- [1]
+						0.3469650745391846, -- [2]
+						0.6786344051361084, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Poacher Zane",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51972] = {
+						896, -- [1]
+						0.6299200057983398, -- [2]
+						0.6937474012374878, -- [3]
+						["world"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Lost Goat",
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["crazy"] = true,
+						["persistent"] = true,
+						["minimap"] = true,
+					},
+					[51988] = {
+						876, -- [1]
+						0.2975552082061768, -- [2]
+						0.7614306211471558, -- [3]
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Whitney \"Steelclaw\" Ramsay",
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["crazy"] = true,
+						["persistent"] = true,
+						["world"] = true,
+					},
+					[54570] = {
+						14, -- [1]
+						0.7934566140174866, -- [2]
+						0.2912483811378479, -- [3]
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Geomancer Flintdagger",
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["crazy"] = true,
+						["persistent"] = true,
+						["world"] = true,
+					},
+					[51781] = {
+						942, -- [1]
+						0.6437723636627197, -- [2]
+						0.6596035957336426, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Foreman Scripps",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50514] = {
+						863, -- [1]
+						0.4955810904502869, -- [2]
+						0.379226565361023, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Totem Maker Jash'ga",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51542] = {
+						896, -- [1]
+						0.446042001247406, -- [2]
+						0.8762310743331909, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Avalanche",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51566] = {
+						895, -- [1]
+						0.3474795818328857, -- [2]
+						0.2404890656471252, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Resurgence of the Beast",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[53877] = {
+						895, -- [1]
+						0.7669233083724976, -- [2]
+						0.4323272109031677, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Eastpoint Encounter",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52355] = {
+						1161, -- [1]
+						0.6769789457321167, -- [2]
+						0.2176981568336487, -- [3]
+						["world"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Work Order: Enchant Weapon - Coastal Surge",
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["crazy"] = true,
+						["persistent"] = true,
+						["minimap"] = true,
+					},
+					[52873] = {
+						942, -- [1]
+						0.3629944324493408, -- [2]
+						0.6767841577529907, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Mining",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52889] = {
+						942, -- [1]
+						0.7232146263122559, -- [2]
+						0.4936123490333557, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Sandscour",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51630] = {
+						875, -- [1]
+						0.4548452496528626, -- [2]
+						0.8343759179115295, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Shell Game",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51638] = {
+						895, -- [1]
+						0.5802640914916992, -- [2]
+						0.7613659501075745, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Beachhead",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51901] = {
+						942, -- [1]
+						0.5128953456878662, -- [2]
+						0.5554625988006592, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Crushtacean",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51909] = {
+						896, -- [1]
+						0.5028611421585083, -- [2]
+						0.2040740251541138, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Grozgore",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51917] = {
+						896, -- [1]
+						0.5075670480728149, -- [2]
+						0.2994989156723023, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Beshol",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51415] = {
+						863, -- [1]
+						0.2351130247116089, -- [2]
+						0.6345032453536987, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Madness",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[53726] = {
+						1161, -- [1]
+						0.3168401718139648, -- [2]
+						0.6408352255821228, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Mechinations",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52459] = {
+						942, -- [1]
+						0.4683302044868469, -- [2]
+						0.4248899221420288, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Whirlwing",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[54786] = {
+						864, -- [1]
+						0.3683792352676392, -- [2]
+						0.3803670406341553, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Stop the Shipments",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50459] = {
+						863, -- [1]
+						0.4645457863807678, -- [2]
+						0.3349671959877014, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Vugthuth",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50985] = {
+						896, -- [1]
+						0.3815540075302124, -- [2]
+						0.4906100630760193, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Work Order: Siren's Pollen",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50483] = {
+						863, -- [1]
+						0.5544148683547974, -- [2]
+						0.5771088600158691, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Underlord Xerxiz",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51774] = {
+						942, -- [1]
+						0.4131962656974793, -- [2]
+						0.7396917343139648, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Ragna",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51782] = {
+						942, -- [1]
+						0.4720293283462524, -- [2]
+						0.6582819819450378, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Captain Razorspine",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50515] = {
+						863, -- [1]
+						0.2929947972297669, -- [2]
+						0.5068649053573608, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Venomjaw",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51806] = {
+						942, -- [1]
+						0.3589431047439575, -- [2]
+						0.3693832755088806, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Pest Remover Mk. II",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51814] = {
+						862, -- [1]
+						0.7052227854728699, -- [2]
+						0.397607147693634, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Ravoracious",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52858] = {
+						862, -- [1]
+						0.7527147531509399, -- [2]
+						0.4220679998397827, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Empowerment",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50324] = {
+						895, -- [1]
+						0.6722450256347656, -- [2]
+						0.5531365871429443, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Picturesque Fizzsprings Resort",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51615] = {
+						896, -- [1]
+						0.4111835956573486, -- [2]
+						0.363028347492218, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Mining",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51623] = {
+						942, -- [1]
+						0.7077137231826782, -- [2]
+						0.8533480763435364, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Wounds",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51639] = {
+						942, -- [1]
+						0.3062751889228821, -- [2]
+						0.5758150219917297, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Beachhead",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[55982] = {
+						1355, -- [1]
+						0.362501323223114, -- [2]
+						0.7221099138259888, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "The Lords of Water",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52165] = {
+						942, -- [1]
+						0.3644036054611206, -- [2]
+						0.3342291116714478, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Automated Chaos",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52181] = {
+						863, -- [1]
+						0.3535422086715698, -- [2]
+						0.3212611079216003, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Smoke and Shadow",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[56014] = {
+						1355, -- [1]
+						0.455359160900116, -- [2]
+						0.2969670295715332, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Runelocked Chest",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52452] = {
+						942, -- [1]
+						0.7098274230957031, -- [2]
+						0.3215419054031372, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Song Mistress Dadalea",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51185] = {
+						864, -- [1]
+						0.606764554977417, -- [2]
+						0.6249909400939941, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Empowerment",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50468] = {
+						863, -- [1]
+						0.4991986751556397, -- [2]
+						0.6747649908065796, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Shul-Nagruth",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51241] = {
+						895, -- [1]
+						0.7117617726325989, -- [2]
+						0.1838280558586121, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "The Bear Witch Project",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51759] = {
+						942, -- [1]
+						0.3323448896408081, -- [2]
+						0.382863461971283, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Seabreaker Skoloth",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51528] = {
+						896, -- [1]
+						0.2820332646369934, -- [2]
+						0.1392374038696289, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Captain Leadfist",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[53329] = {
+						862, -- [1]
+						0.7133743762969971, -- [2]
+						0.3502807021141052, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Ductile Platinum",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[55895] = {
+						1355, -- [1]
+						0.3324866890907288, -- [2]
+						0.3999999761581421, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Frozen Winds of Zhiela",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51893] = {
+						895, -- [1]
+						0.7651700377464294, -- [2]
+						0.3143507838249207, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Sawtooth",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51576] = {
+						896, -- [1]
+						0.2351487874984741, -- [2]
+						0.5470806360244751, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Any Witch Way but Dead",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51584] = {
+						895, -- [1]
+						0.6050801277160645, -- [2]
+						0.477048933506012, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Madness",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52045] = {
+						942, -- [1]
+						0.4512439966201782, -- [2]
+						0.7349339723587036, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Boarder Patrol",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52875] = {
+						864, -- [1]
+						0.3426911234855652, -- [2]
+						0.6282936334609985, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Mining",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51608] = {
+						896, -- [1]
+						0.4029918909072876, -- [2]
+						0.3891721367835999, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Madness",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52126] = {
+						942, -- [1]
+						0.4255265593528748, -- [2]
+						0.7669163942337036, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "This Little Piggy Has Sharp Tusks",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51431] = {
+						896, -- [1]
+						0.271052896976471, -- [2]
+						0.5468192100524902, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Soul Goliath",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51632] = {
+						895, -- [1]
+						0.6184321641921997, -- [2]
+						0.3129342794418335, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Make Loh Go",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51640] = {
+						863, -- [1]
+						0.7394843101501465, -- [2]
+						0.1071028113365173, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Beachhead",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51095] = {
+						864, -- [1]
+						0.5470214486122131, -- [2]
+						0.1513761878013611, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Ashmane",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52166] = {
+						942, -- [1]
+						0.8292549848556519, -- [2]
+						0.4880617260932922, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "The Faceless Herald",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51154] = {
+						863, -- [1]
+						0.6848393678665161, -- [2]
+						0.3501010537147522, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Past Due",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51758] = {
+						1161, -- [1]
+						0.5437387228012085, -- [2]
+						0.4501726627349854, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Weapons Shipment",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50315] = {
+						895, -- [1]
+						0.6679292321205139, -- [2]
+						0.572765588760376, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Not On the Itinerary",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52198] = {
+						942, -- [1]
+						0.5613356828689575, -- [2]
+						0.5940529108047485, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Tank and Spank",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[56796] = {
+						1355, -- [1]
+						0.3800880312919617, -- [2]
+						0.5575384497642517, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Work Order: Fragrant Kakavia",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51670] = {
+						895, -- [1]
+						0.6828997135162354, -- [2]
+						0.1992074847221375, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Lumbergrasp Sentinel",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51098] = {
+						864, -- [1]
+						0.4251865744590759, -- [2]
+						0.9204772114753723, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Commodore Calhoun",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[57330] = {
+						1355, -- [1]
+						0.4260479807853699, -- [2]
+						0.7783735990524292, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Time for Revenge",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[57338] = {
+						1355, -- [1]
+						0.4183098077774048, -- [2]
+						0.4133626222610474, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Depopulation Effort",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52325] = {
+						942, -- [1]
+						0.7718310952186584, -- [2]
+						0.2919383645057678, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Captured Evil",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52832] = {
+						863, -- [1]
+						0.6760809421539307, -- [2]
+						0.2110409736633301, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Empowerment",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52309] = {
+						942, -- [1]
+						0.7339595556259155, -- [2]
+						0.607797384262085, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "SandFang",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50509] = {
+						863, -- [1]
+						0.7756604552268982, -- [2]
+						0.4517548680305481, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Lo'kuno",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[54573] = {
+						14, -- [1]
+						0.6531093716621399, -- [2]
+						0.7078516483306885, -- [3]
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Beastrider Kama",
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["crazy"] = true,
+						["persistent"] = true,
+						["world"] = true,
+					},
+					[54621] = {
+						14, -- [1]
+						0.618885338306427, -- [2]
+						0.3106553554534912, -- [3]
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Twice-Exiled",
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["crazy"] = true,
+						["persistent"] = true,
+						["world"] = true,
+					},
+					[51529] = {
+						896, -- [1]
+						0.319506049156189, -- [2]
+						0.4066884517669678, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Talon",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50517] = {
+						863, -- [1]
+						0.530805230140686, -- [2]
+						0.542557954788208, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Mala'kili and Rohnkor",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[54605] = {
+						14, -- [1]
+						0.5924264192581177, -- [2]
+						0.2821917533874512, -- [3]
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Fozruk",
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["crazy"] = true,
+						["persistent"] = true,
+						["world"] = true,
+					},
+					[55888] = {
+						1355, -- [1]
+						0.607542872428894, -- [2]
+						0.1285274624824524, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Champion Qalina, Spear of Ice",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[55896] = {
+						1355, -- [1]
+						0.6380264759063721, -- [2]
+						0.5701978206634521, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Undana, Chilling Assassin",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[55894] = {
+						1355, -- [1]
+						0.7747339010238647, -- [2]
+						0.4376263618469238, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Zoko, Her Iron Defender",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52300] = {
+						942, -- [1]
+						0.4230604767799377, -- [2]
+						0.748414158821106, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Wagga Snarltusk",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[53717] = {
+						942, -- [1]
+						0.4017467498779297, -- [2]
+						0.6307929754257202, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Hold the Highland",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52891] = {
+						942, -- [1]
+						0.6786494255065918, -- [2]
+						0.7679736614227295, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Wendigo to Sleep",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51107] = {
+						864, -- [1]
+						0.4455902576446533, -- [2]
+						0.8026790022850037, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Scaleclaw Broodmother",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52884] = {
+						863, -- [1]
+						0.2663387060165405, -- [2]
+						0.8195359706878662, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Wounds",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51617] = {
+						942, -- [1]
+						0.7061283588409424, -- [2]
+						0.8594273924827576, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Empowerment",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51115] = {
+						864, -- [1]
+						0.4385443329811096, -- [2]
+						0.5388991832733154, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Zunashi the Exile",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50868] = {
+						862, -- [1]
+						0.6667093634605408, -- [2]
+						0.3220975399017334, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Bramblewing",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50876] = {
+						862, -- [1]
+						0.6032685041427612, -- [2]
+						0.665258526802063, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Murderbeak",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52924] = {
+						942, -- [1]
+						0.6834053993225098, -- [2]
+						0.6828634738922119, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Mead Some Help?",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52167] = {
+						895, -- [1]
+						0.5806687474250793, -- [2]
+						0.6603878736495972, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Hardcore Raiders",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[55886] = {
+						1355, -- [1]
+						0.6380264759063721, -- [2]
+						0.5701978206634521, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "The Zanj'ir Brutalizer",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51434] = {
+						896, -- [1]
+						0.4950180649757385, -- [2]
+						0.4346623420715332, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Stone Golem",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51681] = {
+						896, -- [1]
+						0.7003339529037476, -- [2]
+						0.6155773997306824, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Basic Witch",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52964] = {
+						942, -- [1]
+						0.3060990571975708, -- [2]
+						0.6712335348129272, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Pest Problem",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52972] = {
+						942, -- [1]
+						0.3071559071540833, -- [2]
+						0.7489427924156189, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Favored Grandchild",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51450] = {
+						862, -- [1]
+						0.5618016719818115, -- [2]
+						0.2301034331321716, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Mining",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52988] = {
+						942, -- [1]
+						0.6020256280899048, -- [2]
+						0.4098238348960877, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "House Cleaning",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51433] = {
+						896, -- [1]
+						0.3470441699028015, -- [2]
+						0.1975380778312683, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Matron Morana",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51633] = {
+						942, -- [1]
+						0.2277137637138367, -- [2]
+						0.7108811140060425, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Make Loh Go",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51625] = {
+						896, -- [1]
+						0.2178938388824463, -- [2]
+						0.2244662046432495, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Shell Game",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52159] = {
+						895, -- [1]
+						0.7705647945404053, -- [2]
+						0.8263238072395325, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Swab This!",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52163] = {
+						895, -- [1]
+						0.6265243291854858, -- [2]
+						0.2317875623703003, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "The Winged Typhoon",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51530] = {
+						896, -- [1]
+						0.2361944913864136, -- [2]
+						0.1442047357559204, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Wedding Crashers",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51666] = {
+						895, -- [1]
+						0.3442427515983582, -- [2]
+						0.3030185699462891, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Bashmu",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50502] = {
+						863, -- [1]
+						0.4508369565010071, -- [2]
+						0.5191433429718018, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Jax'teb the Reanimated",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[53315] = {
+						895, -- [1]
+						0.6085866689682007, -- [2]
+						0.4778583645820618, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Smooth Platinum",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50518] = {
+						875, -- [1]
+						0.5352476239204407, -- [2]
+						0.3840054869651794, -- [3]
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Zanxib",
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["crazy"] = true,
+						["persistent"] = true,
+						["world"] = true,
+					},
+					[51379] = {
+						864, -- [1]
+						0.5244159698486328, -- [2]
+						0.2484771013259888, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Temple of Sethraliss: Navigating Currents",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[55889] = {
+						1355, -- [1]
+						0.5036640167236328, -- [2]
+						0.172483503818512, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Champion Kyx'zhul the Deepspeaker",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[54471] = {
+						896, -- [1]
+						0.3372838497161865, -- [2]
+						0.4817211627960205, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Tend the Wounded",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51397] = {
+						896, -- [1]
+						0.3639504909515381, -- [2]
+						0.3648583889007568, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Up In Your Drill",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51644] = {
+						942, -- [1]
+						0.7080659866333008, -- [2]
+						0.8536124229431152, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Mining",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51841] = {
+						895, -- [1]
+						0.8521608114242554, -- [2]
+						0.7346543073654175, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Blackthorne",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51849] = {
+						876, -- [1]
+						0.5386615991592407, -- [2]
+						0.4597424864768982, -- [3]
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Tempestria",
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["crazy"] = true,
+						["persistent"] = true,
+						["world"] = true,
+					},
+					[52877] = {
+						875, -- [1]
+						0.4716719388961792, -- [2]
+						0.7690809369087219, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Mining",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51610] = {
+						895, -- [1]
+						0.8549930453300476, -- [2]
+						0.4319224953651428, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Adhara White",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51618] = {
+						942, -- [1]
+						0.7166971564292908, -- [2]
+						0.8303524851799011, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Madness",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51626] = {
+						895, -- [1]
+						0.6359651684761047, -- [2]
+						0.5721585750579834, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Shell Game",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52144] = {
+						895, -- [1]
+						0.8021242618560791, -- [2]
+						0.4827150702476502, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Foundry Meltdown",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51642] = {
+						862, -- [1]
+						0.6354024410247803, -- [2]
+						0.6868833303451538, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Beachhead",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51905] = {
+						942, -- [1]
+						0.6895705461502075, -- [2]
+						0.5155507326126099, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Reinforced Hullbreaker",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52168] = {
+						942, -- [1]
+						0.561159610748291, -- [2]
+						0.6426873207092285, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "It's Lit",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51921] = {
+						942, -- [1]
+						0.4191852807998657, -- [2]
+						0.2837445139884949, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Slickspill",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52941] = {
+						942, -- [1]
+						0.6701943874359131, -- [2]
+						0.4198678731918335, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Light in the Darkness",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[56021] = {
+						1355, -- [1]
+						0.371411919593811, -- [2]
+						0.1615824103355408, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Runelocked Chest",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51620] = {
+						896, -- [1]
+						0.6769788265228271, -- [2]
+						0.4090414047241211, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Natural Resources",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52463] = {
+						942, -- [1]
+						0.3490788340568543, -- [2]
+						0.78066086769104, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Haegol the Hammer",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50490] = {
+						863, -- [1]
+						0.4449344873428345, -- [2]
+						0.4883045554161072, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Uroku the Bound",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51609] = {
+						896, -- [1]
+						0.4061291813850403, -- [2]
+						0.3781917095184326, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Wounds",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51977] = {
+						942, -- [1]
+						0.341856837272644, -- [2]
+						0.3181057572364807, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Sabertron",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[55300] = {
+						895, -- [1]
+						0.5787805318832397, -- [2]
+						0.7601518034934998, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "The Cycle of Life",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51176] = {
+						863, -- [1]
+						0.3466877937316895, -- [2]
+						0.8438072204589844, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Unaccounted For",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52353] = {
+						942, -- [1]
+						0.5935705900192261, -- [2]
+						0.6934361457824707, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Work Order: Enchant Ring - Seal of Haste",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52009] = {
+						896, -- [1]
+						0.2124907970428467, -- [2]
+						0.6636819839477539, -- [3]
+						["world"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Crab People",
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["crazy"] = true,
+						["persistent"] = true,
+						["minimap"] = true,
+					},
+					[55304] = {
+						862, -- [1]
+						0.6354024410247803, -- [2]
+						0.6868833303451538, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "The Cycle of Life",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[55340] = {
+						895, -- [1]
+						0.5735206604003906, -- [2]
+						0.6184991598129272, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Calligraphy",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[54838] = {
+						62, -- [1]
+						0.5082565546035767, -- [2]
+						0.318743884563446, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Croz Bloodrage",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50511] = {
+						863, -- [1]
+						0.4285600781440735, -- [2]
+						0.6073765158653259, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Bajiatha",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[54089] = {
+						896, -- [1]
+						0.3186346292495728, -- [2]
+						0.3279956579208374, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Omgar Doombow",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52869] = {
+						895, -- [1]
+						0.5264512300491333, -- [2]
+						0.2103373408317566, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Empowerment",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51127] = {
+						863, -- [1]
+						0.638762354850769, -- [2]
+						0.1213800311088562, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Getting Out of Hand",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[55898] = {
+						1355, -- [1]
+						0.3324866890907288, -- [2]
+						0.3999999761581421, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Tempest-Speaker Shalan'ali",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[55891] = {
+						1355, -- [1]
+						0.607542872428894, -- [2]
+						0.1285274624824524, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Champion Aldrantiss, Defender of Her Kingdom",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50862] = {
+						862, -- [1]
+						0.5957076549530029, -- [2]
+						0.1847267746925354, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Bloodbulge",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52352] = {
+						942, -- [1]
+						0.3161394000053406, -- [2]
+						0.5528194308280945, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Zeritarj",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51635] = {
+						864, -- [1]
+						0.6327462196350098, -- [2]
+						0.23372483253479, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Make Loh Go",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52878] = {
+						864, -- [1]
+						0.4508746266365051, -- [2]
+						0.4618349075317383, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Desert Survivors",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51611] = {
+						895, -- [1]
+						0.6950379610061646, -- [2]
+						0.468347430229187, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Ghost of the Deep",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51874] = {
+						896, -- [1]
+						0.2802903652191162, -- [2]
+						0.2600217461585999, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Gorged Boar",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51627] = {
+						942, -- [1]
+						0.403508186340332, -- [2]
+						0.3437445163726807, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Shell Game",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[43985] = {
+						650, -- [1]
+						0.4915379881858826, -- [2]
+						0.07374006509780884, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "A Dark Tide",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51388] = {
+						895, -- [1]
+						0.3806574940681458, -- [2]
+						0.296138346195221, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Stopping the Infestation",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51667] = {
+						896, -- [1]
+						0.3182860016822815, -- [2]
+						0.243812620639801, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "This Bird You Cannot Change",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51659] = {
+						895, -- [1]
+						0.4296150207519531, -- [2]
+						0.1668297052383423, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Merianae",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52432] = {
+						942, -- [1]
+						0.5696146488189697, -- [2]
+						0.7597798109054565, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Squall",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[55303] = {
+						864, -- [1]
+						0.666214108467102, -- [2]
+						0.2154495716094971, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "The Cycle of Life",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51428] = {
+						864, -- [1]
+						0.5986911654472351, -- [2]
+						0.6095780730247498, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Wounds",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51156] = {
+						864, -- [1]
+						0.5365993976593018, -- [2]
+						0.3457981944084168, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Fangcaller Xorreth",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51444] = {
+						862, -- [1]
+						0.5686537027359009, -- [2]
+						0.2301034331321716, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Empowerment",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51586] = {
+						895, -- [1]
+						0.6052149534225464, -- [2]
+						0.4719899296760559, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Empowerment",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52010] = {
+						895, -- [1]
+						0.7322618961334229, -- [2]
+						0.3904384970664978, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "The Tendrils of Fate",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50958] = {
+						1161, -- [1]
+						0.5783031582832336, -- [2]
+						0.4183956384658814, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Watch Your Wallets",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[55301] = {
+						942, -- [1]
+						0.3041614294052124, -- [2]
+						0.5668282508850098, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "The Cycle of Life",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50989] = {
+						942, -- [1]
+						0.5944513082504272, -- [2]
+						0.6944934129714966, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Work Order: Storm Silver Ore",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[54267] = {
+						863, -- [1]
+						0.2948988080024719, -- [2]
+						0.30184406042099, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Naga Attack!",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51245] = {
+						895, -- [1]
+						0.6776398420333862, -- [2]
+						0.1771501302719116, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "I'm a Lumberjack and I'm Okay",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51890] = {
+						895, -- [1]
+						0.6822253465652466, -- [2]
+						0.6348904371261597, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Ranja the Last Chillpaw",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[55341] = {
+						942, -- [1]
+						0.3496072888374329, -- [2]
+						0.4798678755760193, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Calligraphy",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51842] = {
+						876, -- [1]
+						0.6034398078918457, -- [2]
+						0.8203719258308411, -- [3]
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Carla Smirk",
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["crazy"] = true,
+						["persistent"] = true,
+						["world"] = true,
+					},
+					[53317] = {
+						942, -- [1]
+						0.2537834644317627, -- [2]
+						0.6508811116218567, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Dense Storm Silver",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51157] = {
+						864, -- [1]
+						0.5948746204376221, -- [2]
+						0.08355963230133057, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Golanar",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51548] = {
+						863, -- [1]
+						0.8192622065544128, -- [2]
+						0.5254253149032593, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Nagative Feedback",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52321] = {
+						942, -- [1]
+						0.3129687905311585, -- [2]
+						0.6159912347793579, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Kickers",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51374] = {
+						862, -- [1]
+						0.5026138424873352, -- [2]
+						0.5433087348937988, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Unending Gorilla Warfare",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[56384] = {
+						1355, -- [1]
+						0.4218271970748901, -- [2]
+						0.1401318907737732, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Shadowspike Lurker",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52196] = {
+						864, -- [1]
+						0.4414801597595215, -- [2]
+						0.5547523498535156, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Sandswept Bones",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51843] = {
+						895, -- [1]
+						0.6528238654136658, -- [2]
+						0.6429848670959473, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "P4-N73R4",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52871] = {
+						942, -- [1]
+						0.7218054533004761, -- [2]
+						0.5211013555526733, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Empowerment",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[56057] = {
+						1355, -- [1]
+						0.8392184972763062, -- [2]
+						0.3595604300498962, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "The Soulbinder",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50847] = {
+						862, -- [1]
+						0.7699631452560425, -- [2]
+						0.278847873210907, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Twisted Child of Rezan",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50855] = {
+						862, -- [1]
+						0.5797588229179382, -- [2]
+						0.4896012246608734, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Old R'gal",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51641] = {
+						864, -- [1]
+						0.666214108467102, -- [2]
+						0.2154495716094971, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Beachhead",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51891] = {
+						895, -- [1]
+						0.6690081357955933, -- [2]
+						0.1334401965141296, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Sythian the Swift",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50369] = {
+						896, -- [1]
+						0.1846041083335877, -- [2]
+						0.5648584365844727, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Bruin Potions",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51652] = {
+						895, -- [1]
+						0.7600449919700623, -- [2]
+						0.8301686644554138, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Barman Bill",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51660] = {
+						895, -- [1]
+						0.3883450031280518, -- [2]
+						0.1524621248245239, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Pack Leader Asenya",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51658] = {
+						896, -- [1]
+						0.3202032446861267, -- [2]
+						0.2425054311752319, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Fly the Coop!",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50869] = {
+						862, -- [1]
+						0.7554320096969604, -- [2]
+						0.3582570552825928, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Kiboku",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[53188] = {
+						895, -- [1]
+						0.6849227547645569, -- [2]
+						0.6873018741607666, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Frozen Freestyle",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[49397] = {
+						896, -- [1]
+						0.6374145746231079, -- [2]
+						0.2968845367431641, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Sausage Party",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[56023] = {
+						1355, -- [1]
+						0.6692136526107788, -- [2]
+						0.357450544834137, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Leylocked Chest",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50875] = {
+						862, -- [1]
+						0.6528870463371277, -- [2]
+						0.1019498109817505, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Darkspeaker Jo'la",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[56022] = {
+						1355, -- [1]
+						0.371411919593811, -- [2]
+						0.1615824103355408, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Runelocked Chest",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51469] = {
+						896, -- [1]
+						0.5853012800216675, -- [2]
+						0.3300871253013611, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Betsy",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[55302] = {
+						863, -- [1]
+						0.7394843101501465, -- [2]
+						0.1071028113365173, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "The Cycle of Life",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51855] = {
+						942, -- [1]
+						0.3809614181518555, -- [2]
+						0.565242350101471, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "A Pirate's Life For Me",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[55264] = {
+						896, -- [1]
+						0.5645605325698853, -- [2]
+						0.3397603631019592, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Calligraphy",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52011] = {
+						942, -- [1]
+						0.485768735408783, -- [2]
+						0.6474449634552002, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Fiendish Fields",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[53804] = {
+						942, -- [1]
+						0.3462604880332947, -- [2]
+						0.5800440907478333, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Dinomancer Zakuru",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51895] = {
+						895, -- [1]
+						0.5836358666419983, -- [2]
+						0.5039629340171814, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Maison the Portable",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51583] = {
+						895, -- [1]
+						0.5998201966285706, -- [2]
+						0.4699662923812866, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Wounds",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[56382] = {
+						1355, -- [1]
+						0.7184563875198364, -- [2]
+						0.5114725232124329, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Chomp",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52306] = {
+						942, -- [1]
+						0.6287999153137207, -- [2]
+						0.3278855085372925, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Croaker",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[55884] = {
+						1355, -- [1]
+						0.648813009262085, -- [2]
+						0.3665934205055237, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Infestation of Madness",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[50792] = {
+						1161, -- [1]
+						0.6128674745559692, -- [2]
+						0.402507096529007, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Taking Bribes",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[55900] = {
+						1355, -- [1]
+						0.6853933930397034, -- [2]
+						0.3279120922088623, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Kassar, Wielder of Dark Blades",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51318] = {
+						895, -- [1]
+						0.628817081451416, -- [2]
+						0.38315349817276, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Go for the Boat",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51581] = {
+						895, -- [1]
+						0.5772969722747803, -- [2]
+						0.4677403569221497, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Mining",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52354] = {
+						942, -- [1]
+						0.5935705900192261, -- [2]
+						0.6934361457824707, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Work Order: Enchant Ring - Seal of Mastery",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52872] = {
+						896, -- [1]
+						0.5893099904060364, -- [2]
+						0.5256427526473999, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Azerite Mining",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[52880] = {
+						942, -- [1]
+						0.5002127885818481, -- [2]
+						0.7925551533699036, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["world"] = {
+							},
+							["minimap"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Milden Mud Snout",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51655] = {
+						895, -- [1]
+						0.6362348794937134, -- [2]
+						0.5029511451721191, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Teres",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51908] = {
+						896, -- [1]
+						0.5987217426300049, -- [2]
+						0.4529629945755005, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Nevermore",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					[51454] = {
+						896, -- [1]
+						0.3859112858772278, -- [2]
+						0.5985839366912842, -- [3]
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = true,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "Once More Into Battle",
+						["from"] = "?",
+						["crazy"] = true,
+						["world"] = true,
+					},
+				},
+			},
+			["TutorialPopupID"] = 5,
+			["TutorialTracker"] = 2,
+			["groupfinder"] = {
+				["ignored_quests"] = {
+					[51415] = true,
+					[52873] = true,
+					[52316] = true,
+					[57340] = true,
+					[52010] = true,
+					[52321] = true,
+					[55888] = true,
+					[51388] = true,
+					[56139] = true,
+					[55302] = true,
+					[53753] = true,
+					[51584] = true,
+					[51092] = true,
+					[51586] = true,
+					[51618] = true,
+					[54471] = true,
+					[52271] = true,
+					[57338] = true,
+					[50506] = true,
+					[56827] = true,
+					[52988] = true,
+					[51644] = true,
+					[51886] = true,
+					[51653] = true,
+					[56036] = true,
+					[52249] = true,
+					[51847] = true,
+					[51154] = true,
+					[51638] = true,
+				},
+				["frame"] = {
+					["y"] = -132.9998779296875,
+					["x"] = -411.9996337890625,
+					["point"] = "TOPRIGHT",
+					["scale"] = 1,
+				},
+			},
+			["low_level_tutorial"] = true,
+			["bar_anchor"] = "top",
+			["world_map_config"] = {
+				["summary_scale"] = 0.9499999999999995,
+				["summary_showbyzone"] = false,
+				["summary_widgets_per_row"] = 14,
+			},
+			["tracker_scale"] = 1.5,
+			["show_timeleft"] = true,
+			["sort_order"] = {
+				["apower"] = 7,
+				["resource"] = 6,
+				["reputation"] = 9,
+				["equipment"] = 10,
+				["gold"] = 5,
+				["trade"] = 8,
+			},
+			["is_BFA_version"] = true,
+			["tracker_textsize"] = 13,
+			["anchor_options"] = {
+				[630] = {
+					["Enabled"] = true,
+					["YOffset"] = 0,
+					["Alpha"] = 1,
+					["ScaleOffset"] = 0,
+					["TextColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0.2, -- [3]
+						0.854, -- [4]
+					},
+				},
+				[641] = {
+					["Enabled"] = true,
+					["YOffset"] = 0,
+					["Alpha"] = 1,
+					["ScaleOffset"] = 0,
+					["TextColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0.2, -- [3]
+						0.854, -- [4]
+					},
+				},
+				[650] = {
+					["Enabled"] = true,
+					["YOffset"] = 0,
+					["Alpha"] = 1,
+					["ScaleOffset"] = 0,
+					["TextColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0.2, -- [3]
+						0.854, -- [4]
+					},
+				},
+				[680] = {
+					["Enabled"] = true,
+					["YOffset"] = 0,
+					["Alpha"] = 1,
+					["ScaleOffset"] = 0,
+					["TextColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0.2, -- [3]
+						0.854, -- [4]
+					},
+				},
+				[634] = {
+					["Enabled"] = true,
+					["YOffset"] = 0,
+					["Alpha"] = 1,
+					["ScaleOffset"] = 0,
+					["TextColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0.2, -- [3]
+						0.854, -- [4]
+					},
+				},
+				[790] = {
+					["Enabled"] = true,
+					["YOffset"] = 0,
+					["Alpha"] = 1,
+					["ScaleOffset"] = 0,
+					["TextColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0.2, -- [3]
+						0.854, -- [4]
+					},
+				},
+			},
+			["use_old_icons"] = true,
+			["quests_tracked"] = {
+				["Player-3725-0A79CA94"] = {
+				},
+				["Player-3725-0AE34B6A"] = {
+				},
+				["Player-3725-0A7905F3"] = {
+				},
+				["Player-3725-0A3600D7"] = {
+				},
+				["Player-3725-0A7C7EF2"] = {
+				},
+				["Player-3725-09B7FEA9"] = {
+				},
+				["Player-3725-0ADDB2AD"] = {
+				},
+				["Player-3725-09B4CD5E"] = {
+				},
+				["Player-3725-0A79D7B5"] = {
+				},
+				["Player-3725-0AE34AE6"] = {
+				},
+				["Player-3725-09B4C602"] = {
+				},
+				["Player-3725-0AE0206F"] = {
+				},
+				["Player-159-090BBCC8"] = {
+				},
+				["Player-3725-09EC580D"] = {
+				},
+				["Player-3725-09B4F9BA"] = {
+				},
+				["Player-3725-0A2AF3C8"] = {
+				},
+				["Player-3725-0ADDD4BE"] = {
+				},
+				["Player-3725-0ADDB325"] = {
+				},
+			},
+			["quests_all_characters"] = {
+				["Player-3725-0ADDB2AD"] = {
+				},
+				["Player-3725-09B4CD5E"] = {
+					[57336] = {
+						["expireAt"] = 1580612372,
+						["rewardAmount"] = 436,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[52875] = {
+						["expireAt"] = 1580655572,
+						["rewardAmount"] = 240,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[52474] = {
+						["expireAt"] = 1580655554,
+						["rewardAmount"] = 166,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51297] = {
+						["expireAt"] = 1580828354,
+						["rewardAmount"] = "|cffc557FF430",
+						["rewardTexture"] = 1941307,
+					},
+					[51639] = {
+						["expireAt"] = 1580655554,
+						["rewardAmount"] = 199,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[53188] = {
+						["expireAt"] = 1580655554,
+						["rewardAmount"] = 170,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51397] = {
+						["expireAt"] = 1580597954,
+						["rewardAmount"] = 150,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[56386] = {
+						["expireAt"] = 1580655572,
+						["rewardAmount"] = "16",
+						["rewardTexture"] = 2004597,
+					},
+					[52140] = {
+						["expireAt"] = 1580655554,
+						["rewardAmount"] = "|cff2292FF410",
+						["rewardTexture"] = 1733692,
+					},
+					[56078] = {
+						["expireAt"] = 1580655572,
+						["rewardAmount"] = "|cffc557FF385",
+						["rewardTexture"] = 1002874,
+					},
+					[52452] = {
+						["expireAt"] = 1580612354,
+						["rewardAmount"] = "|cff2292FF415",
+						["rewardTexture"] = 2103910,
+					},
+					[50491] = {
+						["expireAt"] = 1580655572,
+						["rewardAmount"] = 260,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51156] = {
+						["expireAt"] = 1580612372,
+						["rewardAmount"] = 375,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51378] = {
+						["expireAt"] = 1580655572,
+						["rewardAmount"] = "|cffc557FF430",
+						["rewardTexture"] = 1881362,
+					},
+					[50875] = {
+						["expireAt"] = 1580655572,
+						["rewardAmount"] = 337,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[50845] = {
+						["expireAt"] = 1580612372,
+						["rewardAmount"] = "|cff2292FF410",
+						["rewardTexture"] = 1698636,
+					},
+					[52799] = {
+						["expireAt"] = 1580655572,
+						["rewardAmount"] = "19",
+						["rewardTexture"] = 2004597,
+					},
+					[55900] = {
+						["expireAt"] = 1580655572,
+						["rewardAmount"] = "|cffc557FF385",
+						["rewardTexture"] = 1002877,
+					},
+					[53979] = {
+						["expireAt"] = 1580655554,
+						["rewardAmount"] = "",
+						["rewardTexture"] = 237368,
+					},
+					[51841] = {
+						["expireAt"] = 1580612354,
+						["rewardAmount"] = "|cff2292FF420",
+						["rewardTexture"] = 1733692,
+					},
+					[51098] = {
+						["expireAt"] = 1580612372,
+						["rewardAmount"] = 244,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51626] = {
+						["expireAt"] = 1580655554,
+						["rewardAmount"] = 169,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[50962] = {
+						["expireAt"] = 1580612312,
+						["rewardAmount"] = 270,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[52862] = {
+						["expireAt"] = 1580655554,
+						["rewardAmount"] = 266,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[55341] = {
+						["expireAt"] = 1580655554,
+						["rewardAmount"] = 182,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[52754] = {
+						["expireAt"] = 1580612372,
+						["rewardAmount"] = "4",
+						["rewardTexture"] = 1045114,
+					},
+					[52871] = {
+						["expireAt"] = 1580655554,
+						["rewardAmount"] = 234,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[52325] = {
+						["expireAt"] = 1580612354,
+						["rewardAmount"] = "1",
+						["rewardTexture"] = 667493,
+					},
+				},
+				["Player-3725-09B7FEA9"] = {
+					[52163] = {
+						["expireAt"] = 1581433169,
+						["rewardAmount"] = 750,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[52356] = {
+						["expireAt"] = 1581001133,
+						["rewardAmount"] = "5",
+						["rewardTexture"] = 2065568,
+					},
+					[52458] = {
+						["expireAt"] = 1581173969,
+						["rewardAmount"] = 450,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51035] = {
+						["expireAt"] = 1581001193,
+						["rewardAmount"] = 178,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+				},
+				["Player-3725-09EC580D"] = {
+					[40277] = {
+						["expireAt"] = 1580914770,
+						["rewardAmount"] = "16",
+						["rewardTexture"] = 413584,
+					},
+					[51178] = {
+						["expireAt"] = 1580871512,
+						["rewardAmount"] = 270,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[52458] = {
+						["expireAt"] = 1581173978,
+						["rewardAmount"] = 450,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[42067] = {
+						["expireAt"] = 1580914801,
+						["rewardAmount"] = "19",
+						["rewardTexture"] = 413584,
+					},
+					[50511] = {
+						["expireAt"] = 1580914772,
+						["rewardAmount"] = 255,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51084] = {
+						["expireAt"] = 1580871572,
+						["rewardAmount"] = 245,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51970] = {
+						["expireAt"] = 1580871518,
+						["rewardAmount"] = 184,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51090] = {
+						["expireAt"] = 1580885918,
+						["rewardAmount"] = 169,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[55884] = {
+						["expireAt"] = 1580914773,
+						["rewardAmount"] = "|cffc557FF385",
+						["rewardTexture"] = 1002874,
+					},
+					[50846] = {
+						["expireAt"] = 1580871572,
+						["rewardAmount"] = 367,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[55890] = {
+						["expireAt"] = 1580914773,
+						["rewardAmount"] = 614,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51610] = {
+						["expireAt"] = 1580871578,
+						["rewardAmount"] = 277,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[52126] = {
+						["expireAt"] = 1580914776,
+						["rewardAmount"] = 182,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51815] = {
+						["expireAt"] = 1580914712,
+						["rewardAmount"] = 254,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51630] = {
+						["expireAt"] = 1580914772,
+						["rewardAmount"] = 173,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[43633] = {
+						["expireAt"] = 1580914801,
+						["rewardAmount"] = "|cffc557FF182",
+						["rewardTexture"] = 1122334,
+					},
+					[42239] = {
+						["expireAt"] = 1581173941,
+						["rewardAmount"] = "|cffc557FF182",
+						["rewardTexture"] = 1122335,
+					},
+					[43454] = {
+						["expireAt"] = 1580871601,
+						["rewardAmount"] = "|cffc557FF176",
+						["rewardTexture"] = 134422,
+					},
+					[41944] = {
+						["expireAt"] = 1580914801,
+						["rewardAmount"] = "18",
+						["rewardTexture"] = 413584,
+					},
+					[52278] = {
+						["expireAt"] = 1580871578,
+						["rewardAmount"] = "15",
+						["rewardTexture"] = 133675,
+					},
+					[51106] = {
+						["expireAt"] = 1580871572,
+						["rewardAmount"] = 262,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[40920] = {
+						["expireAt"] = 1580871541,
+						["rewardAmount"] = "|cffc557FF182",
+						["rewardTexture"] = 1122335,
+					},
+					[41826] = {
+						["expireAt"] = 1580893201,
+						["rewardAmount"] = "1",
+						["rewardTexture"] = 1417744,
+					},
+					[42714] = {
+						["expireAt"] = 1581001141,
+						["rewardAmount"] = "|cffc557FF182",
+						["rewardTexture"] = 1360037,
+					},
+					[51154] = {
+						["expireAt"] = 1580914712,
+						["rewardAmount"] = 261,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[52794] = {
+						["expireAt"] = 1580914718,
+						["rewardAmount"] = 152,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[52803] = {
+						["expireAt"] = 1580871573,
+						["rewardAmount"] = "1",
+						["rewardTexture"] = 667492,
+					},
+					[51660] = {
+						["expireAt"] = 1580871578,
+						["rewardAmount"] = 151,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[54060] = {
+						["expireAt"] = 1580914712,
+						["rewardAmount"] = "",
+						["rewardTexture"] = 237368,
+					},
+					[56393] = {
+						["expireAt"] = 1580914788,
+						["rewardAmount"] = "19",
+						["rewardTexture"] = 2004597,
+					},
+					[57336] = {
+						["expireAt"] = 1580871573,
+						["rewardAmount"] = 397,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[52047] = {
+						["expireAt"] = 1580914778,
+						["rewardAmount"] = 184,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51422] = {
+						["expireAt"] = 1580914772,
+						["rewardAmount"] = 245,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[55300] = {
+						["expireAt"] = 1580914778,
+						["rewardAmount"] = 178,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[52938] = {
+						["expireAt"] = 1580914773,
+						["rewardAmount"] = 178,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51096] = {
+						["expireAt"] = 1580914772,
+						["rewardAmount"] = 264,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+				},
+				["Player-3725-0A2AF3C8"] = {
+					[52155] = {
+						["expireAt"] = 1580698758,
+						["rewardAmount"] = "|cff2292FF380",
+						["rewardTexture"] = 1726335,
+					},
+					[51699] = {
+						["expireAt"] = 1580698763,
+						["rewardAmount"] = "|cff2292FF370",
+						["rewardTexture"] = 1726336,
+					},
+					[53994] = {
+						["expireAt"] = 1580741898,
+						["rewardAmount"] = "",
+						["rewardTexture"] = 237368,
+					},
+					[51021] = {
+						["expireAt"] = 1580741979,
+						["rewardAmount"] = "5",
+						["rewardTexture"] = 2065568,
+					},
+					[55340] = {
+						["expireAt"] = 1580741958,
+						["rewardAmount"] = 186,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[52923] = {
+						["expireAt"] = 1580698769,
+						["rewardAmount"] = "16",
+						["rewardTexture"] = 2004597,
+					},
+					[55301] = {
+						["expireAt"] = 1580741945,
+						["rewardAmount"] = 194,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[52009] = {
+						["expireAt"] = 1580741963,
+						["rewardAmount"] = "16",
+						["rewardTexture"] = 2004597,
+					},
+					[51297] = {
+						["expireAt"] = 1580828358,
+						["rewardAmount"] = "|cffc557FF430",
+						["rewardTexture"] = 1773651,
+					},
+					[52850] = {
+						["expireAt"] = 1580741988,
+						["rewardAmount"] = "17",
+						["rewardTexture"] = 2004597,
+					},
+					[51178] = {
+						["expireAt"] = 1580698769,
+						["rewardAmount"] = "|cff2292FF385",
+						["rewardTexture"] = 1690118,
+					},
+					[50961] = {
+						["expireAt"] = 1580698709,
+						["rewardAmount"] = "|cff2292FF355",
+						["rewardTexture"] = 1690125,
+					},
+					[52875] = {
+						["expireAt"] = 1580741988,
+						["rewardAmount"] = "|cff2292FF385",
+						["rewardTexture"] = 2201832,
+					},
+				},
+				["Player-3725-09B4F9BA"] = {
+					[51297] = {
+						["expireAt"] = 1580828375,
+						["rewardAmount"] = "|cffc557FF430",
+						["rewardTexture"] = 1119937,
+					},
+				},
+				["Player-3725-09B4C602"] = {
+					[52471] = {
+						["expireAt"] = 1580482759,
+						["rewardAmount"] = "16",
+						["rewardTexture"] = 2004597,
+					},
+					[52751] = {
+						["expireAt"] = 1580525959,
+						["rewardAmount"] = "17",
+						["rewardTexture"] = 133675,
+					},
+					[57340] = {
+						["expireAt"] = 1580482781,
+						["rewardAmount"] = "|cffc557FF385",
+						["rewardTexture"] = 1002879,
+					},
+					[55884] = {
+						["expireAt"] = 1580482781,
+						["rewardAmount"] = "|cffc557FF385",
+						["rewardTexture"] = 1002874,
+					},
+					[52938] = {
+						["expireAt"] = 1580482759,
+						["rewardAmount"] = "5",
+						["rewardTexture"] = 1045108,
+					},
+					[51887] = {
+						["expireAt"] = 1580525961,
+						["rewardAmount"] = 185,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[55301] = {
+						["expireAt"] = 1580482759,
+						["rewardAmount"] = 179,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[56384] = {
+						["expireAt"] = 1580482781,
+						["rewardAmount"] = "16",
+						["rewardTexture"] = 2004597,
+					},
+					[52200] = {
+						["expireAt"] = 1580482759,
+						["rewardAmount"] = 151,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[50961] = {
+						["expireAt"] = 1580482759,
+						["rewardAmount"] = 265,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[55302] = {
+						["expireAt"] = 1580482759,
+						["rewardAmount"] = 161,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[52979] = {
+						["expireAt"] = 1580482699,
+						["rewardAmount"] = 151,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51429] = {
+						["expireAt"] = 1580482759,
+						["rewardAmount"] = 248,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51095] = {
+						["expireAt"] = 1580525959,
+						["rewardAmount"] = 240,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[50873] = {
+						["expireAt"] = 1580525959,
+						["rewardAmount"] = "|cff2292FF400",
+						["rewardTexture"] = 1762580,
+					},
+					[55896] = {
+						["expireAt"] = 1580482781,
+						["rewardAmount"] = "|cffc557FF385",
+						["rewardTexture"] = 1002879,
+					},
+					[50782] = {
+						["expireAt"] = 1580525959,
+						["rewardAmount"] = 265,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[53945] = {
+						["expireAt"] = 1580482699,
+						["rewardAmount"] = "",
+						["rewardTexture"] = 237368,
+					},
+					[55341] = {
+						["expireAt"] = 1580482759,
+						["rewardAmount"] = 163,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51374] = {
+						["expireAt"] = 1580482759,
+						["rewardAmount"] = 247,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[52832] = {
+						["expireAt"] = 1580482759,
+						["rewardAmount"] = 232,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51655] = {
+						["expireAt"] = 1580525959,
+						["rewardAmount"] = 165,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[50570] = {
+						["expireAt"] = 1580525959,
+						["rewardAmount"] = "|cff2292FF380",
+						["rewardTexture"] = 2000828,
+					},
+					[51378] = {
+						["expireAt"] = 1580655559,
+						["rewardAmount"] = "|cffc557FF430",
+						["rewardTexture"] = 1875080,
+					},
+					[50846] = {
+						["expireAt"] = 1580525959,
+						["rewardAmount"] = "|cff2292FF390",
+						["rewardTexture"] = 136088,
+					},
+					[51548] = {
+						["expireAt"] = 1580525959,
+						["rewardAmount"] = "|cff2292FF380",
+						["rewardTexture"] = 1661330,
+					},
+					[51629] = {
+						["expireAt"] = 1580482759,
+						["rewardAmount"] = 181,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51710] = {
+						["expireAt"] = 1580482761,
+						["rewardAmount"] = "|cff2292FF390",
+						["rewardTexture"] = 1698802,
+					},
+					[51610] = {
+						["expireAt"] = 1580482759,
+						["rewardAmount"] = "|cff2292FF380",
+						["rewardTexture"] = 1698801,
+					},
+					[51667] = {
+						["expireAt"] = 1580511561,
+						["rewardAmount"] = 151,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+				},
+			},
+			["disable_world_map_widgets"] = true,
+			["player_names"] = {
+				["Player-3725-0A79CA94"] = {
+					["class"] = "WARLOCK",
+					["name"] = "Benjarclay",
+					["realm"] = "Frostmourne",
+				},
+				["Player-3725-0AE34B6A"] = {
+					["class"] = "SHAMAN",
+					["name"] = "Gudrudrune",
+					["realm"] = "Frostmourne",
+				},
+				["Player-3725-0A7905F3"] = {
+					["class"] = "SHAMAN",
+					["name"] = "Ardern",
+					["realm"] = "Frostmourne",
+				},
+				["Player-3725-0A3600D7"] = {
+					["class"] = "DEMONHUNTER",
+					["name"] = "Ignaciò",
+					["realm"] = "Frostmourne",
+				},
+				["Player-3725-0A7C7EF2"] = {
+					["class"] = "WARRIOR",
+					["name"] = "Lefane",
+					["realm"] = "Frostmourne",
+				},
+				["Player-3725-09B7FEA9"] = {
+					["class"] = "DRUID",
+					["name"] = "Petër",
+					["realm"] = "Frostmourne",
+				},
+				["Player-3725-0ADDB2AD"] = {
+					["class"] = "WARLOCK",
+					["name"] = "Humphrëy",
+					["realm"] = "Frostmourne",
+				},
+				["Player-3725-09B4CD5E"] = {
+					["class"] = "ROGUE",
+					["name"] = "Antoínette",
+					["realm"] = "Frostmourne",
+				},
+				["Player-3725-0A79D7B5"] = {
+					["class"] = "PALADIN",
+					["name"] = "Gavinral",
+					["realm"] = "Frostmourne",
+				},
+				["Player-3725-0AE34AE6"] = {
+					["class"] = "SHAMAN",
+					["name"] = "Ardern",
+					["realm"] = "Frostmourne",
+				},
+				["Player-3725-09B4C602"] = {
+					["class"] = "PRIEST",
+					["name"] = "Gutterspeak",
+					["realm"] = "Frostmourne",
+				},
+				["Player-3725-0AE0206F"] = {
+					["class"] = "MONK",
+					["name"] = "Brewswaying",
+					["realm"] = "Frostmourne",
+				},
+				["Player-159-090BBCC8"] = {
+					["class"] = "MAGE",
+					["name"] = "Randolph",
+					["realm"] = "Spinebreaker",
+				},
+				["Player-3725-09EC580D"] = {
+					["class"] = "WARRIOR",
+					["name"] = "Staceyjones",
+					["realm"] = "Frostmourne",
+				},
+				["Player-3725-09B4F9BA"] = {
+					["class"] = "MAGE",
+					["name"] = "Rändolph",
+					["realm"] = "Frostmourne",
+				},
+				["Player-3725-0A2AF3C8"] = {
+					["class"] = "HUNTER",
+					["name"] = "Davidgray",
+					["realm"] = "Frostmourne",
+				},
+				["Player-3725-0ADDD4BE"] = {
+					["class"] = "WARRIOR",
+					["name"] = "Lohmisu",
+					["realm"] = "Frostmourne",
+				},
+				["Player-3725-0ADDB325"] = {
+					["class"] = "PRIEST",
+					["name"] = "Jellastie",
+					["realm"] = "Frostmourne",
+				},
+			},
+			["rarescan"] = {
+				["recently_killed"] = {
+					["Player-3725-09B4CD5E"] = {
+					},
+					["Player-3725-0ADDB2AD"] = {
+					},
+					["Player-3725-09EC580D"] = {
+					},
+					["Player-3725-09B7FEA9"] = {
+					},
+					["Player-3725-09B4F9BA"] = {
+					},
+					["Player-3725-0A2AF3C8"] = {
+					},
+					["Player-3725-0AE34AE6"] = {
+					},
+					["Player-3725-09B4C602"] = {
+					},
+				},
+				["name_cache"] = {
+					["Caverndark Terror"] = 152464,
+					["Guardian Tannin"] = 152736,
+					["Shiz'narasz the Consumer"] = 153658,
+					["Elder Unu"] = 152414,
+					["Foul Manifestation"] = 151202,
+					["Rumbling Goliath"] = 141620,
+					["Ji'arak"] = 132253,
+					["Commander Minzera"] = 155811,
+					["Thundering Goliath"] = 141616,
+					["Sacerdotisa lunar Liara"] = 152729,
+					["Burning Goliath"] = 141615,
+					["Overseer Krix"] = 142423,
+					["Umbra'jin"] = 122004,
+					["Gorjassangue"] = 138299,
+					["Incantatrix Vazina"] = 155838,
+					["Wekemara"] = 152671,
+					["Echo of Myzrael"] = 141668,
+					["Plaguefeather"] = 142435,
+					["Shredmaw the Voracious"] = 135044,
+					["Golrakahn"] = 124185,
+					["Elderspawn Nalaada"] = 152555,
+					["Sacerdotisa da Lua Liara"] = 152729,
+					["Prince Typhonus"] = 152681,
+					["Malfunctioning Beastbot"] = 151933,
+					["Armored Vaultbot"] = 154968,
+					["Moon Priestess Liara"] = 152729,
+					["Arachnoid Harvester"] = 151934,
+					["Guardião Tannin"] = 152736,
+					["Azurethos"] = 136385,
+					["Scale Matriarch Gratinax"] = 152548,
+				},
+			},
+			["TutorialTaxyMap"] = true,
+			["history"] = {
+				["quest"] = {
+					["global"] = {
+						[50651] = 1,
+						[51178] = 2,
+						[54835] = 1,
+						[56384] = 2,
+						[55889] = 1,
+						[52328] = 2,
+						[52344] = 3,
+						[52871] = 14,
+						[50875] = 1,
+						[52935] = 1,
+						[51434] = 3,
+						[51450] = 2,
+						[51977] = 2,
+						[50987] = 1,
+						[50492] = 1,
+						[51530] = 1,
+						[51546] = 1,
+						[51610] = 5,
+						[51626] = 5,
+						[51642] = 2,
+						[51658] = 2,
+						[51179] = 2,
+						[51706] = 1,
+						[52249] = 2,
+						[54820] = 1,
+						[53814] = 4,
+						[52297] = 2,
+						[55890] = 2,
+						[52345] = 1,
+						[52872] = 11,
+						[55970] = 1,
+						[50876] = 4,
+						[54533] = 1,
+						[50461] = 2,
+						[52010] = 2,
+						[50509] = 2,
+						[51611] = 3,
+						[51627] = 6,
+						[51659] = 1,
+						[51707] = 2,
+						[55300] = 6,
+						[54837] = 1,
+						[55891] = 2,
+						[52330] = 1,
+						[52873] = 5,
+						[50845] = 1,
+						[50861] = 1,
+						[51388] = 1,
+						[52474] = 4,
+						[51468] = 2,
+						[50989] = 4,
+						[56131] = 1,
+						[51548] = 1,
+						[51612] = 2,
+						[51644] = 7,
+						[51660] = 2,
+						[55301] = 11,
+						[53784] = 1,
+						[51245] = 1,
+						[54838] = 1,
+						[52858] = 4,
+						[52363] = 1,
+						[50846] = 1,
+						[50862] = 2,
+						[54471] = 4,
+						[53318] = 1,
+						[56036] = 3,
+						[51453] = 1,
+						[50958] = 6,
+						[52507] = 1,
+						[52424] = 1,
+						[51035] = 14,
+						[50511] = 1,
+						[51629] = 8,
+						[51609] = 6,
+						[51581] = 5,
+						[43932] = 1,
+						[51613] = 8,
+						[52140] = 1,
+						[53717] = 1,
+						[52891] = 1,
+						[51166] = 2,
+						[51693] = 1,
+						[51709] = 1,
+						[55302] = 3,
+						[55973] = 2,
+						[51422] = 3,
+						[50507] = 1,
+						[50767] = 2,
+						[52316] = 2,
+						[51821] = 1,
+						[52348] = 2,
+						[52875] = 2,
+						[50847] = 2,
+						[51374] = 2,
+						[51901] = 1,
+						[51917] = 1,
+						[56021] = 2,
+						[52300] = 2,
+						[52476] = 1,
+						[51981] = 1,
+						[50975] = 1,
+						[51115] = 1,
+						[50496] = 1,
+						[54600] = 1,
+						[51774] = 2,
+						[51566] = 1,
+						[52333] = 1,
+						[56048] = 1,
+						[54680] = 1,
+						[51630] = 4,
+						[52157] = 3,
+						[53706] = 1,
+						[51433] = 3,
+						[51694] = 1,
+						[51710] = 1,
+						[55303] = 2,
+						[50864] = 1,
+						[51758] = 3,
+						[54840] = 1,
+						[56389] = 1,
+						[55894] = 3,
+						[51311] = 1,
+						[52349] = 1,
+						[51854] = 2,
+						[52892] = 1,
+						[51886] = 2,
+						[52924] = 2,
+						[52982] = 1,
+						[56022] = 2,
+						[53994] = 1,
+						[52988] = 1,
+						[52218] = 2,
+						[52475] = 2,
+						[54647] = 1,
+						[51119] = 1,
+						[50513] = 1,
+						[44044] = 1,
+						[51806] = 6,
+						[51583] = 2,
+						[54665] = 2,
+						[51104] = 1,
+						[56399] = 1,
+						[53768] = 2,
+						[53812] = 1,
+						[51884] = 1,
+						[55304] = 3,
+						[53755] = 1,
+						[53771] = 1,
+						[51839] = 1,
+						[51759] = 2,
+						[51919] = 2,
+						[56390] = 1,
+						[55895] = 5,
+						[53867] = 3,
+						[52350] = 1,
+						[52877] = 3,
+						[56007] = 1,
+						[51887] = 1,
+						[53436] = 4,
+						[53963] = 1,
+						[53979] = 1,
+						[54089] = 4,
+						[52167] = 1,
+						[51656] = 5,
+						[53753] = 3,
+						[54570] = 2,
+						[50514] = 1,
+						[51025] = 1,
+						[52455] = 1,
+						[52143] = 1,
+						[51584] = 8,
+						[54267] = 1,
+						[51616] = 1,
+						[51121] = 1,
+						[52159] = 4,
+						[51153] = 1,
+						[53724] = 1,
+						[51185] = 2,
+						[57333] = 3,
+						[53772] = 1,
+						[52351] = 1,
+						[53804] = 3,
+						[51776] = 2,
+						[56391] = 1,
+						[55896] = 1,
+						[51824] = 3,
+						[52862] = 6,
+						[52878] = 1,
+						[50850] = 1,
+						[50506] = 1,
+						[52463] = 2,
+						[51920] = 2,
+						[56024] = 2,
+						[49397] = 1,
+						[56056] = 7,
+						[50512] = 1,
+						[54571] = 1,
+						[50483] = 1,
+						[51026] = 13,
+						[50515] = 1,
+						[54500] = 1,
+						[52144] = 1,
+						[51585] = 1,
+						[51090] = 2,
+						[51617] = 5,
+						[51122] = 1,
+						[51154] = 3,
+						[51665] = 1,
+						[51681] = 1,
+						[51697] = 1,
+						[55893] = 1,
+						[53773] = 1,
+						[50873] = 1,
+						[52390] = 1,
+						[52352] = 5,
+						[53326] = 1,
+						[55897] = 1,
+						[52847] = 2,
+						[51841] = 2,
+						[52879] = 1,
+						[52869] = 10,
+						[52972] = 3,
+						[51905] = 5,
+						[52432] = 2,
+						[56025] = 2,
+						[56041] = 3,
+						[56057] = 3,
+						[51131] = 2,
+						[50468] = 2,
+						[51506] = 1,
+						[56121] = 2,
+						[50369] = 1,
+						[51469] = 1,
+						[54636] = 1,
+						[51586] = 8,
+						[51618] = 3,
+						[54684] = 1,
+						[51123] = 2,
+						[51457] = 3,
+						[53877] = 1,
+						[53726] = 3,
+						[57335] = 2,
+						[56824] = 2,
+						[54667] = 1,
+						[52198] = 1,
+						[55898] = 2,
+						[53188] = 4,
+						[56393] = 1,
+						[52832] = 3,
+						[52321] = 3,
+						[52353] = 1,
+						[52880] = 3,
+						[51874] = 2,
+						[50868] = 1,
+						[51842] = 1,
+						[56010] = 1,
+						[51096] = 1,
+						[50421] = 1,
+						[51970] = 3,
+						[51507] = 2,
+						[51491] = 1,
+						[53040] = 1,
+						[50517] = 1,
+						[51028] = 1,
+						[54621] = 1,
+						[52794] = 1,
+						[54254] = 2,
+						[51092] = 2,
+						[51619] = 1,
+						[51635] = 3,
+						[51843] = 2,
+						[51156] = 2,
+						[51683] = 1,
+						[51699] = 2,
+						[56825] = 1,
+						[53951] = 1,
+						[44769] = 1,
+						[55340] = 25,
+						[51779] = 1,
+						[52306] = 2,
+						[50518] = 1,
+						[54638] = 1,
+						[52865] = 1,
+						[51588] = 1,
+						[51431] = 2,
+						[50869] = 2,
+						[50885] = 2,
+						[51412] = 1,
+						[51428] = 3,
+						[51444] = 2,
+						[56014] = 1,
+						[51157] = 5,
+						[54449] = 2,
+						[50997] = 1,
+						[50502] = 2,
+						[51029] = 1,
+						[52754] = 1,
+						[54127] = 1,
+						[54143] = 4,
+						[51604] = 4,
+						[51109] = 1,
+						[51125] = 1,
+						[51652] = 3,
+						[53712] = 2,
+						[56794] = 1,
+						[52211] = 2,
+						[56826] = 1,
+						[57353] = 4,
+						[55884] = 1,
+						[55341] = 14,
+						[51844] = 1,
+						[53329] = 1,
+						[55900] = 1,
+						[51317] = 3,
+						[52355] = 1,
+						[53312] = 1,
+						[50792] = 2,
+						[50776] = 2,
+						[51397] = 3,
+						[56012] = 1,
+						[51429] = 1,
+						[51782] = 4,
+						[51972] = 1,
+						[51988] = 1,
+						[53699] = 3,
+						[50998] = 1,
+						[55886] = 1,
+						[51541] = 2,
+						[51655] = 5,
+						[55982] = 2,
+						[51814] = 2,
+						[51175] = 4,
+						[53714] = 1,
+						[51637] = 6,
+						[51653] = 2,
+						[51669] = 4,
+						[56795] = 1,
+						[52165] = 3,
+						[57338] = 5,
+						[51638] = 11,
+						[52196] = 2,
+						[51095] = 3,
+						[51781] = 1,
+						[56827] = 1,
+						[55901] = 3,
+						[54895] = 2,
+						[52356] = 1,
+						[54272] = 1,
+						[50855] = 1,
+						[51893] = 2,
+						[55997] = 4,
+						[52947] = 1,
+						[52452] = 2,
+						[55215] = 6,
+						[51542] = 1,
+						[51989] = 1,
+						[51318] = 1,
+						[50488] = 1,
+						[52181] = 1,
+						[56141] = 1,
+						[54624] = 1,
+						[53346] = 1,
+						[50568] = 1,
+						[54672] = 1,
+						[52133] = 1,
+						[51127] = 4,
+						[51654] = 1,
+						[51670] = 1,
+						[56796] = 5,
+						[51287] = 1,
+						[54784] = 1,
+						[51176] = 1,
+						[54816] = 1,
+						[51908] = 2,
+						[53315] = 2,
+						[52309] = 2,
+						[52325] = 1,
+						[56797] = 2,
+						[52357] = 1,
+						[52884] = 3,
+						[52389] = 1,
+						[51894] = 4,
+						[52163] = 7,
+						[51415] = 6,
+						[52964] = 2,
+						[51620] = 2,
+						[56139] = 3,
+						[54574] = 1,
+						["total"] = 1069,
+						[50489] = 2,
+						[49994] = 1,
+						[57336] = 1,
+						[52354] = 2,
+						[51064] = 1,
+						[52889] = 5,
+						[54673] = 1,
+						[51623] = 11,
+						[51639] = 8,
+						[52166] = 3,
+						[53715] = 2,
+						[55264] = 15,
+						[51687] = 3,
+						[57340] = 1,
+						[51682] = 1,
+						[54182] = 3,
+						[51107] = 1,
+						[56382] = 1,
+						[55887] = 2,
+						[54188] = 1,
+						[51921] = 1,
+						[51847] = 2,
+						[50324] = 1,
+						[50857] = 1,
+						[51895] = 4,
+						[52422] = 1,
+						[50164] = 3,
+						[51633] = 6,
+						[51528] = 1,
+						[52169] = 2,
+						[50969] = 1,
+						[50985] = 1,
+						[54507] = 5,
+						[51017] = 2,
+						[56023] = 5,
+						[52071] = 3,
+						[51576] = 1,
+						[51632] = 8,
+						[51608] = 2,
+						[51113] = 2,
+						[51640] = 9,
+						[53189] = 1,
+						[51672] = 1,
+						[54243] = 3,
+						[50322] = 1,
+						[54786] = 1,
+						[51225] = 2,
+						[51241] = 1,
+						[54834] = 1,
+						[53317] = 1,
+						[55888] = 1,
+						[52126] = 2,
+						[51615] = 10,
+						[50315] = 2,
+						[52347] = 2,
+						[50858] = 1,
+						[51385] = 1,
+						[52423] = 1,
+						[56016] = 1,
+						[56032] = 1,
+						[52471] = 2,
+						[51976] = 1,
+						[50459] = 3,
+						[51373] = 1,
+						[51500] = 1,
+						[51529] = 1,
+						[51034] = 7,
+						[51817] = 2,
+						[57330] = 1,
+						[54598] = 1,
+						[51098] = 2,
+						[51625] = 5,
+						[51641] = 2,
+						[51657] = 1,
+						[52459] = 2,
+					},
+					["character"] = {
+						["Player-3725-0ADDB2AD"] = {
+							[51610] = 1,
+							["total"] = 6,
+							[51586] = 1,
+							[51035] = 1,
+							[51894] = 1,
+							[51895] = 1,
+							[51026] = 1,
+						},
+						["Player-3725-09B7FEA9"] = {
+							[50651] = 1,
+							[51178] = 1,
+							[54835] = 1,
+							[56384] = 2,
+							[55889] = 1,
+							[52328] = 2,
+							[52344] = 3,
+							[52871] = 8,
+							[52935] = 1,
+							[51434] = 3,
+							[51450] = 2,
+							[51977] = 1,
+							[51530] = 1,
+							[51546] = 1,
+							[51610] = 1,
+							[51626] = 4,
+							[51642] = 1,
+							[51658] = 2,
+							[51179] = 2,
+							[51706] = 1,
+							[52249] = 2,
+							[54820] = 1,
+							[53814] = 1,
+							[52297] = 1,
+							[55890] = 2,
+							[52345] = 1,
+							[52872] = 8,
+							[55970] = 1,
+							[50876] = 4,
+							[54533] = 1,
+							[50461] = 1,
+							[52010] = 1,
+							[50509] = 1,
+							[51611] = 2,
+							[51627] = 4,
+							[51707] = 2,
+							[55300] = 5,
+							[54837] = 1,
+							[55891] = 2,
+							[52330] = 1,
+							[52873] = 3,
+							[50845] = 1,
+							[50861] = 1,
+							[51388] = 1,
+							[52474] = 3,
+							[51468] = 2,
+							[50989] = 4,
+							[56131] = 1,
+							[51612] = 1,
+							[51644] = 6,
+							[55301] = 9,
+							[53784] = 1,
+							[51245] = 1,
+							[54838] = 1,
+							[52858] = 3,
+							[50846] = 1,
+							[50862] = 2,
+							[54471] = 2,
+							[52459] = 2,
+							[51453] = 1,
+							[50958] = 3,
+							[52507] = 1,
+							[50511] = 1,
+							[51581] = 4,
+							[43932] = 1,
+							[51613] = 6,
+							[51629] = 8,
+							[51166] = 1,
+							[51693] = 1,
+							[51709] = 1,
+							[55302] = 2,
+							[50767] = 2,
+							[52316] = 2,
+							[51821] = 1,
+							[52348] = 2,
+							[52875] = 2,
+							[50847] = 2,
+							[51374] = 2,
+							[51901] = 1,
+							[51422] = 3,
+							[52476] = 1,
+							[51981] = 1,
+							[50975] = 1,
+							[50496] = 1,
+							[54600] = 1,
+							[51566] = 1,
+							[54680] = 1,
+							[51630] = 4,
+							[52157] = 2,
+							[53706] = 1,
+							[51694] = 1,
+							[55303] = 2,
+							[54840] = 1,
+							[56389] = 1,
+							[55894] = 3,
+							[52349] = 1,
+							[51854] = 1,
+							[52892] = 1,
+							[51886] = 2,
+							[52924] = 1,
+							[56022] = 2,
+							[53994] = 1,
+							[52988] = 1,
+							[50513] = 1,
+							[51583] = 1,
+							[54665] = 2,
+							[51615] = 7,
+							[53771] = 1,
+							[56390] = 1,
+							[55895] = 3,
+							[53867] = 2,
+							[52350] = 1,
+							[52877] = 3,
+							[53436] = 4,
+							[51919] = 2,
+							[53979] = 1,
+							[54570] = 2,
+							[51025] = 1,
+							[51104] = 1,
+							[51584] = 4,
+							[53318] = 1,
+							[51616] = 1,
+							[51632] = 8,
+							[52159] = 3,
+							[51153] = 1,
+							[53724] = 1,
+							[51185] = 1,
+							[54267] = 1,
+							[53772] = 1,
+							[54598] = 1,
+							[53804] = 2,
+							[51776] = 1,
+							[56391] = 1,
+							[55896] = 1,
+							[51824] = 3,
+							[52862] = 5,
+							[56007] = 1,
+							[50850] = 1,
+							[51609] = 4,
+							[57330] = 1,
+							[51920] = 2,
+							[56024] = 2,
+							[54507] = 3,
+							[56056] = 5,
+							[52463] = 1,
+							[52891] = 1,
+							[54571] = 1,
+							[50515] = 1,
+							[51026] = 2,
+							[53963] = 1,
+							[51373] = 1,
+							[51115] = 1,
+							[51090] = 2,
+							[51617] = 2,
+							[51633] = 5,
+							[55973] = 2,
+							[51154] = 1,
+							[51681] = 1,
+							[51697] = 1,
+							[50483] = 1,
+							[53773] = 1,
+							[52982] = 1,
+							[51433] = 2,
+							[52300] = 2,
+							[53326] = 1,
+							[55897] = 1,
+							[52847] = 2,
+							[52352] = 3,
+							[52879] = 1,
+							[52218] = 2,
+							[51921] = 1,
+							[51905] = 3,
+							[52432] = 2,
+							[56025] = 2,
+							[56041] = 3,
+							[56057] = 3,
+							[53768] = 2,
+							[50468] = 1,
+							[51506] = 1,
+							[56121] = 2,
+							[52126] = 2,
+							[51119] = 1,
+							[54636] = 1,
+							[51586] = 5,
+							[52471] = 2,
+							[54684] = 1,
+							[51123] = 2,
+							[51682] = 1,
+							[56399] = 1,
+							[53726] = 1,
+							[57335] = 2,
+							[56824] = 2,
+							[54647] = 1,
+							[56023] = 5,
+							[51841] = 1,
+							[55898] = 2,
+							[56393] = 1,
+							[52321] = 3,
+							[51665] = 1,
+							[51842] = 1,
+							[52880] = 1,
+							[51874] = 1,
+							[50868] = 1,
+							[44044] = 1,
+							[56010] = 1,
+							[51507] = 2,
+							[50421] = 1,
+							[51970] = 2,
+							[51656] = 1,
+							[51491] = 1,
+							[53040] = 1,
+							[51028] = 1,
+							[50517] = 1,
+							[54621] = 1,
+							[54089] = 2,
+							[53753] = 2,
+							[51092] = 2,
+							[51619] = 1,
+							[51635] = 3,
+							[57336] = 1,
+							[51156] = 2,
+							[51683] = 1,
+							[51699] = 2,
+							[56825] = 1,
+							[52169] = 1,
+							[52347] = 2,
+							[55340] = 15,
+							[51779] = 1,
+							[52306] = 1,
+							[52865] = 1,
+							[50506] = 1,
+							[52354] = 2,
+							[50164] = 2,
+							[54188] = 1,
+							[50869] = 1,
+							[50885] = 2,
+							[44769] = 1,
+							[52889] = 3,
+							["total"] = 763,
+							[52794] = 1,
+							[54254] = 2,
+							[56139] = 3,
+							[54574] = 1,
+							[51588] = 1,
+							[50518] = 1,
+							[52163] = 2,
+							[54638] = 1,
+							[54143] = 3,
+							[51604] = 4,
+							[51109] = 1,
+							[51125] = 1,
+							[51652] = 2,
+							[51157] = 4,
+							[56794] = 1,
+							[52211] = 1,
+							[56826] = 1,
+							[57353] = 4,
+							[50873] = 1,
+							[55341] = 9,
+							[51844] = 1,
+							[55884] = 1,
+							[55900] = 1,
+							[51317] = 1,
+							[52355] = 1,
+							[51131] = 2,
+							[52869] = 3,
+							[51908] = 1,
+							[51397] = 3,
+							[56012] = 1,
+							[51429] = 1,
+							[51457] = 2,
+							[51972] = 1,
+							[51988] = 1,
+							[54667] = 1,
+							[52972] = 3,
+							[51843] = 2,
+							[51541] = 2,
+							[54182] = 1,
+							[54127] = 1,
+							[52198] = 1,
+							[56827] = 1,
+							[51176] = 1,
+							[51637] = 4,
+							[51653] = 2,
+							[51669] = 2,
+							[52196] = 2,
+							[57338] = 5,
+							[54272] = 1,
+							[52166] = 2,
+							[51469] = 1,
+							[55901] = 3,
+							[51781] = 1,
+							[54673] = 1,
+							[53346] = 1,
+							[54895] = 2,
+							[52356] = 1,
+							[53312] = 1,
+							[50855] = 1,
+							[51893] = 1,
+							[55997] = 2,
+							[52947] = 1,
+							[52452] = 2,
+							[53188] = 2,
+							[51655] = 4,
+							[51638] = 5,
+							[55215] = 5,
+							[50488] = 1,
+							[51654] = 1,
+							[56141] = 1,
+							[54624] = 1,
+							[51175] = 1,
+							[50568] = 1,
+							[51095] = 1,
+							[52133] = 1,
+							[51127] = 4,
+							[52165] = 2,
+							[53714] = 1,
+							[56796] = 3,
+							[53315] = 2,
+							[54784] = 1,
+							[55886] = 1,
+							[54816] = 1,
+							[51894] = 1,
+							[51782] = 2,
+							[51287] = 1,
+							[52325] = 1,
+							[51431] = 1,
+							[52357] = 1,
+							[52884] = 3,
+							[51415] = 2,
+							[54449] = 2,
+							[55982] = 2,
+							[56014] = 1,
+							[52964] = 1,
+							[50792] = 2,
+							[50776] = 1,
+							[52309] = 1,
+							[52181] = 1,
+							[50489] = 2,
+							[49994] = 1,
+							[54672] = 1,
+							[51687] = 2,
+							[51064] = 1,
+							[55264] = 12,
+							[51096] = 1,
+							[51623] = 4,
+							[51639] = 7,
+							[53699] = 2,
+							[53715] = 2,
+							[56797] = 2,
+							[56795] = 1,
+							[57340] = 1,
+							[55304] = 3,
+							[51017] = 2,
+							[50369] = 1,
+							[56382] = 1,
+							[55887] = 2,
+							[55893] = 1,
+							[53951] = 1,
+							[51847] = 2,
+							[53877] = 1,
+							[50857] = 1,
+							[51895] = 1,
+							[53329] = 1,
+							[52754] = 1,
+							[53712] = 1,
+							[51620] = 1,
+							[52455] = 1,
+							[51444] = 1,
+							[51412] = 1,
+							[52351] = 1,
+							[51528] = 1,
+							[52832] = 2,
+							[52071] = 3,
+							[51576] = 1,
+							[54500] = 1,
+							[51608] = 2,
+							[51113] = 2,
+							[51640] = 7,
+							[53189] = 1,
+							[51672] = 1,
+							[54243] = 3,
+							[52353] = 1,
+							[54786] = 1,
+							[51225] = 2,
+							[51241] = 1,
+							[54834] = 1,
+							[53317] = 1,
+							[55888] = 1,
+							[51884] = 1,
+							[51618] = 3,
+							[50315] = 1,
+							[51806] = 2,
+							[50858] = 1,
+							[51385] = 1,
+							[56036] = 3,
+							[56016] = 1,
+							[56032] = 1,
+							[56048] = 1,
+							[51976] = 1,
+							[50459] = 3,
+							[51122] = 1,
+							[52144] = 1,
+							[50507] = 1,
+							[51034] = 2,
+							[57333] = 3,
+							[51839] = 1,
+							[50512] = 1,
+							[51098] = 1,
+							[51625] = 2,
+							[51035] = 2,
+							[56021] = 2,
+							[50322] = 1,
+						},
+						["Player-3725-09B4CD5E"] = {
+							[51428] = 1,
+							[55340] = 1,
+							[51121] = 1,
+							[51627] = 1,
+							[51318] = 1,
+							[51641] = 1,
+							[53726] = 1,
+							["total"] = 52,
+							[52157] = 1,
+							[51529] = 1,
+							[51657] = 1,
+							[52352] = 1,
+							[51035] = 2,
+							[53712] = 1,
+							[52872] = 1,
+							[50985] = 1,
+							[53188] = 1,
+							[52878] = 1,
+							[53753] = 1,
+							[53814] = 1,
+							[55341] = 1,
+							[50492] = 1,
+							[51317] = 1,
+							[56796] = 1,
+							[51758] = 1,
+							[51640] = 1,
+							[50514] = 1,
+							[51638] = 1,
+							[52333] = 1,
+							[51908] = 1,
+							[54182] = 1,
+							[56056] = 1,
+							[55302] = 1,
+							[55997] = 1,
+							[51026] = 2,
+							[52475] = 1,
+							[51656] = 2,
+							[50776] = 1,
+							[51782] = 2,
+							[53804] = 1,
+							[51034] = 1,
+							[51095] = 1,
+							[53717] = 1,
+							[51166] = 1,
+							[52869] = 1,
+							[55895] = 1,
+							[51613] = 1,
+							[51615] = 1,
+							[50958] = 1,
+						},
+						["Player-3725-09B4F9BA"] = {
+							[51774] = 1,
+							[52159] = 1,
+							[53814] = 1,
+							[51659] = 1,
+							[53699] = 1,
+							[55997] = 1,
+							[51175] = 1,
+							[51433] = 1,
+							[51584] = 1,
+							[52858] = 1,
+							[51977] = 1,
+							[50969] = 1,
+							[51612] = 1,
+							[51620] = 1,
+							[52390] = 1,
+							[50997] = 1,
+							[51652] = 1,
+							[51656] = 1,
+							[52422] = 1,
+							[54089] = 1,
+							[50164] = 1,
+							[51311] = 1,
+							[55895] = 1,
+							[55264] = 3,
+							[50315] = 1,
+							[56796] = 1,
+							[52871] = 1,
+							[51609] = 1,
+							[55300] = 1,
+							[51625] = 1,
+							[50998] = 1,
+							[51637] = 2,
+							[50502] = 1,
+							[51776] = 1,
+							[53812] = 1,
+							[55340] = 6,
+							[51026] = 2,
+							[51034] = 1,
+							[54471] = 1,
+							[51431] = 1,
+							[54507] = 1,
+							["total"] = 104,
+							[51806] = 1,
+							[52872] = 1,
+							[51542] = 1,
+							[51610] = 1,
+							[55215] = 1,
+							[55301] = 1,
+							[51887] = 1,
+							[51626] = 1,
+							[50461] = 1,
+							[51500] = 1,
+							[51638] = 3,
+							[51642] = 1,
+							[51660] = 1,
+							[51581] = 1,
+							[55341] = 3,
+							[52166] = 1,
+							[51154] = 1,
+							[51611] = 1,
+							[51035] = 3,
+							[52309] = 1,
+							[52352] = 1,
+							[51428] = 1,
+							[52424] = 1,
+							[51817] = 2,
+							[52964] = 1,
+							[51444] = 1,
+							[52163] = 1,
+							[51710] = 1,
+							[51583] = 1,
+							[51841] = 1,
+							[52140] = 1,
+							[51415] = 1,
+							[52869] = 2,
+							[49397] = 1,
+							[51669] = 1,
+							[56056] = 1,
+							[51615] = 1,
+							[52889] = 1,
+							[51623] = 2,
+							[52389] = 1,
+							[53867] = 1,
+							[52143] = 1,
+							[51639] = 1,
+							[52475] = 1,
+							[52423] = 1,
+						},
+						["Player-3725-0A2AF3C8"] = {
+							[51806] = 1,
+							[51623] = 2,
+							[51625] = 1,
+							[52889] = 1,
+							[51759] = 1,
+							[52832] = 1,
+							[51641] = 1,
+							[51895] = 1,
+							[51584] = 2,
+							[51586] = 1,
+							["total"] = 45,
+							[51905] = 1,
+							[51029] = 1,
+							[51098] = 1,
+							[51415] = 1,
+							[51610] = 1,
+							[52880] = 1,
+							[51874] = 1,
+							[51687] = 1,
+							[51185] = 1,
+							[51758] = 1,
+							[50502] = 1,
+							[51640] = 1,
+							[51894] = 1,
+							[51644] = 1,
+							[51774] = 1,
+							[51585] = 1,
+							[51026] = 2,
+							[52297] = 1,
+							[51917] = 1,
+							[51095] = 1,
+							[51034] = 1,
+							[51107] = 1,
+							[52869] = 1,
+							[52163] = 1,
+							[51609] = 1,
+							[52871] = 2,
+							[52010] = 1,
+							[51617] = 2,
+							[51035] = 2,
+						},
+						["Player-3725-09EC580D"] = {
+							[51428] = 1,
+							[54143] = 1,
+							[51625] = 1,
+							[51627] = 1,
+							[51633] = 1,
+							[51893] = 1,
+							[50509] = 1,
+							[50324] = 1,
+							["total"] = 63,
+							[51905] = 1,
+							[51970] = 1,
+							[51806] = 2,
+							[52163] = 2,
+							[51157] = 1,
+							[52167] = 1,
+							[51854] = 1,
+							[51415] = 2,
+							[52873] = 1,
+							[52306] = 1,
+							[51989] = 1,
+							[52869] = 2,
+							[51613] = 1,
+							[51175] = 1,
+							[50987] = 1,
+							[53814] = 1,
+							[52924] = 1,
+							[50958] = 2,
+							[55301] = 1,
+							[51655] = 1,
+							[51026] = 2,
+							[51758] = 1,
+							[54089] = 1,
+							[54471] = 1,
+							[51638] = 1,
+							[51035] = 2,
+							[51317] = 1,
+							[52463] = 1,
+							[51457] = 1,
+							[52211] = 1,
+							[51623] = 1,
+							[53726] = 1,
+							[51584] = 1,
+							[51656] = 1,
+							[51154] = 1,
+							[51660] = 1,
+							[54182] = 1,
+							[51034] = 1,
+							[52165] = 1,
+							[55340] = 3,
+							[51670] = 1,
+							[54507] = 1,
+							[52871] = 1,
+							[53755] = 1,
+							[52862] = 1,
+							[52474] = 1,
+						},
+						["Player-3725-09B4C602"] = {
+							[52872] = 1,
+							[52873] = 1,
+							[51175] = 1,
+							[51759] = 1,
+							[52163] = 1,
+							[51548] = 1,
+							[51638] = 1,
+							[50864] = 1,
+							[52880] = 1,
+							[51610] = 1,
+							[52169] = 1,
+							[51178] = 1,
+							[50869] = 1,
+							[50468] = 1,
+							[51894] = 1,
+							[51895] = 1,
+							[51617] = 1,
+							["total"] = 36,
+							[50875] = 1,
+							[53188] = 1,
+							[55341] = 1,
+							[51034] = 1,
+							[51623] = 2,
+							[51035] = 2,
+							[51615] = 1,
+							[52363] = 1,
+							[51026] = 2,
+							[51814] = 2,
+							[52869] = 1,
+							[51586] = 1,
+							[52871] = 2,
+							[51669] = 1,
+						},
+					},
+				},
+				["period"] = {
+					["global"] = {
+						["191216"] = {
+							["artifact"] = 1200,
+							["resource"] = 3885,
+							["gold"] = 3847900,
+							["quest"] = 30,
+							["profession"] = {
+								[152668] = 1,
+							},
+						},
+						["200112"] = {
+							["artifact"] = 1013,
+							["resource"] = 1920,
+							["gold"] = 9041200,
+							["quest"] = 28,
+							["profession"] = {
+								[162321] = 1,
+							},
+						},
+						["200123"] = {
+							["artifact"] = 915,
+							["resource"] = 1144,
+							["gold"] = 3455100,
+							["quest"] = 13,
+							["profession"] = {
+								[162360] = 1,
+							},
+						},
+						["200125"] = {
+							["artifact"] = 486,
+							["resource"] = 636,
+							["quest"] = 9,
+						},
+						["200118"] = {
+							["artifact"] = 1969,
+							["resource"] = 3553,
+							["gold"] = 14737800,
+							["quest"] = 29,
+							["profession"] = {
+								[152668] = 2,
+								[169536] = 1,
+								[162443] = 1,
+							},
+						},
+						["191201"] = {
+							["artifact"] = 1202,
+							["quest"] = 10,
+							["resource"] = 1211,
+							["gold"] = 8327300,
+						},
+						["200113"] = {
+							["quest"] = 1,
+							["resource"] = 55,
+						},
+						["191115"] = {
+							["artifact"] = 1238,
+							["quest"] = 28,
+							["resource"] = 2993,
+							["gold"] = 9636000,
+						},
+						["200108"] = {
+							["quest"] = 2,
+							["profession"] = {
+								[152668] = 1,
+							},
+						},
+						["191202"] = {
+							["artifact"] = 335,
+							["resource"] = 520,
+							["quest"] = 8,
+						},
+						["200122"] = {
+							["quest"] = 2,
+							["profession"] = {
+								[152668] = 1,
+								[162445] = 1,
+							},
+						},
+						["191129"] = {
+							["artifact"] = 682,
+							["resource"] = 1536,
+							["gold"] = 3239800,
+							["quest"] = 16,
+							["profession"] = {
+								[162294] = 1,
+							},
+						},
+						["191208"] = {
+							["artifact"] = 2218,
+							["resource"] = 2768,
+							["gold"] = 3553600,
+							["quest"] = 19,
+							["profession"] = {
+								[152513] = 1,
+								[168333] = 1,
+							},
+						},
+						["191110"] = {
+							["artifact"] = 4186,
+							["resource"] = 5150,
+							["gold"] = 4408200,
+							["quest"] = 21,
+							["profession"] = {
+								[0] = 1,
+							},
+						},
+						["191215"] = {
+							["artifact"] = 487,
+							["resource"] = 857,
+							["gold"] = 3033700,
+							["quest"] = 11,
+							["profession"] = {
+								[152579] = 1,
+							},
+						},
+						["191116"] = {
+							["artifact"] = 2927,
+							["resource"] = 4673,
+							["profession"] = {
+								[162300] = 1,
+								[162285] = 1,
+								[152513] = 1,
+								[162296] = 1,
+							},
+							["quest"] = 48,
+							["gold"] = 5968900,
+						},
+						["200202"] = {
+							["artifact"] = 722,
+							["resource"] = 1629,
+							["quest"] = 14,
+							["gold"] = 1710500,
+						},
+						["200204"] = {
+							["artifact"] = 152,
+							["quest"] = 10,
+							["resource"] = 1152,
+							["gold"] = 1630300,
+						},
+						["191128"] = {
+							["artifact"] = 1082,
+							["resource"] = 2988,
+							["gold"] = 4196200,
+							["quest"] = 21,
+							["profession"] = {
+								[162290] = 1,
+							},
+						},
+						["200201"] = {
+							["artifact"] = 169,
+							["resource"] = 169,
+							["quest"] = 6,
+							["profession"] = {
+								[152513] = 1,
+							},
+						},
+						["191203"] = {
+							["resource"] = 842,
+							["quest"] = 8,
+							["gold"] = 5970500,
+						},
+						["191111"] = {
+							["quest"] = 2,
+							["resource"] = 250,
+							["gold"] = 1956200,
+						},
+						["191114"] = {
+							["artifact"] = 721,
+							["resource"] = 1783,
+							["gold"] = 7667500,
+							["quest"] = 26,
+							["profession"] = {
+								[162314] = 1,
+							},
+						},
+						["191230"] = {
+							["artifact"] = 1578,
+							["resource"] = 2564,
+							["quest"] = 20,
+							["gold"] = 2007900,
+						},
+						["191126"] = {
+							["artifact"] = 239,
+							["quest"] = 12,
+							["resource"] = 1244,
+							["gold"] = 7196000,
+						},
+						["200117"] = {
+							["artifact"] = 158,
+							["resource"] = 258,
+							["quest"] = 2,
+						},
+						["200104"] = {
+							["artifact"] = 1121,
+							["resource"] = 1880,
+							["gold"] = 1325200,
+							["quest"] = 18,
+							["profession"] = {
+								[169534] = 1,
+							},
+						},
+						["200130"] = {
+							["quest"] = 2,
+						},
+						["200127"] = {
+							["artifact"] = 864,
+							["resource"] = 1413,
+							["quest"] = 19,
+							["gold"] = 3455100,
+						},
+						["191112"] = {
+							["artifact"] = 1112,
+							["quest"] = 22,
+							["resource"] = 3603,
+							["gold"] = 4610600,
+						},
+						["200110"] = {
+							["artifact"] = 2338,
+							["resource"] = 4112,
+							["gold"] = 7252700,
+							["quest"] = 38,
+							["profession"] = {
+								[152510] = 1,
+							},
+						},
+						["191113"] = {
+							["artifact"] = 3906,
+							["resource"] = 4668,
+							["quest"] = 12,
+							["gold"] = 1223100,
+						},
+						["191121"] = {
+							["artifact"] = 1252,
+							["resource"] = 2485,
+							["gold"] = 9044500,
+							["quest"] = 27,
+							["profession"] = {
+								[152513] = 1,
+								[162291] = 1,
+							},
+						},
+						["200120"] = {
+							["quest"] = 2,
+							["resource"] = 60,
+						},
+						["191221"] = {
+							["artifact"] = 2350,
+							["resource"] = 2930,
+							["gold"] = 4210200,
+							["quest"] = 20,
+							["profession"] = {
+								[152668] = 1,
+							},
+						},
+						["200105"] = {
+							["artifact"] = 176,
+							["quest"] = 2,
+							["resource"] = 216,
+						},
+						["191107"] = {
+							["artifact"] = 917,
+							["quest"] = 9,
+							["resource"] = 1067,
+							["gold"] = 1813800,
+						},
+						["191106"] = {
+							["resource"] = 270,
+							["quest"] = 5,
+							["gold"] = 1382600,
+						},
+						["191120"] = {
+							["artifact"] = 586,
+							["resource"] = 741,
+							["quest"] = 10,
+							["gold"] = 1243500,
+						},
+						["191118"] = {
+							["artifact"] = 1279,
+							["quest"] = 15,
+							["resource"] = 1464,
+							["gold"] = 5912100,
+						},
+						["191127"] = {
+							["artifact"] = 154,
+							["resource"] = 194,
+							["quest"] = 5,
+							["gold"] = 1282300,
+						},
+						["200111"] = {
+							["artifact"] = 2267,
+							["resource"] = 2737,
+							["quest"] = 27,
+							["gold"] = 10532900,
+						},
+						["191206"] = {
+							["profession"] = {
+								[168331] = 1,
+								[168332] = 1,
+							},
+							["quest"] = 17,
+							["resource"] = 1366,
+							["gold"] = 4460700,
+						},
+						["191119"] = {
+							["artifact"] = 181,
+							["resource"] = 686,
+							["profession"] = {
+								[162319] = 1,
+								[152668] = 1,
+							},
+							["quest"] = 11,
+							["gold"] = 1746800,
+						},
+						["191207"] = {
+							["artifact"] = 824,
+							["quest"] = 6,
+							["resource"] = 922,
+							["profession"] = {
+								[168334] = 1,
+							},
+						},
+						["191124"] = {
+							["artifact"] = 922,
+							["quest"] = 19,
+							["resource"] = 2276,
+							["gold"] = 5264700,
+						},
+						["191209"] = {
+							["artifact"] = 1094,
+							["resource"] = 1668,
+							["profession"] = {
+								[152668] = 1,
+							},
+							["quest"] = 18,
+							["gold"] = 4622000,
+						},
+						["200116"] = {
+							["artifact"] = 1677,
+							["resource"] = 2112,
+							["profession"] = {
+								[152668] = 4,
+							},
+							["quest"] = 17,
+							["gold"] = 3433700,
+						},
+						["191213"] = {
+							["artifact"] = 578,
+							["resource"] = 1494,
+							["gold"] = 1636800,
+							["quest"] = 16,
+							["profession"] = {
+								[152668] = 1,
+								[170213] = 1,
+							},
+						},
+						["200115"] = {
+							["artifact"] = 1574,
+							["resource"] = 2074,
+							["gold"] = 1243500,
+							["quest"] = 16,
+							["profession"] = {
+								[162259] = 1,
+							},
+						},
+						["200126"] = {
+							["artifact"] = 894,
+							["quest"] = 11,
+							["resource"] = 1378,
+							["profession"] = {
+								[152668] = 1,
+							},
+						},
+						["191229"] = {
+							["artifact"] = 1639,
+							["resource"] = 3840,
+							["gold"] = 23946700,
+							["quest"] = 52,
+							["profession"] = {
+								[152668] = 1,
+							},
+						},
+						["200124"] = {
+							["quest"] = 14,
+							["resource"] = 80,
+							["profession"] = {
+								[152513] = 1,
+							},
+						},
+						["191108"] = {
+							["artifact"] = 340,
+							["resource"] = 840,
+							["profession"] = {
+								[162315] = 1,
+							},
+							["quest"] = 15,
+							["gold"] = 6037100,
+						},
+						["191210"] = {
+							["artifact"] = 500,
+							["quest"] = 8,
+							["resource"] = 795,
+						},
+						["191109"] = {
+							["quest"] = 8,
+							["resource"] = 45,
+							["gold"] = 1258100,
+						},
+						["191125"] = {
+							["artifact"] = 3979,
+							["quest"] = 17,
+							["resource"] = 5566,
+							["gold"] = 1218900,
+						},
+						["191228"] = {
+							["resource"] = 235,
+							["quest"] = 15,
+							["gold"] = 14643500,
+						},
+						["191214"] = {
+							["artifact"] = 1868,
+							["resource"] = 2478,
+							["profession"] = {
+								[162299] = 1,
+							},
+							["quest"] = 27,
+							["gold"] = 2566500,
+						},
+						["191117"] = {
+							["artifact"] = 511,
+							["quest"] = 9,
+							["resource"] = 641,
+							["gold"] = 2553700,
+						},
+						["191211"] = {
+							["artifact"] = 151,
+							["resource"] = 151,
+							["gold"] = 3229500,
+							["quest"] = 6,
+							["profession"] = {
+								[152668] = 1,
+							},
+						},
+						["200106"] = {
+							["artifact"] = 334,
+							["resource"] = 894,
+							["profession"] = {
+								[169535] = 1,
+							},
+							["quest"] = 11,
+							["gold"] = 1326000,
+						},
+						["200114"] = {
+							["quest"] = 7,
+						},
+						["191123"] = {
+							["artifact"] = 2607,
+							["resource"] = 3290,
+							["profession"] = {
+								[162286] = 1,
+								[162297] = 1,
+							},
+							["quest"] = 26,
+							["gold"] = 3935700,
+						},
+						["191122"] = {
+							["quest"] = 6,
+							["resource"] = 739,
+						},
+						["200119"] = {
+							["quest"] = 5,
+						},
+						["200101"] = {
+							["artifact"] = 1036,
+							["resource"] = 1758,
+							["quest"] = 21,
+							["gold"] = 6277100,
+						},
+						["191130"] = {
+							["artifact"] = 4317,
+							["resource"] = 5006,
+							["quest"] = 12,
+							["gold"] = 3838100,
+						},
+						["200103"] = {
+							["artifact"] = 1092,
+							["resource"] = 1637,
+							["quest"] = 13,
+							["gold"] = 5988600,
+						},
+						["191220"] = {
+							["quest"] = 8,
+							["resource"] = 615,
+							["profession"] = {
+								[152668] = 1,
+								[152513] = 1,
+							},
+						},
+						["200102"] = {
+							["artifact"] = 847,
+							["quest"] = 16,
+							["resource"] = 2182,
+							["gold"] = 2710600,
+						},
+						["200128"] = {
+							["quest"] = 1,
+							["profession"] = {
+								[162444] = 1,
+							},
+						},
+						["200131"] = {
+							["artifact"] = 592,
+							["resource"] = 1069,
+							["quest"] = 12,
+							["gold"] = 1239500,
+						},
+					},
+					["character"] = {
+						["Player-3725-0ADDB2AD"] = {
+							["200112"] = {
+								["artifact"] = 156,
+								["resource"] = 211,
+								["quest"] = 4,
+								["gold"] = 1670200,
+							},
+							["200114"] = {
+								["quest"] = 1,
+							},
+							["200127"] = {
+								["quest"] = 1,
+							},
+						},
+						["Player-3725-09B7FEA9"] = {
+							["200104"] = {
+								["artifact"] = 933,
+								["resource"] = 1442,
+								["gold"] = 1325200,
+								["quest"] = 13,
+								["profession"] = {
+									[169534] = 1,
+								},
+							},
+							["191216"] = {
+								["artifact"] = 1200,
+								["resource"] = 2924,
+								["profession"] = {
+									[152668] = 1,
+								},
+								["quest"] = 26,
+								["gold"] = 2466800,
+							},
+							["200127"] = {
+								["artifact"] = 253,
+								["resource"] = 802,
+								["quest"] = 6,
+								["gold"] = 3455100,
+							},
+							["191112"] = {
+								["artifact"] = 1112,
+								["quest"] = 22,
+								["resource"] = 3603,
+								["gold"] = 4610600,
+							},
+							["200125"] = {
+								["artifact"] = 168,
+								["resource"] = 318,
+								["quest"] = 5,
+							},
+							["191228"] = {
+								["resource"] = 235,
+								["quest"] = 13,
+								["gold"] = 8136300,
+							},
+							["200110"] = {
+								["artifact"] = 185,
+								["resource"] = 644,
+								["quest"] = 5,
+								["gold"] = 3167700,
+							},
+							["191201"] = {
+								["artifact"] = 1202,
+								["quest"] = 10,
+								["resource"] = 1211,
+								["gold"] = 8327300,
+							},
+							["191117"] = {
+								["artifact"] = 511,
+								["quest"] = 9,
+								["resource"] = 641,
+								["gold"] = 2553700,
+							},
+							["200118"] = {
+								["artifact"] = 469,
+								["resource"] = 1519,
+								["gold"] = 7517100,
+								["quest"] = 13,
+								["profession"] = {
+									[152668] = 1,
+									[169536] = 1,
+								},
+							},
+							["191220"] = {
+								["quest"] = 8,
+								["resource"] = 615,
+								["profession"] = {
+									[152668] = 1,
+									[152513] = 1,
+								},
+							},
+							["191215"] = {
+								["artifact"] = 487,
+								["resource"] = 857,
+								["gold"] = 3033700,
+								["quest"] = 11,
+								["profession"] = {
+									[152579] = 1,
+								},
+							},
+							["191221"] = {
+								["artifact"] = 2350,
+								["resource"] = 2930,
+								["gold"] = 4210200,
+								["quest"] = 20,
+								["profession"] = {
+									[152668] = 1,
+								},
+							},
+							["191115"] = {
+								["artifact"] = 1238,
+								["quest"] = 28,
+								["resource"] = 2993,
+								["gold"] = 9636000,
+							},
+							["200101"] = {
+								["artifact"] = 1036,
+								["resource"] = 1603,
+								["quest"] = 17,
+								["gold"] = 4620200,
+							},
+							["200108"] = {
+								["quest"] = 2,
+								["profession"] = {
+									[152668] = 1,
+								},
+							},
+							["191202"] = {
+								["artifact"] = 335,
+								["resource"] = 520,
+								["quest"] = 8,
+							},
+							["191106"] = {
+								["resource"] = 270,
+								["quest"] = 5,
+								["gold"] = 1382600,
+							},
+							["191108"] = {
+								["artifact"] = 340,
+								["resource"] = 840,
+								["profession"] = {
+									[162315] = 1,
+								},
+								["quest"] = 15,
+								["gold"] = 6037100,
+							},
+							["191118"] = {
+								["artifact"] = 1279,
+								["quest"] = 15,
+								["resource"] = 1464,
+								["gold"] = 5912100,
+							},
+							["191127"] = {
+								["artifact"] = 154,
+								["resource"] = 194,
+								["quest"] = 5,
+								["gold"] = 1282300,
+							},
+							["191208"] = {
+								["artifact"] = 2218,
+								["resource"] = 2768,
+								["gold"] = 3553600,
+								["quest"] = 19,
+								["profession"] = {
+									[152513] = 1,
+									[168333] = 1,
+								},
+							},
+							["191110"] = {
+								["artifact"] = 4186,
+								["resource"] = 5150,
+								["gold"] = 4408200,
+								["quest"] = 21,
+								["profession"] = {
+									[0] = 1,
+								},
+							},
+							["200111"] = {
+								["artifact"] = 512,
+								["resource"] = 937,
+								["quest"] = 12,
+								["gold"] = 7366600,
+							},
+							["191206"] = {
+								["profession"] = {
+									[168331] = 1,
+									[168332] = 1,
+								},
+								["quest"] = 17,
+								["resource"] = 1366,
+								["gold"] = 4460700,
+							},
+							["191119"] = {
+								["artifact"] = 181,
+								["resource"] = 686,
+								["profession"] = {
+									[162319] = 1,
+									[152668] = 1,
+								},
+								["quest"] = 11,
+								["gold"] = 1746800,
+							},
+							["191116"] = {
+								["artifact"] = 2927,
+								["resource"] = 4673,
+								["profession"] = {
+									[162300] = 1,
+									[162285] = 1,
+									[152513] = 1,
+									[162296] = 1,
+								},
+								["quest"] = 48,
+								["gold"] = 5968900,
+							},
+							["191207"] = {
+								["artifact"] = 824,
+								["quest"] = 6,
+								["resource"] = 922,
+								["profession"] = {
+									[168334] = 1,
+								},
+							},
+							["191129"] = {
+								["artifact"] = 682,
+								["resource"] = 1536,
+								["gold"] = 3239800,
+								["quest"] = 16,
+								["profession"] = {
+									[162294] = 1,
+								},
+							},
+							["191128"] = {
+								["artifact"] = 1082,
+								["resource"] = 2988,
+								["gold"] = 4196200,
+								["quest"] = 21,
+								["profession"] = {
+									[162290] = 1,
+								},
+							},
+							["191130"] = {
+								["artifact"] = 4317,
+								["resource"] = 5006,
+								["quest"] = 12,
+								["gold"] = 3838100,
+							},
+							["191124"] = {
+								["artifact"] = 922,
+								["quest"] = 19,
+								["resource"] = 2276,
+								["gold"] = 5264700,
+							},
+							["191209"] = {
+								["artifact"] = 1094,
+								["resource"] = 1668,
+								["profession"] = {
+									[152668] = 1,
+								},
+								["quest"] = 18,
+								["gold"] = 4622000,
+							},
+							["200116"] = {
+								["artifact"] = 1492,
+								["resource"] = 1927,
+								["profession"] = {
+									[152668] = 2,
+								},
+								["quest"] = 14,
+								["gold"] = 3433700,
+							},
+							["191211"] = {
+								["artifact"] = 151,
+								["resource"] = 151,
+								["gold"] = 3229500,
+								["quest"] = 6,
+								["profession"] = {
+									[152668] = 1,
+								},
+							},
+							["191121"] = {
+								["artifact"] = 1252,
+								["resource"] = 2485,
+								["gold"] = 9044500,
+								["quest"] = 27,
+								["profession"] = {
+									[152513] = 1,
+									[162291] = 1,
+								},
+							},
+							["191122"] = {
+								["quest"] = 6,
+								["resource"] = 739,
+							},
+							["200115"] = {
+								["artifact"] = 529,
+								["quest"] = 3,
+								["resource"] = 529,
+							},
+							["200201"] = {
+								["artifact"] = 169,
+								["resource"] = 169,
+								["quest"] = 3,
+								["profession"] = {
+									[152513] = 1,
+								},
+							},
+							["200126"] = {
+								["artifact"] = 894,
+								["resource"] = 1378,
+								["quest"] = 9,
+							},
+							["200124"] = {
+								["quest"] = 8,
+								["resource"] = 20,
+								["profession"] = {
+									[152513] = 1,
+								},
+							},
+							["191203"] = {
+								["resource"] = 842,
+								["quest"] = 8,
+								["gold"] = 5970500,
+							},
+							["191111"] = {
+								["quest"] = 2,
+								["resource"] = 250,
+								["gold"] = 1956200,
+							},
+							["191109"] = {
+								["quest"] = 8,
+								["resource"] = 45,
+								["gold"] = 1258100,
+							},
+							["191125"] = {
+								["artifact"] = 3979,
+								["quest"] = 17,
+								["resource"] = 5566,
+								["gold"] = 1218900,
+							},
+							["200114"] = {
+								["quest"] = 1,
+							},
+							["191214"] = {
+								["artifact"] = 1868,
+								["resource"] = 2478,
+								["profession"] = {
+									[162299] = 1,
+								},
+								["quest"] = 27,
+								["gold"] = 2566500,
+							},
+							["191114"] = {
+								["artifact"] = 721,
+								["resource"] = 1783,
+								["gold"] = 7667500,
+								["quest"] = 26,
+								["profession"] = {
+									[162314] = 1,
+								},
+							},
+							["191229"] = {
+								["artifact"] = 470,
+								["resource"] = 879,
+								["quest"] = 10,
+								["gold"] = 7317100,
+							},
+							["200106"] = {
+								["artifact"] = 334,
+								["resource"] = 894,
+								["profession"] = {
+									[169535] = 1,
+								},
+								["quest"] = 11,
+								["gold"] = 1326000,
+							},
+							["191213"] = {
+								["artifact"] = 578,
+								["resource"] = 1494,
+								["gold"] = 1636800,
+								["quest"] = 16,
+								["profession"] = {
+									[152668] = 1,
+									[170213] = 1,
+								},
+							},
+							["191123"] = {
+								["artifact"] = 2607,
+								["resource"] = 3290,
+								["profession"] = {
+									[162286] = 1,
+									[162297] = 1,
+								},
+								["quest"] = 26,
+								["gold"] = 3935700,
+							},
+							["200119"] = {
+								["quest"] = 1,
+							},
+							["191126"] = {
+								["artifact"] = 239,
+								["quest"] = 12,
+								["resource"] = 1244,
+								["gold"] = 7196000,
+							},
+							["191210"] = {
+								["artifact"] = 500,
+								["quest"] = 8,
+								["resource"] = 795,
+							},
+							["200117"] = {
+								["artifact"] = 158,
+								["resource"] = 258,
+								["quest"] = 2,
+							},
+							["191107"] = {
+								["artifact"] = 917,
+								["quest"] = 9,
+								["resource"] = 1067,
+								["gold"] = 1813800,
+							},
+							["191120"] = {
+								["artifact"] = 586,
+								["resource"] = 741,
+								["quest"] = 10,
+								["gold"] = 1243500,
+							},
+							["200102"] = {
+								["artifact"] = 334,
+								["resource"] = 479,
+								["quest"] = 4,
+							},
+							["200113"] = {
+								["quest"] = 1,
+								["resource"] = 55,
+							},
+							["191113"] = {
+								["artifact"] = 3906,
+								["resource"] = 4668,
+								["quest"] = 12,
+								["gold"] = 1223100,
+							},
+						},
+						["Player-3725-09B4CD5E"] = {
+							["200105"] = {
+								["artifact"] = 176,
+								["quest"] = 2,
+								["resource"] = 216,
+							},
+							["200127"] = {
+								["quest"] = 1,
+							},
+							["200112"] = {
+								["quest"] = 1,
+								["resource"] = 40,
+							},
+							["200114"] = {
+								["quest"] = 1,
+							},
+							["200125"] = {
+								["artifact"] = 318,
+								["quest"] = 4,
+								["resource"] = 318,
+							},
+							["200118"] = {
+								["artifact"] = 750,
+								["quest"] = 3,
+								["resource"] = 750,
+								["gold"] = 2008600,
+							},
+							["200115"] = {
+								["quest"] = 1,
+								["profession"] = {
+									[162259] = 1,
+								},
+							},
+							["200119"] = {
+								["quest"] = 1,
+							},
+							["200103"] = {
+								["artifact"] = 161,
+								["resource"] = 201,
+								["quest"] = 4,
+								["gold"] = 2994300,
+							},
+							["200201"] = {
+								["quest"] = 3,
+							},
+							["200116"] = {
+								["quest"] = 1,
+								["profession"] = {
+									[152668] = 1,
+								},
+							},
+							["200110"] = {
+								["artifact"] = 701,
+								["resource"] = 1881,
+								["gold"] = 2731400,
+								["quest"] = 16,
+								["profession"] = {
+									[152510] = 1,
+								},
+							},
+							["191229"] = {
+								["quest"] = 1,
+							},
+							["191230"] = {
+								["artifact"] = 947,
+								["resource"] = 1694,
+								["quest"] = 13,
+							},
+						},
+						["Player-3725-09B4F9BA"] = {
+							["200104"] = {
+								["artifact"] = 188,
+								["quest"] = 5,
+								["resource"] = 438,
+							},
+							["200130"] = {
+								["quest"] = 2,
+							},
+							["200127"] = {
+								["artifact"] = 611,
+								["quest"] = 8,
+								["resource"] = 611,
+							},
+							["200102"] = {
+								["artifact"] = 334,
+								["quest"] = 7,
+								["resource"] = 1110,
+								["gold"] = 1355300,
+							},
+							["200118"] = {
+								["artifact"] = 750,
+								["resource"] = 1284,
+								["gold"] = 5212100,
+								["quest"] = 13,
+								["profession"] = {
+									[162443] = 1,
+									[152668] = 1,
+								},
+							},
+							["200115"] = {
+								["artifact"] = 529,
+								["quest"] = 7,
+								["resource"] = 1029,
+							},
+							["191229"] = {
+								["artifact"] = 580,
+								["resource"] = 1412,
+								["gold"] = 8157300,
+								["quest"] = 20,
+								["profession"] = {
+									[152668] = 1,
+								},
+							},
+							["200120"] = {
+								["quest"] = 2,
+								["resource"] = 60,
+							},
+							["200122"] = {
+								["quest"] = 2,
+								["profession"] = {
+									[152668] = 1,
+									[162445] = 1,
+								},
+							},
+							["200114"] = {
+								["quest"] = 1,
+							},
+							["200128"] = {
+								["quest"] = 1,
+								["profession"] = {
+									[162444] = 1,
+								},
+							},
+							["200111"] = {
+								["artifact"] = 760,
+								["resource"] = 805,
+								["quest"] = 8,
+								["gold"] = 3166300,
+							},
+							["200110"] = {
+								["artifact"] = 631,
+								["quest"] = 5,
+								["resource"] = 631,
+							},
+							["200123"] = {
+								["artifact"] = 368,
+								["resource"] = 428,
+								["gold"] = 3455100,
+								["quest"] = 7,
+								["profession"] = {
+									[162360] = 1,
+								},
+							},
+							["200101"] = {
+								["quest"] = 4,
+								["resource"] = 155,
+								["gold"] = 1656900,
+							},
+							["200116"] = {
+								["artifact"] = 185,
+								["quest"] = 2,
+								["resource"] = 185,
+								["profession"] = {
+									[152668] = 1,
+								},
+							},
+							["200131"] = {
+								["artifact"] = 592,
+								["resource"] = 1069,
+								["quest"] = 10,
+								["gold"] = 1239500,
+							},
+						},
+						["Player-3725-0A2AF3C8"] = {
+							["200112"] = {
+								["artifact"] = 339,
+								["resource"] = 913,
+								["quest"] = 11,
+								["gold"] = 3008200,
+							},
+							["200114"] = {
+								["quest"] = 1,
+							},
+							["191228"] = {
+								["quest"] = 1,
+								["gold"] = 3253600,
+							},
+							["200115"] = {
+								["artifact"] = 258,
+								["quest"] = 3,
+								["resource"] = 258,
+								["gold"] = 1243500,
+							},
+							["200103"] = {
+								["artifact"] = 161,
+								["resource"] = 361,
+								["quest"] = 4,
+								["gold"] = 2994300,
+							},
+							["200127"] = {
+								["quest"] = 1,
+							},
+							["191230"] = {
+								["quest"] = 1,
+							},
+							["191229"] = {
+								["artifact"] = 242,
+								["quest"] = 8,
+								["resource"] = 577,
+								["gold"] = 1804600,
+							},
+							["200202"] = {
+								["artifact"] = 722,
+								["resource"] = 1629,
+								["quest"] = 14,
+								["gold"] = 1710500,
+							},
+							["200119"] = {
+								["quest"] = 1,
+							},
+						},
+						["Player-3725-09EC580D"] = {
+							["200102"] = {
+								["artifact"] = 179,
+								["quest"] = 5,
+								["resource"] = 593,
+								["gold"] = 1355300,
+							},
+							["191216"] = {
+								["quest"] = 4,
+								["resource"] = 961,
+								["gold"] = 1381100,
+							},
+							["200123"] = {
+								["artifact"] = 547,
+								["quest"] = 6,
+								["resource"] = 716,
+							},
+							["200127"] = {
+								["quest"] = 1,
+							},
+							["200114"] = {
+								["quest"] = 1,
+							},
+							["191230"] = {
+								["quest"] = 1,
+							},
+							["191228"] = {
+								["quest"] = 1,
+								["gold"] = 3253600,
+							},
+							["200110"] = {
+								["artifact"] = 821,
+								["resource"] = 956,
+								["quest"] = 12,
+								["gold"] = 1353600,
+							},
+							["191229"] = {
+								["artifact"] = 347,
+								["resource"] = 682,
+								["quest"] = 8,
+								["gold"] = 1626100,
+							},
+							["200111"] = {
+								["artifact"] = 499,
+								["quest"] = 3,
+								["resource"] = 499,
+							},
+							["200124"] = {
+								["quest"] = 6,
+								["resource"] = 60,
+							},
+							["200126"] = {
+								["quest"] = 2,
+								["profession"] = {
+									[152668] = 1,
+								},
+							},
+							["200119"] = {
+								["quest"] = 1,
+							},
+							["200131"] = {
+								["quest"] = 2,
+							},
+							["200204"] = {
+								["artifact"] = 152,
+								["quest"] = 10,
+								["resource"] = 1152,
+								["gold"] = 1630300,
+							},
+						},
+						["Player-3725-09B4C602"] = {
+							["200112"] = {
+								["artifact"] = 518,
+								["resource"] = 756,
+								["profession"] = {
+									[162321] = 1,
+								},
+								["quest"] = 12,
+								["gold"] = 4362800,
+							},
+							["191230"] = {
+								["artifact"] = 631,
+								["resource"] = 870,
+								["quest"] = 5,
+								["gold"] = 2007900,
+							},
+							["200119"] = {
+								["quest"] = 1,
+							},
+							["200115"] = {
+								["artifact"] = 258,
+								["quest"] = 2,
+								["resource"] = 258,
+							},
+							["200103"] = {
+								["artifact"] = 770,
+								["quest"] = 5,
+								["resource"] = 1075,
+							},
+							["200114"] = {
+								["quest"] = 1,
+							},
+							["191229"] = {
+								["quest"] = 5,
+								["resource"] = 290,
+								["gold"] = 5041600,
+							},
+							["200111"] = {
+								["artifact"] = 496,
+								["quest"] = 4,
+								["resource"] = 496,
+							},
+							["200127"] = {
+								["quest"] = 1,
+							},
+						},
+					},
+				},
+				["reward"] = {
+					["global"] = {
+						["artifact"] = 69558,
+						["gold"] = 258051000,
+						["resource"] = 117457,
+						["profession"] = {
+							[162314] = 1,
+							[168332] = 1,
+							[162291] = 1,
+							[162299] = 1,
+							[162443] = 1,
+							[168334] = 1,
+							[169534] = 1,
+							[162315] = 1,
+							[168333] = 1,
+							[162321] = 1,
+							[162296] = 1,
+							[162300] = 1,
+							[152513] = 6,
+							[170213] = 1,
+							[169535] = 1,
+							[162285] = 1,
+							[162444] = 1,
+							[169536] = 1,
+							[162297] = 1,
+							[162286] = 1,
+							[162259] = 1,
+							[152668] = 17,
+							[152579] = 1,
+							[168331] = 1,
+							[162290] = 1,
+							[162294] = 1,
+							[162360] = 1,
+							[162445] = 1,
+							[152510] = 1,
+							[162319] = 1,
+							[0] = 1,
+						},
+					},
+					["character"] = {
+						["Player-3725-0ADDB2AD"] = {
+							["artifact"] = 156,
+							["resource"] = 211,
+							["gold"] = 1670200,
+						},
+						["Player-3725-09B7FEA9"] = {
+							["artifact"] = 53881,
+							["gold"] = 188377000,
+							["resource"] = 89827,
+							["profession"] = {
+								[162314] = 1,
+								[168332] = 1,
+								[162291] = 1,
+								[162299] = 1,
+								[169534] = 1,
+								[162315] = 1,
+								[162319] = 1,
+								[162296] = 1,
+								[162300] = 1,
+								[170213] = 1,
+								[169535] = 1,
+								[162285] = 1,
+								[168334] = 1,
+								[162297] = 1,
+								[152513] = 6,
+								[152579] = 1,
+								[162286] = 1,
+								[162290] = 1,
+								[162294] = 1,
+								[168333] = 1,
+								[168331] = 1,
+								[152668] = 11,
+								[0] = 1,
+								[169536] = 1,
+							},
+						},
+						["Player-3725-09B4CD5E"] = {
+							["artifact"] = 3053,
+							["profession"] = {
+								[162259] = 1,
+								[152510] = 1,
+								[152668] = 1,
+							},
+							["resource"] = 5100,
+							["gold"] = 7734300,
+						},
+						["Player-3725-09B4F9BA"] = {
+							["artifact"] = 5528,
+							["gold"] = 24242500,
+							["resource"] = 9217,
+							["profession"] = {
+								[162360] = 1,
+								[162445] = 1,
+								[152668] = 4,
+								[162443] = 1,
+								[162444] = 1,
+							},
+						},
+						["Player-3725-0A2AF3C8"] = {
+							["artifact"] = 1722,
+							["resource"] = 3738,
+							["gold"] = 14014700,
+						},
+						["Player-3725-09EC580D"] = {
+							["artifact"] = 2545,
+							["profession"] = {
+								[152668] = 1,
+							},
+							["resource"] = 5619,
+							["gold"] = 10600000,
+						},
+						["Player-3725-09B4C602"] = {
+							["artifact"] = 2673,
+							["gold"] = 11412300,
+							["resource"] = 3745,
+							["profession"] = {
+								[162321] = 1,
+							},
+						},
+					},
+				},
+			},
+		},
+	},
+}

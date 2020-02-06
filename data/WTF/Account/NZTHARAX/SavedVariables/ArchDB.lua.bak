@@ -1,0 +1,36 @@
+
+ArchDBDB = {
+	["profileKeys"] = {
+		["Davidgray - Frostmourne"] = "Default",
+		["Gavinral - Frostmourne"] = "Default",
+		["Ardern - Frostmourne"] = "Default",
+		["Brewswaying - Frostmourne"] = "Default",
+		["Staceyjones - Frostmourne"] = "Default",
+		["Rändolph - Frostmourne"] = "Default",
+		["Parrob - Frostmourne"] = "Default",
+		["Jellastie - Frostmourne"] = "Default",
+		["Antoínette - Frostmourne"] = "Default",
+		["Randolph - Spinebreaker"] = "Default",
+		["Lefane - Frostmourne"] = "Default",
+		["Humphrëy - Frostmourne"] = "Default",
+		["Petër - Frostmourne"] = "Default",
+		["Gutterspeak - Frostmourne"] = "Default",
+		["Gudrudrune - Frostmourne"] = "Default",
+		["Lohmisu - Frostmourne"] = "Default",
+		["Ignaciò - Frostmourne"] = "Default",
+		["Benjarclay - Frostmourne"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["Points"] = {
+				{
+					"CENTER", -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					0, -- [4]
+					0, -- [5]
+				}, -- [1]
+			},
+		},
+	},
+}

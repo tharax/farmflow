@@ -1,0 +1,21 @@
+
+TipTac_Config = {
+	["classification_rare"] = "%s|r (Rare) ",
+	["classification_elite"] = "+%s ",
+	["left"] = 593,
+	["anchorWorldUnitPoint"] = "BOTTOMRIGHT",
+	["classification_trivial"] = "~%s ",
+	["classification_worldboss"] = "%s|r (Boss) ",
+	["colorNameByClass"] = false,
+	["classification_rareelite"] = "+%s|r (Rare) ",
+	["anchorWorldUnitType"] = "mouse",
+	["targetYouText"] = "<<YOU>>",
+	["top"] = 743,
+	["classColoredBorder"] = false,
+	["classification_normal"] = "%s ",
+	["anchorWorldTipType"] = "mouse",
+	["classification_minus"] = "-%s ",
+	["showGuildRank"] = true,
+	["anchorFrameUnitType"] = "mouse",
+	["anchorFrameTipType"] = "mouse",
+}

@@ -1,0 +1,10 @@
+
+NPCScanDB = {
+	["profileKeys"] = {
+		["Tfcbank - Frostmourne"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

@@ -1,0 +1,55 @@
+
+DataStore_AuctionsDB = {
+	["profileKeys"] = {
+		["Davidgray - Frostmourne"] = "Davidgray - Frostmourne",
+		["Gudrudrune - Frostmourne"] = "Gudrudrune - Frostmourne",
+		["Ardern - Frostmourne"] = "Ardern - Frostmourne",
+		["Benjarclay - Frostmourne"] = "Benjarclay - Frostmourne",
+		["Staceyjones - Frostmourne"] = "Staceyjones - Frostmourne",
+		["Rändolph - Frostmourne"] = "Rändolph - Frostmourne",
+		["Parrob - Frostmourne"] = "Parrob - Frostmourne",
+		["Jellastie - Frostmourne"] = "Jellastie - Frostmourne",
+		["Randolph - Spinebreaker"] = "Randolph - Spinebreaker",
+		["Humphrëy - Frostmourne"] = "Humphrëy - Frostmourne",
+		["Lefane - Frostmourne"] = "Lefane - Frostmourne",
+		["Gavinral - Frostmourne"] = "Gavinral - Frostmourne",
+		["Petër - Frostmourne"] = "Petër - Frostmourne",
+		["Lohmisu - Frostmourne"] = "Lohmisu - Frostmourne",
+		["Gutterspeak - Frostmourne"] = "Gutterspeak - Frostmourne",
+		["Antoínette - Frostmourne"] = "Antoínette - Frostmourne",
+		["Ignaciò - Frostmourne"] = "Ignaciò - Frostmourne",
+		["Brewswaying - Frostmourne"] = "Brewswaying - Frostmourne",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Frostmourne.Rändolph"] = {
+				["lastUpdate"] = 1578991194,
+				["lastVisitDate"] = "2020/01/14 08:39",
+			},
+			["Default.Frostmourne.Antoínette"] = {
+				["lastUpdate"] = 1578867505,
+				["lastVisitDate"] = "2020/01/12 22:18",
+			},
+			["Default.Frostmourne.Ardern"] = {
+				["lastUpdate"] = 1577910523,
+				["lastVisitDate"] = "2020/01/01 20:28",
+			},
+			["Default.Frostmourne.Gutterspeak"] = {
+				["lastUpdate"] = 1577709782,
+				["lastVisitDate"] = "2019/12/30 12:43",
+			},
+			["Default.Frostmourne.Petër"] = {
+				["lastUpdate"] = 1578991690,
+				["lastVisitDate"] = "2020/01/14 08:48",
+			},
+			["Default.Frostmourne.Davidgray"] = {
+				["lastUpdate"] = 1578820099,
+				["lastVisitDate"] = "2020/01/12 09:08",
+			},
+			["Default.Frostmourne.Staceyjones"] = {
+				["lastUpdate"] = 1578862641,
+				["lastVisitDate"] = "2020/01/12 20:57",
+			},
+		},
+	},
+}

@@ -1,0 +1,104 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["time"] = 1580115970,
+	["scrollback"] = {
+		["ChatFrame1"] = {
+			{
+				"|cff979797[09:05:25]|r |cffd8d8d8[|r|Hplayer:Gutterspeak-Frostmourne:144:LOOT|h|cffd8bc3f120|r:|cfffefefeGutterspeak|r|h|cffd8d8d8]|rYou receive item: |cff1eff00|Hitem:52370::::::::120:257::::::|h[Design: Polished Hessonite]|h|r.", -- [1]
+				0, -- [2]
+				0.6666666865348816, -- [3]
+				0, -- [4]
+				28, -- [5]
+				false, -- [6]
+				1, -- [7]
+				2, -- [8]
+			}, -- [1]
+			{
+				"|cff979797[09:05:26]|r |cffd8d8d8[|r|Hplayer:Gutterspeak-Frostmourne:145:LOOT|h|cffd8bc3f120|r:|cfffefefeGutterspeak|r|h|cffd8d8d8]|rYou receive item: |cff1eff00|Hitem:52374::::::::120:257::::::|h[Design: Fierce Hessonite]|h|r.", -- [1]
+				0, -- [2]
+				0.6666666865348816, -- [3]
+				0, -- [4]
+				28, -- [5]
+				false, -- [6]
+				1, -- [7]
+				2, -- [8]
+			}, -- [2]
+			{
+				"|cff979797[09:05:27]|r |cffd8d8d8[|r|Hplayer:Gutterspeak-Frostmourne:146:LOOT|h|cffd8bc3f120|r:|cfffefefeGutterspeak|r|h|cffd8d8d8]|rYou receive item: |cff1eff00|Hitem:152577::::::::120:257::::::|h[Deep Sea Satin]|h|rx10.", -- [1]
+				0, -- [2]
+				0.6666666865348816, -- [3]
+				0, -- [4]
+				28, -- [5]
+				false, -- [6]
+				1, -- [7]
+				2, -- [8]
+			}, -- [3]
+			{
+				"|cff979797[09:05:58]|r Supplies Needed: Deep Sea Satin completed.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				7, -- [7]
+				8, -- [8]
+			}, -- [4]
+			{
+				"|cff979797[09:05:59]|r |cffd8d8d8[|r|Hplayer:Gutterspeak-Frostmourne:150:LOOT|h|cffd8bc3f120|r:|cfffefefeGutterspeak|r|h|cffd8d8d8]|rYou receive item: |cff0070dd|Hitem:152668::::::::120:257::::::|h[Expulsom]|h|rx5.", -- [1]
+				0, -- [2]
+				0.6666666865348816, -- [3]
+				0, -- [4]
+				28, -- [5]
+				false, -- [6]
+				1, -- [7]
+				2, -- [8]
+			}, -- [5]
+			{
+				"|cff979797[09:06:07]|r You have learned how to create a new item: Fierce Hessonite.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				7, -- [7]
+				8, -- [8]
+			}, -- [6]
+			{
+				"|cff979797[09:06:10]|r You have learned how to create a new item: Polished Hessonite.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				7, -- [7]
+				8, -- [8]
+			}, -- [7]
+		},
+	},
+}

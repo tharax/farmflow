@@ -1,0 +1,31 @@
+
+dbGACB = {
+	["char"] = {
+		["Tfcbank - Frostmourne"] = {
+			["firstun"] = false,
+		},
+	},
+	["global"] = {
+		["firstrun"] = false,
+	},
+	["realm"] = {
+		["Frostmourne"] = {
+			["cachesize"] = {
+				["Tfcbank"] = 500,
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Tfcbank - Frostmourne"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["toggles"] = {
+				["FREQUENCY"] = 5,
+				["SUMMARY"] = false,
+				["OLDINT"] = false,
+				["SHOWNEXT"] = false,
+			},
+		},
+	},
+}

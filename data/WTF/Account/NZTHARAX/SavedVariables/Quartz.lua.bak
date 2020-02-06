@@ -1,0 +1,77 @@
+
+Quartz3DB = {
+	["namespaces"] = {
+		["Swing"] = {
+		},
+		["Buff"] = {
+		},
+		["Interrupt"] = {
+		},
+		["Flight"] = {
+		},
+		["Pet"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 860,
+				},
+			},
+		},
+		["EnemyCasts"] = {
+		},
+		["Player"] = {
+			["profiles"] = {
+				["Default"] = {
+					["h"] = 40,
+					["w"] = 400,
+					["x"] = 760,
+				},
+			},
+		},
+		["GCD"] = {
+		},
+		["Focus"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 860,
+				},
+			},
+		},
+		["Target"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 860,
+				},
+			},
+		},
+		["Range"] = {
+		},
+		["Mirror"] = {
+		},
+		["Latency"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Davidgray - Frostmourne"] = "Default",
+		["Gudrudrune - Frostmourne"] = "Default",
+		["Ardern - Frostmourne"] = "Default",
+		["Benjarclay - Frostmourne"] = "Default",
+		["Staceyjones - Frostmourne"] = "Default",
+		["Rändolph - Frostmourne"] = "Default",
+		["Parrob - Frostmourne"] = "Default",
+		["Jellastie - Frostmourne"] = "Default",
+		["Antoínette - Frostmourne"] = "Default",
+		["Humphrëy - Frostmourne"] = "Default",
+		["Lefane - Frostmourne"] = "Default",
+		["Gavinral - Frostmourne"] = "Default",
+		["Petër - Frostmourne"] = "Default",
+		["Lohmisu - Frostmourne"] = "Default",
+		["Randolph - Spinebreaker"] = "Default",
+		["Gutterspeak - Frostmourne"] = "Default",
+		["Ignaciò - Frostmourne"] = "Default",
+		["Brewswaying - Frostmourne"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

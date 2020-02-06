@@ -1,0 +1,82 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Davidgray - Frostmourne"] = "Davidgray - Frostmourne",
+		["Gudrudrune - Frostmourne"] = "Gudrudrune - Frostmourne",
+		["Ardern - Frostmourne"] = "Ardern - Frostmourne",
+		["Benjarclay - Frostmourne"] = "Benjarclay - Frostmourne",
+		["Staceyjones - Frostmourne"] = "Staceyjones - Frostmourne",
+		["Rändolph - Frostmourne"] = "Rändolph - Frostmourne",
+		["Parrob - Frostmourne"] = "Parrob - Frostmourne",
+		["Jellastie - Frostmourne"] = "Jellastie - Frostmourne",
+		["Randolph - Spinebreaker"] = "Randolph - Spinebreaker",
+		["Humphrëy - Frostmourne"] = "Humphrëy - Frostmourne",
+		["Lefane - Frostmourne"] = "Lefane - Frostmourne",
+		["Gavinral - Frostmourne"] = "Gavinral - Frostmourne",
+		["Petër - Frostmourne"] = "Petër - Frostmourne",
+		["Lohmisu - Frostmourne"] = "Lohmisu - Frostmourne",
+		["Gutterspeak - Frostmourne"] = "Gutterspeak - Frostmourne",
+		["Antoínette - Frostmourne"] = "Antoínette - Frostmourne",
+		["Ignaciò - Frostmourne"] = "Ignaciò - Frostmourne",
+		["Brewswaying - Frostmourne"] = "Brewswaying - Frostmourne",
+	},
+	["global"] = {
+		["Guilds"] = {
+			["Default.Frostmourne.The Fashionable Chaps"] = {
+				["faction"] = "Alliance",
+			},
+		},
+		["Version"] = 1,
+		["Characters"] = {
+			["Default.Frostmourne.Brewswaying"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Frostmourne.Humphrëy"] = {
+				["guildName"] = "The Fashionable Chaps",
+				["faction"] = "Alliance",
+			},
+			["Default.Frostmourne.Rändolph"] = {
+				["guildName"] = "The Fashionable Chaps",
+				["faction"] = "Alliance",
+			},
+			["Default.Frostmourne.Benjarclay"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Frostmourne.Antoínette"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "The Fashionable Chaps",
+			},
+			["Default.Frostmourne.Ardern"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "The Fashionable Chaps",
+			},
+			["Default.Spinebreaker.Randolph"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Frostmourne.Ignaciò"] = {
+				["guildName"] = "The Fashionable Chaps",
+				["faction"] = "Alliance",
+			},
+			["Default.Frostmourne.Gutterspeak"] = {
+				["guildName"] = "The Fashionable Chaps",
+				["faction"] = "Alliance",
+			},
+			["Default.Frostmourne.Petër"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "The Fashionable Chaps",
+			},
+			["Default.Frostmourne.Davidgray"] = {
+				["guildName"] = "The Fashionable Chaps",
+				["faction"] = "Alliance",
+			},
+			["Default.Frostmourne.Staceyjones"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "The Fashionable Chaps",
+			},
+		},
+		["ShortToLongRealmNames"] = {
+			["Frostmourne"] = "Frostmourne",
+			["Spinebreaker"] = "Spinebreaker",
+		},
+	},
+}

@@ -1,0 +1,2 @@
+
+DGCRareMobs_Saves = nil

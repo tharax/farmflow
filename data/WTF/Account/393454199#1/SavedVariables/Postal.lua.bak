@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Tfcbank|Frostmourne|Alliance|1|DRUID", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Tfcbank - Frostmourne"] = "Tfcbank - Frostmourne",
+	},
+	["profiles"] = {
+		["Tfcbank - Frostmourne"] = {
+		},
+	},
+}

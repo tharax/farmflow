@@ -1,0 +1,46 @@
+
+dbGACperChar = {
+	["profileKeys"] = {
+		["Staceyjones - Frostmourne"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["history"] = {
+				[1877] = {
+					[1579180718] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[1882] = {
+					[1579897882] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[1886] = {
+					[1579883173] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+					[1580506128] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[2130] = {
+					[1580847364] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[2140] = {
+					[1579734126] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+			},
+		},
+	},
+}

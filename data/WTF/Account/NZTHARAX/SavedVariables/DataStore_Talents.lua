@@ -1,0 +1,554 @@
+
+DataStore_TalentsDB = {
+	["profileKeys"] = {
+		["Davidgray - Frostmourne"] = "Davidgray - Frostmourne",
+		["Gudrudrune - Frostmourne"] = "Gudrudrune - Frostmourne",
+		["Ardern - Frostmourne"] = "Ardern - Frostmourne",
+		["Benjarclay - Frostmourne"] = "Benjarclay - Frostmourne",
+		["Staceyjones - Frostmourne"] = "Staceyjones - Frostmourne",
+		["Rändolph - Frostmourne"] = "Rändolph - Frostmourne",
+		["Parrob - Frostmourne"] = "Parrob - Frostmourne",
+		["Jellastie - Frostmourne"] = "Jellastie - Frostmourne",
+		["Randolph - Spinebreaker"] = "Randolph - Spinebreaker",
+		["Brewswaying - Frostmourne"] = "Brewswaying - Frostmourne",
+		["Lefane - Frostmourne"] = "Lefane - Frostmourne",
+		["Gavinral - Frostmourne"] = "Gavinral - Frostmourne",
+		["Petër - Frostmourne"] = "Petër - Frostmourne",
+		["Lohmisu - Frostmourne"] = "Lohmisu - Frostmourne",
+		["Antoínette - Frostmourne"] = "Antoínette - Frostmourne",
+		["Gutterspeak - Frostmourne"] = "Gutterspeak - Frostmourne",
+		["Ignaciò - Frostmourne"] = "Ignaciò - Frostmourne",
+		["Humphrëy - Frostmourne"] = "Humphrëy - Frostmourne",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Frostmourne.Humphrëy"] = {
+				["lastUpdate"] = 1580852722,
+				["Specializations"] = {
+					[3] = 5254,
+				},
+				["Class"] = "WARLOCK",
+			},
+			["Default.Frostmourne.Staceyjones"] = {
+				["lastUpdate"] = 1580856274,
+				["Specializations"] = {
+					[2] = 5541,
+					[3] = 10,
+				},
+				["Class"] = "WARRIOR",
+			},
+			["Default.Frostmourne.Benjarclay"] = {
+				["lastUpdate"] = 1575411123,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["Class"] = "WARLOCK",
+			},
+			["Default.Frostmourne.Antoínette"] = {
+				["lastUpdate"] = 1580596920,
+				["Specializations"] = {
+					[2] = 15765,
+				},
+				["Class"] = "ROGUE",
+			},
+			["Default.Frostmourne.Ardern"] = {
+				["lastUpdate"] = 1580942152,
+				["Specializations"] = {
+					0, -- [1]
+					[3] = 86,
+				},
+				["Class"] = "SHAMAN",
+			},
+			["Default.Frostmourne.Ignaciò"] = {
+				["lastUpdate"] = 1579895449,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["Class"] = "DEMONHUNTER",
+			},
+			["Default.Frostmourne.Gutterspeak"] = {
+				["lastUpdate"] = 1580474492,
+				["Specializations"] = {
+					[2] = 8158,
+					[3] = 0,
+				},
+				["Class"] = "PRIEST",
+			},
+			["Default.Frostmourne.Petër"] = {
+				["lastUpdate"] = 1580932595,
+				["Specializations"] = {
+					51, -- [1]
+					5885, -- [2]
+					8190, -- [3]
+					11990, -- [4]
+				},
+				["Class"] = "DRUID",
+			},
+			["Default.Frostmourne.Davidgray"] = {
+				["lastUpdate"] = 1580681528,
+				["Specializations"] = {
+					[2] = 5845,
+				},
+				["Class"] = "HUNTER",
+			},
+			["Default.Frostmourne.Rändolph"] = {
+				["lastUpdate"] = 1580803510,
+				["Specializations"] = {
+					[2] = 14682,
+				},
+				["Class"] = "MAGE",
+			},
+		},
+	},
+}
+DataStore_TalentsRefDB = {
+	["profileKeys"] = {
+		["Davidgray - Frostmourne"] = "Davidgray - Frostmourne",
+		["Gudrudrune - Frostmourne"] = "Gudrudrune - Frostmourne",
+		["Ardern - Frostmourne"] = "Ardern - Frostmourne",
+		["Benjarclay - Frostmourne"] = "Benjarclay - Frostmourne",
+		["Staceyjones - Frostmourne"] = "Staceyjones - Frostmourne",
+		["Rändolph - Frostmourne"] = "Rändolph - Frostmourne",
+		["Parrob - Frostmourne"] = "Parrob - Frostmourne",
+		["Jellastie - Frostmourne"] = "Jellastie - Frostmourne",
+		["Randolph - Spinebreaker"] = "Randolph - Spinebreaker",
+		["Brewswaying - Frostmourne"] = "Brewswaying - Frostmourne",
+		["Lefane - Frostmourne"] = "Lefane - Frostmourne",
+		["Gavinral - Frostmourne"] = "Gavinral - Frostmourne",
+		["Petër - Frostmourne"] = "Petër - Frostmourne",
+		["Lohmisu - Frostmourne"] = "Lohmisu - Frostmourne",
+		["Antoínette - Frostmourne"] = "Antoínette - Frostmourne",
+		["Gutterspeak - Frostmourne"] = "Gutterspeak - Frostmourne",
+		["Ignaciò - Frostmourne"] = "Ignaciò - Frostmourne",
+		["Humphrëy - Frostmourne"] = "Humphrëy - Frostmourne",
+	},
+	["global"] = {
+		["HUNTER"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				[2] = {
+					["id"] = 254,
+					["talents"] = {
+						22279, -- [1]
+						22501, -- [2]
+						22289, -- [3]
+						22495, -- [4]
+						22497, -- [5]
+						22498, -- [6]
+						19347, -- [7]
+						19348, -- [8]
+						23100, -- [9]
+						22267, -- [10]
+						22286, -- [11]
+						21998, -- [12]
+						22268, -- [13]
+						22276, -- [14]
+						22499, -- [15]
+						23063, -- [16]
+						23104, -- [17]
+						22287, -- [18]
+						22274, -- [19]
+						22308, -- [20]
+						22288, -- [21]
+					},
+				},
+			},
+			["Version"] = 33169,
+		},
+		["WARRIOR"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				[2] = {
+					["id"] = 72,
+					["talents"] = {
+						22632, -- [1]
+						22633, -- [2]
+						22491, -- [3]
+						19676, -- [4]
+						22625, -- [5]
+						23093, -- [6]
+						22379, -- [7]
+						22381, -- [8]
+						23372, -- [9]
+						23097, -- [10]
+						22627, -- [11]
+						22382, -- [12]
+						22383, -- [13]
+						22393, -- [14]
+						19140, -- [15]
+						22396, -- [16]
+						22398, -- [17]
+						22400, -- [18]
+						22405, -- [19]
+						22402, -- [20]
+						16037, -- [21]
+					},
+				},
+				[3] = {
+					["id"] = 73,
+					["talents"] = {
+						15760, -- [1]
+						15759, -- [2]
+						15774, -- [3]
+						22373, -- [4]
+						22629, -- [5]
+						22409, -- [6]
+						22378, -- [7]
+						22626, -- [8]
+						23260, -- [9]
+						23096, -- [10]
+						23261, -- [11]
+						22488, -- [12]
+						22384, -- [13]
+						22631, -- [14]
+						22800, -- [15]
+						22395, -- [16]
+						22544, -- [17]
+						22401, -- [18]
+						21204, -- [19]
+						22406, -- [20]
+						23099, -- [21]
+					},
+				},
+			},
+			["Version"] = 33169,
+		},
+		["ROGUE"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				[2] = {
+					["id"] = 260,
+					["talents"] = {
+						22118, -- [1]
+						22119, -- [2]
+						22120, -- [3]
+						19236, -- [4]
+						19237, -- [5]
+						19238, -- [6]
+						19239, -- [7]
+						19240, -- [8]
+						19241, -- [9]
+						22121, -- [10]
+						22122, -- [11]
+						22123, -- [12]
+						23077, -- [13]
+						22114, -- [14]
+						22115, -- [15]
+						21990, -- [16]
+						23128, -- [17]
+						19250, -- [18]
+						22125, -- [19]
+						23075, -- [20]
+						23175, -- [21]
+					},
+				},
+			},
+			["Version"] = 33169,
+		},
+		["MAGE"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				[2] = {
+					["id"] = 63,
+					["talents"] = {
+						22456, -- [1]
+						22459, -- [2]
+						22462, -- [3]
+						23071, -- [4]
+						22443, -- [5]
+						23074, -- [6]
+						22444, -- [7]
+						22445, -- [8]
+						22447, -- [9]
+						22450, -- [10]
+						22465, -- [11]
+						22468, -- [12]
+						22904, -- [13]
+						22448, -- [14]
+						22471, -- [15]
+						22451, -- [16]
+						23362, -- [17]
+						22472, -- [18]
+						21631, -- [19]
+						22220, -- [20]
+						21633, -- [21]
+					},
+				},
+			},
+			["Version"] = 33169,
+		},
+		["PRIEST"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				[2] = {
+					["id"] = 257,
+					["talents"] = {
+						22312, -- [1]
+						19753, -- [2]
+						19754, -- [3]
+						22325, -- [4]
+						22326, -- [5]
+						19758, -- [6]
+						22487, -- [7]
+						22095, -- [8]
+						22562, -- [9]
+						21750, -- [10]
+						21977, -- [11]
+						19761, -- [12]
+						19764, -- [13]
+						22327, -- [14]
+						21754, -- [15]
+						19767, -- [16]
+						19760, -- [17]
+						19763, -- [18]
+						21636, -- [19]
+						21644, -- [20]
+						23145, -- [21]
+					},
+				},
+				[3] = {
+					["id"] = 258,
+					["talents"] = {
+						22328, -- [1]
+						22136, -- [2]
+						22314, -- [3]
+						22315, -- [4]
+						23374, -- [5]
+						21976, -- [6]
+						23125, -- [7]
+						23126, -- [8]
+						23127, -- [9]
+						23137, -- [10]
+						23375, -- [11]
+						21752, -- [12]
+						22310, -- [13]
+						22311, -- [14]
+						21755, -- [15]
+						21718, -- [16]
+						21719, -- [17]
+						21720, -- [18]
+						21637, -- [19]
+						21978, -- [20]
+						21979, -- [21]
+					},
+				},
+			},
+			["Version"] = 33169,
+		},
+		["WARLOCK"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 265,
+					["talents"] = {
+						22039, -- [1]
+						23140, -- [2]
+						23141, -- [3]
+					},
+				}, -- [1]
+				[3] = {
+					["id"] = 267,
+					["talents"] = {
+						22038, -- [1]
+						22090, -- [2]
+						22040, -- [3]
+						23148, -- [4]
+						21695, -- [5]
+						23157, -- [6]
+						19280, -- [7]
+						19285, -- [8]
+						19286, -- [9]
+						22480, -- [10]
+						22043, -- [11]
+						23143, -- [12]
+						22047, -- [13]
+						19291, -- [14]
+						19288, -- [15]
+						23155, -- [16]
+						23156, -- [17]
+						19295, -- [18]
+						19284, -- [19]
+						23144, -- [20]
+						23092, -- [21]
+					},
+				},
+			},
+			["Version"] = 33169,
+		},
+		["DEMONHUNTER"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 577,
+					["talents"] = {
+						21854, -- [1]
+						22493, -- [2]
+						22416, -- [3]
+						21857, -- [4]
+						22765, -- [5]
+						22799, -- [6]
+					},
+				}, -- [1]
+			},
+			["Version"] = 33115,
+		},
+		["DRUID"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 102,
+					["talents"] = {
+						22385, -- [1]
+						22386, -- [2]
+						22387, -- [3]
+						19283, -- [4]
+						18570, -- [5]
+						18571, -- [6]
+						22155, -- [7]
+						22157, -- [8]
+						22159, -- [9]
+						21778, -- [10]
+						18576, -- [11]
+						18577, -- [12]
+						18580, -- [13]
+						21706, -- [14]
+						21702, -- [15]
+						22389, -- [16]
+						21712, -- [17]
+						22165, -- [18]
+						21648, -- [19]
+						21193, -- [20]
+						21655, -- [21]
+					},
+				}, -- [1]
+				{
+					["id"] = 103,
+					["talents"] = {
+						22363, -- [1]
+						22364, -- [2]
+						22365, -- [3]
+						19283, -- [4]
+						18570, -- [5]
+						18571, -- [6]
+						22163, -- [7]
+						22158, -- [8]
+						22159, -- [9]
+						21778, -- [10]
+						18576, -- [11]
+						18577, -- [12]
+						21708, -- [13]
+						18579, -- [14]
+						21704, -- [15]
+						21714, -- [16]
+						21711, -- [17]
+						22370, -- [18]
+						21646, -- [19]
+						21649, -- [20]
+						21653, -- [21]
+					},
+				}, -- [2]
+				{
+					["id"] = 104,
+					["talents"] = {
+						22419, -- [1]
+						22418, -- [2]
+						22420, -- [3]
+						19283, -- [4]
+						22916, -- [5]
+						18571, -- [6]
+						22163, -- [7]
+						22156, -- [8]
+						22159, -- [9]
+						21778, -- [10]
+						18576, -- [11]
+						18577, -- [12]
+						21709, -- [13]
+						21707, -- [14]
+						22388, -- [15]
+						22423, -- [16]
+						21713, -- [17]
+						22390, -- [18]
+						22426, -- [19]
+						22427, -- [20]
+						22425, -- [21]
+					},
+				}, -- [3]
+				{
+					["id"] = 105,
+					["talents"] = {
+						18569, -- [1]
+						18574, -- [2]
+						18572, -- [3]
+						19283, -- [4]
+						18570, -- [5]
+						18571, -- [6]
+						22366, -- [7]
+						22367, -- [8]
+						22160, -- [9]
+						21778, -- [10]
+						18576, -- [11]
+						18577, -- [12]
+						21710, -- [13]
+						21705, -- [14]
+						22421, -- [15]
+						21716, -- [16]
+						18585, -- [17]
+						22422, -- [18]
+						22403, -- [19]
+						21651, -- [20]
+						22404, -- [21]
+					},
+				}, -- [4]
+			},
+			["Version"] = 33237,
+		},
+		["SHAMAN"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 262,
+					["talents"] = {
+						22356, -- [1]
+						22357, -- [2]
+						22358, -- [3]
+					},
+				}, -- [1]
+				[3] = {
+					["id"] = 264,
+					["talents"] = {
+						19262, -- [1]
+						19263, -- [2]
+						19264, -- [3]
+						19259, -- [4]
+						22492, -- [5]
+						21963, -- [6]
+						19275, -- [7]
+						23110, -- [8]
+						22127, -- [9]
+						22152, -- [10]
+						22322, -- [11]
+						22323, -- [12]
+						22144, -- [13]
+						19269, -- [14]
+						21966, -- [15]
+					},
+				},
+			},
+			["Version"] = 33237,
+		},
+		["PALADIN"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				[2] = {
+					["id"] = 66,
+					["talents"] = {
+						22428, -- [1]
+						22558, -- [2]
+						22430, -- [3]
+					},
+				},
+			},
+			["Version"] = 32305,
+		},
+	},
+}

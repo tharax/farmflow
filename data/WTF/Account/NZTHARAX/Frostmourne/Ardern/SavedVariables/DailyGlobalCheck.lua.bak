@@ -1,0 +1,48 @@
+
+DailyGlobalCheck_PluginData = {
+	["Legion World Quests"] = {
+		["active"] = true,
+	},
+	["Instance Lockouts"] = {
+		["active"] = true,
+	},
+	["WoD Treasure Chests"] = {
+		["active"] = true,
+	},
+	["Isle of Thunder"] = {
+		["active"] = true,
+	},
+	["Hallow's End"] = {
+		["active"] = true,
+	},
+	["Legion Rare Mobs"] = {
+		["active"] = true,
+	},
+	["WoD Rare Mobs"] = {
+		["active"] = true,
+	},
+	["World Bosses"] = {
+		["active"] = true,
+	},
+	["Timeless Isle"] = {
+		["active"] = true,
+	},
+	["Legion Treasure Chests"] = {
+		["active"] = true,
+	},
+	["Midsummer"] = {
+		["active"] = true,
+	},
+	["Professions"] = {
+		["active"] = true,
+	},
+	["Lunar Festival"] = {
+		["active"] = true,
+	},
+	["Follower Missions"] = {
+		["active"] = true,
+	},
+	["Pet Tamers"] = {
+		["active"] = true,
+	},
+}

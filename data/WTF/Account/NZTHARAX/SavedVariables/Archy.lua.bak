@@ -1,0 +1,190 @@
+
+ArchyDB = {
+	["char"] = {
+		["Davidgray - Frostmourne"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+				},
+			},
+		},
+		["Gavinral - Frostmourne"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+				},
+			},
+		},
+		["Ardern - Frostmourne"] = {
+			["digsites"] = {
+				["stats"] = {
+				},
+				["blacklist"] = {
+				},
+			},
+		},
+		["Brewswaying - Frostmourne"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+				},
+			},
+		},
+		["Staceyjones - Frostmourne"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+				},
+			},
+		},
+		["Rändolph - Frostmourne"] = {
+			["digsites"] = {
+				["stats"] = {
+				},
+				["blacklist"] = {
+				},
+			},
+		},
+		["Parrob - Frostmourne"] = {
+			["digsites"] = {
+				["stats"] = {
+				},
+				["blacklist"] = {
+				},
+			},
+		},
+		["Jellastie - Frostmourne"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+				},
+			},
+		},
+		["Antoínette - Frostmourne"] = {
+			["digsites"] = {
+				["stats"] = {
+				},
+				["blacklist"] = {
+				},
+			},
+		},
+		["Randolph - Spinebreaker"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+				},
+			},
+		},
+		["Lefane - Frostmourne"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+				},
+			},
+		},
+		["Humphrëy - Frostmourne"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+				},
+			},
+		},
+		["Petër - Frostmourne"] = {
+			["digsites"] = {
+				["stats"] = {
+				},
+				["blacklist"] = {
+				},
+			},
+		},
+		["Gutterspeak - Frostmourne"] = {
+			["digsites"] = {
+				["stats"] = {
+				},
+				["blacklist"] = {
+				},
+			},
+		},
+		["Gudrudrune - Frostmourne"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+				},
+			},
+		},
+		["Lohmisu - Frostmourne"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+				},
+			},
+		},
+		["Ignaciò - Frostmourne"] = {
+			["digsites"] = {
+				["stats"] = {
+				},
+				["blacklist"] = {
+				},
+			},
+		},
+		["Benjarclay - Frostmourne"] = {
+			["digsites"] = {
+				["stats"] = {
+				},
+				["blacklist"] = {
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Davidgray - Frostmourne"] = "Default",
+		["Gavinral - Frostmourne"] = "Default",
+		["Ardern - Frostmourne"] = "Default",
+		["Brewswaying - Frostmourne"] = "Default",
+		["Staceyjones - Frostmourne"] = "Default",
+		["Rändolph - Frostmourne"] = "Default",
+		["Parrob - Frostmourne"] = "Default",
+		["Jellastie - Frostmourne"] = "Default",
+		["Antoínette - Frostmourne"] = "Default",
+		["Randolph - Spinebreaker"] = "Default",
+		["Lefane - Frostmourne"] = "Default",
+		["Humphrëy - Frostmourne"] = "Default",
+		["Petër - Frostmourne"] = "Default",
+		["Gutterspeak - Frostmourne"] = "Default",
+		["Gudrudrune - Frostmourne"] = "Default",
+		["Lohmisu - Frostmourne"] = "Default",
+		["Ignaciò - Frostmourne"] = "Default",
+		["Benjarclay - Frostmourne"] = "Default",
+	},
+	["global"] = {
+		["surveyNodes"] = {
+		},
+	},
+	["profiles"] = {
+		["Default"] = {
+			["general"] = {
+				["stealthMode"] = true,
+				["locked"] = true,
+				["icon"] = {
+					["hide"] = true,
+				},
+			},
+			["digsite"] = {
+				["displayProgressBar"] = true,
+			},
+			["minimap"] = {
+				["nearest"] = false,
+			},
+		},
+	},
+}

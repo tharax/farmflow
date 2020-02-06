@@ -1,0 +1,18 @@
+
+DataStore_AgendaDB = {
+	["profileKeys"] = {
+		["Tfcbank - Frostmourne"] = "Tfcbank - Frostmourne",
+	},
+	["global"] = {
+		["Options"] = {
+			["WeeklyResetHour"] = 6,
+			["WeeklyResetDay"] = 2,
+			["NextWeeklyReset"] = "2020-01-07",
+		},
+		["Characters"] = {
+			["Default.Frostmourne.Tfcbank"] = {
+				["lastUpdate"] = 1577918356,
+			},
+		},
+	},
+}

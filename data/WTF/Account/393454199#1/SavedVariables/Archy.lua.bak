@@ -1,0 +1,24 @@
+
+ArchyDB = {
+	["char"] = {
+		["Tfcbank - Frostmourne"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+				},
+			},
+		},
+	},
+	["global"] = {
+		["surveyNodes"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Tfcbank - Frostmourne"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
