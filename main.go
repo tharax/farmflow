@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/tharax/farmflow/items"
 	"io/ioutil"
 	"os"
 	"sort"
@@ -42,6 +43,11 @@ func (i Inventory) Use(name string, amount int) (leftover int) {
 }
 
 func main() {
+	itemdb, err := items.LoadItems()
+	check(err)
+
+	m := itemdb.GetInventoryType()
+
 	b, err := ioutil.ReadFile("data/items.json")
 	check(err)
 	var items Items
